@@ -207,5 +207,22 @@ input::-webkit-inner-spin-button {
 	#footer .text-right {
 		text-align: center;
 	}
+	#header-phone {
+		padding-top: 12px;
+		padding-bottom: 2px;
+		background-image: url(../img/header-menu-bg.jpg);
+		font-weight: bold;
+		font-size: 20px;
+	}
+	#header-phone a {
+		color: #400800;
+	}
+	#header h1 {
+		margin-top: 50px;
+	}
 }
-
+@media (min-width: 992px) {
+	#header-phone {
+		display: none;
+	}
+}
