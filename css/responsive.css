@@ -3,6 +3,12 @@
     display: block;
     flex:none;
 }
+#type-us .row {
+	margin-left: 0;
+	margin-right: 0;
+	padding-left: 15px;
+	padding-right: 15px;
+}
 #vproekte-center-block .jcarousel-wrapper {
 	width: 50px;
 	height: 150px;
@@ -229,6 +235,10 @@
 @media (min-width: 992px) {
 	#vproekte-main-block .jcarousel {
 	width: 170px;
+}
+#type-us .col-md-10 {
+	padding-left: 30px;
+	padding-right: 30px;
 }
 #our-partners .col-md-10 {
 	padding-left: 0;
