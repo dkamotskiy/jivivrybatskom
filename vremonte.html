@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/jcarousel.responsive.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/responsive.css">
+	<link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.9/validator.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.9/validator.min.js"></script>
+</head>
+<body>
+<!-- Меню====================================================================================================================================================================== -->
+	<div class="container-fluid" id="header-back">
+		<div class="container" id="header">
+		<div class="col-md-5 col-xs-12">
+			<p class="header-line prof">
+				<a href="vremonte.html" style="border-bottom: 2px solid #149d34;">В РЕМОНТЕ</a>
+				<a href="vproekte.html">В ПРОЕКТЕ</a>
+				<a href="vtehnologii.html">В ТЕХНОЛОГИИ</a>
+				<a href="vkomande.html">В КОМАНДЕ</a>
+			</p>
+		</div>
+		<div class="col-md-2 col-xs-6">
+			<p class="header-line"><img src="img/header-logo.png" alt="Времонте-Отремонтируем Вашу квартиру" class="img-responsive"></p>
+		</div>
+		<div class="col-md-1">
+			<p><a href="#" class="header-link">Вход</a></p>
+			<p><a href="#" class="header-link">Регистрация</a></p>
+		</div>
+		<div class="col-md-4 col-xs-6" id="header-contacts">
+			<p>
+				<a href="https://www.instagram.com/vremonte.ru/" target="_blank"><img src="img/instagram.png" alt="Instagram"></a>
+				<a href="https://vk.com/vremonte_ru" target="_blank"><img src="img/vk.png" alt="Vk.com"></a>
+				<a href="https://www.facebook.com/vremonte.ru/" target="_blank"><img src="img/fb.png" alt="Facebook"></a>
+			</p>
+			<p class="phone"><a href="tel:84872588608">+7 (4872) 588-608</a></p>
+			<button type="button" class="btn btn-link knopka zz" data-toggle="modal" data-target="#zakaz-zvonok">заказать звонок</button>
+		</div>
+	</div>
+	</div>
+<!-- Меню - адаптивная версия ================================================================================================================================================-->
+	<div class="container-fluid" id="adaptive-header">
+		<a href="#"><img src="img/header-logo-small.png" alt=""></a>
+		<button type="button" data-toggle="collapse" data-target="#demo1"></button><br><br>
+		<p class="phone bold text-center" style="font-size: 17px;"><a href="tel:84872588608">+7 (4872) 588-608</a></p>
+			<!-- <button type="button" class="btn btn-link knopka zz" data-toggle="modal" data-target="#zakaz-zvonok" style="position: absolute; right: 103px; top: 38px; font-size: 16px;">заказать звонок</button> -->
+	</div>
+	<div id="demo1" class="collapse regular">
+		<a href="vremonte.html" class="active">В РЕМОНТЕ</a>
+		<a href="vproekte.html">В ПРОЕКТЕ</a>
+		<a href="vtehnologii.html">В ТЕХНОЛОГИИ</a>
+		<a href="vkomande.html">В КОМАНДЕ</a>
+		<a href="#">ВХОД</a>
+		<a href="#">РЕГИСТРАЦИЯ</a>
+	</div>
+<!-- Картинки -->
+	<div class="back">
+	<div class="container-fluid equal row" id="try" style="margin-left: 0;margin-right: 0;">
+		<div class="col-md-1">
+			<img src="img/ended.png" alt="" class="fishka">
+		</div>
+		<div class="col-md-10" id="colonka">
+			<div class="col-md-6">
+				<div class="img-1">
+					<div id="carousel-example-generic0" class="carousel slide" data-ride="carousel" data-interval="false">
+					  <!-- Indicators -->
+					  <ol class="carousel-indicators">
+					    <li data-target="#carousel-example-generic0" data-slide-to="0" class="active"></li>
+					    <li data-target="#carousel-example-generic0" data-slide-to="1"></li>
+					  </ol>
+					  <!-- Wrapper for slides -->
+					  <div class="carousel-inner">
+					    <div class="item active">
+					      <img src="img/img1.jpg" alt="" class="img-responsive img1">
+					    </div>
+					    <div class="item">
+					      <img src="img/img1.jpg" alt="" class="img-responsive img1">
+					    </div>
+					  </div>
+					</div>
+				</div>
+				<div class="img-2">
+					<div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="false">
+					  <!-- Indicators -->
+					  <ol class="carousel-indicators">
+					    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+					    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+					    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+					    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+					  </ol>
+					  <!-- Wrapper for slides -->
+					  <div class="carousel-inner">
+					    <div class="item active">
+					      <img src="img/img2.jpg" alt="" class="img-responsive img1">
+						  <span class="span-left">Дом 108 кв.м<p>в Филях</p></span>
+					    </div>
+					    <div class="item">
+					      <img src="img/img2.jpg" alt="" class="img-responsive img1">
+						  <span class="span-left">Дом 108 кв.м<p>в Филях</p></span>
+					    </div>
+					    <div class="item">
+					      <img src="img/img2.jpg" alt="" class="img-responsive img1">
+						  <span class="span-left">Дом 108 кв.м<p>в Филях</p></span>
+					    </div>
+					    <div class="item">
+					      <img src="img/img2.jpg" alt="" class="img-responsive img1">
+						  <span class="span-left">Дом 108 кв.м<p>в Филях</p></span>
+					    </div>
+					  </div>
+					</div>
+				</div>
+				<div class="img-3">
+					<div id="carousel-example-generic1" class="carousel slide" data-ride="carousel" data-interval="false">
+					  <!-- Indicators -->
+					  <ol class="carousel-indicators">
+					    <li data-target="#carousel-example-generic1" data-slide-to="0" class="active"></li>
+					    <li data-target="#carousel-example-generic1" data-slide-to="1"></li>
+					    <li data-target="#carousel-example-generic1" data-slide-to="2"></li>
+					  </ol>
+					  <!-- Wrapper for slides -->
+					  <div class="carousel-inner">
+					    <div class="item active">
+					      <img src="img/img3.jpg" alt="" class="img-responsive img1">
+							<span class="span-left span-left3">
+								2х комнатная<br>квартира
+								<p>на ул. Фрунзе</p>
+								<p id="buttons-image">
+									<img src="img/button1.png" alt=""><!-- <a href="#">ЗАКАЗАТЬ ПРОЕКТ</a> -->
+									<button type="button" class="btn btn-link knopka" data-toggle="modal" data-target="#zakaz">ЗАКАЗАТЬ ПРОЕКТ</button>
+									<img src="img/button2.png" alt="">
+									<button type="button" class="btn btn-link knopka" data-toggle="modal" data-target="#zakaz-zvonok">ПОЗВОНИТЬ</button>
+									<img src="img/button3.png" alt="">
+									<button type="button" class="btn btn-link knopka" data-toggle="modal" data-target="#stoimost">РАССЧИТАТЬ</button>
+								</p>
+							</span>
+							<p id="buttons-image-responsive">
+									<img src="img/button1.png" alt=""><!-- <a href="#">ЗАКАЗАТЬ ПРОЕКТ</a> -->
+									<button type="button" class="btn btn-link knopka" data-toggle="modal" data-target="#zakaz">ЗАКАЗАТЬ</button><br>
+									<img src="img/button2.png" alt="">
+									<button type="button" class="btn btn-link knopka" data-toggle="modal" data-target="#zakaz-zvonok">ПОЗВОНИТЬ</button><br>
+									<img src="img/button3.png" alt="">
+									<button type="button" class="btn btn-link knopka" data-toggle="modal" data-target="#stoimost">РАССЧИТАТЬ</button>
+							</p>
+					    </div>
+					    <div class="item">
+					      <img src="img/img3.jpg" alt="" class="img-responsive img1">
+							<span class="span-left span-left3">
+								2х комнатная<br>квартира
+								<p>на ул. Фрунзе</p>
+								<p id="buttons-image">
+									<img src="img/button1.png" alt=""><!-- <a href="#">ЗАКАЗАТЬ ПРОЕКТ</a> -->
+									<button type="button" class="btn btn-link knopka" data-toggle="modal" data-target="#zakaz">ЗАКАЗАТЬ ПРОЕКТ</button>
+									<img src="img/button2.png" alt="">
+									<button type="button" class="btn btn-link knopka" data-toggle="modal" data-target="#zakaz-zvonok">ПОЗВОНИТЬ</button>
+									<img src="img/button3.png" alt="">
+									<button type="button" class="btn btn-link knopka" data-toggle="modal" data-target="#stoimost">РАССЧИТАТЬ</button>
+								</p>
+							</span>
+							<p id="buttons-image-responsive">
+									<img src="img/button1.png" alt=""><!-- <a href="#">ЗАКАЗАТЬ ПРОЕКТ</a> -->
+									<button type="button" class="btn btn-link knopka" data-toggle="modal" data-target="#zakaz">ЗАКАЗАТЬ</button><br>
+									<img src="img/button2.png" alt="">
+									<button type="button" class="btn btn-link knopka" data-toggle="modal" data-target="#zakaz-zvonok">ПОЗВОНИТЬ</button><br>
+									<img src="img/button3.png" alt="">
+									<button type="button" class="btn btn-link knopka" data-toggle="modal" data-target="#stoimost">РАССЧИТАТЬ</button>
+							</p>
+					    </div>
+					    <div class="item">
+					      <img src="img/img3.jpg" alt="" class="img-responsive img1">
+							<span class="span-left span-left3">
+								2х комнатная<br>квартира
+								<p>на ул. Фрунзе</p>
+								<p id="buttons-image">
+									<img src="img/button1.png" alt=""><!-- <a href="#">ЗАКАЗАТЬ ПРОЕКТ</a> -->
+									<button type="button" class="btn btn-link knopka" data-toggle="modal" data-target="#zakaz">ЗАКАЗАТЬ ПРОЕКТ</button>
+									<img src="img/button2.png" alt="">
+									<button type="button" class="btn btn-link knopka" data-toggle="modal" data-target="#zakaz-zvonok">ПОЗВОНИТЬ</button>
+									<img src="img/button3.png" alt="">
+									<button type="button" class="btn btn-link knopka" data-toggle="modal" data-target="#stoimost">РАССЧИТАТЬ</button>
+								</p>
+							</span>
+							<p id="buttons-image-responsive">
+									<img src="img/button1.png" alt=""><!-- <a href="#">ЗАКАЗАТЬ ПРОЕКТ</a> -->
+									<button type="button" class="btn btn-link knopka" data-toggle="modal" data-target="#zakaz">ЗАКАЗАТЬ</button><br>
+									<img src="img/button2.png" alt="">
+									<button type="button" class="btn btn-link knopka" data-toggle="modal" data-target="#zakaz-zvonok">ПОЗВОНИТЬ</button><br>
+									<img src="img/button3.png" alt="">
+									<button type="button" class="btn btn-link knopka" data-toggle="modal" data-target="#stoimost">РАССЧИТАТЬ</button>
+							</p>
+					    </div>
+					  </div>
+					</div>
+				</div>
+				<div class="img-4">
+					<img src="img/img4.jpg" alt="" class="img-responsive img1">
+					<span class="span-left span-left4">Офис 108 кв.м</span>
+				</div>
+			</div>
+			<div class="col-md-6" id="colonka-for-slides">
+			<!-- ============================================================== -->
+				<div class="img-5">
+					<div id="carousel-example-generic3" class="carousel slide" data-ride="carousel" data-interval="false">
+					  <!-- Indicators -->
+					  <ol class="carousel-indicators">
+					    <li data-target="#carousel-example-generic3" data-slide-to="0" class="active"></li>
+					    <li data-target="#carousel-example-generic3" data-slide-to="1"></li>
+					    <li data-target="#carousel-example-generic3" data-slide-to="2"></li>
+					    <li data-target="#carousel-example-generic3" data-slide-to="3"></li>
+					  </ol>
+					  <!-- Wrapper for slides -->
+					  <div class="carousel-inner">
+					    <div class="item active">
+					      <img src="img/img5.jpg" alt="" class="img-responsive img1">
+					    </div>
+					    <div class="item">
+					      <img src="img/img5.jpg" alt="" class="img-responsive img1">
+					    </div>
+					    <div class="item">
+					      <img src="img/img5.jpg" alt="" class="img-responsive img1">
+					    </div>
+					    <div class="item">
+					      <img src="img/img5.jpg" alt="" class="img-responsive img1">
+					    </div>
+					  </div>
+					</div>
+				</div>
+				<!-- ============================================================== -->
+				<div class="img-6">
+					<div id="carousel-example-generic4" class="carousel slide" data-ride="carousel" data-interval="false">
+					  <!-- Indicators -->
+					  <ol class="carousel-indicators">
+					    <li data-target="#carousel-example-generic4" data-slide-to="0" class="active"></li>
+					    <li data-target="#carousel-example-generic4" data-slide-to="1"></li>
+					    <li data-target="#carousel-example-generic4" data-slide-to="2"></li>
+					    <li data-target="#carousel-example-generic4" data-slide-to="3"></li>
+					    <li data-target="#carousel-example-generic4" data-slide-to="4"></li>
+					  </ol>
+					  <!-- Wrapper for slides -->
+					  <div class="carousel-inner">
+					    <div class="item active">
+					      <img src="img/img6.jpg" alt="" class="img-responsive img1">
+							<span class="span-right">Дом 108 кв.м<p>в Филях</p></span>
+					    </div>
+					    <div class="item">
+					      <img src="img/img6.jpg" alt="" class="img-responsive img1">
+							<span class="span-right">Дом 108 кв.м<p>в Филях</p></span>
+					    </div>
+					    <div class="item">
+					      <img src="img/img6.jpg" alt="" class="img-responsive img1">
+							<span class="span-right">Дом 108 кв.м<p>в Филях</p></span>
+					    </div>
+					    <div class="item">
+					      <img src="img/img6.jpg" alt="" class="img-responsive img1">
+							<span class="span-right">Дом 108 кв.м<p>в Филях</p></span>
+					    </div>
+					    <div class="item">
+					      <img src="img/img6.jpg" alt="" class="img-responsive img1">
+							<span class="span-right">Дом 108 кв.м<p>в Филях</p></span>
+					    </div>
+					  </div>
+					</div>
+				</div>
+				<!-- ============================================================== -->
+				<div class="img-7">
+					<div id="carousel-example-generic5" class="carousel slide" data-ride="carousel" data-interval="false">
+					  <!-- Indicators -->
+					  <ol class="carousel-indicators">
+					    <li data-target="#carousel-example-generic5" data-slide-to="0" class="active"></li>
+					    <li data-target="#carousel-example-generic5" data-slide-to="1"></li>
+					    <li data-target="#carousel-example-generic5" data-slide-to="2"></li>
+					  </ol>
+					  <!-- Wrapper for slides -->
+					  <div class="carousel-inner">
+					    <div class="item active">
+					     <img src="img/img7.jpg" alt="" class="img-responsive img1">
+						 <span class="span-right span-right2">2х комнатная<br>квартира<p>на ул. Фрунзе</p></span>
+					    </div>
+					    <div class="item">
+					      <img src="img/img7.jpg" alt="" class="img-responsive img1">
+						  <span class="span-right span-right2">2х комнатная<br>квартира<p>на ул. Фрунзе</p></span>
+					    </div>
+					    <div class="item">
+					      <img src="img/img7.jpg" alt="" class="img-responsive img1">
+						  <span class="span-right span-right2">2х комнатная<br>квартира<p>на ул. Фрунзе</p></span>
+					    </div>
+					  </div>
+					</div>
+				</div>
+				<div class="img-8">
+					<img src="img/img8.jpg" alt="" class="img-responsive img1">
+					<span class="span-right span-right3">Офис 108 кв.м<p>на ул. Комсомольской</p></span>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-1">
+			<img src="img/inwork.png" alt="" class="fishka fishka-right">
+		</div>
+	</div>
+	</div>
+<script src="js/script.js"></script>
+<!-- Наши партнеры ==========================================================================================================================================-->
+		<div class="row" id="our-partners">
+		<div class="col-md-1"></div>
+		<div class="col-md-10">
+			<h3>Наши партнеры и компаньоны</h3>
+			<div class="partners">
+				<div class="jcarousel-wrapper">
+	                <div class="jcarousel" data-jcarousel="true">
+	                    <ul style="left: 0px; top: 0px;">
+	                        <li style="width: 252px; position: relative;">
+	                        	<img src="img/companies/blum.png" alt="Image 1">
+	
+	                        </li>
+	                        <li style="width: 252px; position: relative;">
+	                        	<img src="img/companies/comfort.png" alt="Image 2">
+	                        </li>
+	                        <li style="width: 252px; position: relative;">
+	                        	<img src="img/companies/egger.png" alt="Image 3">
+	                        </li>
+	                        <li style="width: 252px; position: relative;">
+	                        	<img src="img/companies/gardian.png" alt="Image 4">
+	                        </li>
+	                        <li style="width: 252px; position: relative;">
+	                        	<img src="img/companies/hager.png" alt="Image 5">
+	                        </li>
+	                        <li style="width: 252px; position: relative;">
+	                        	<img src="img/companies/knauf.png" alt="Image 5">
+	                        </li>
+	                        <li style="width: 252px; position: relative;">
+	                        	<img src="img/companies/volma.png" alt="Image 5">
+	                        </li>
+	                    </ul>
+	                </div>
+	                <a href="#" class="jcarousel-control-prev" data-jcarouselcontrol="true"><img src="img/left.png" alt="" style="z-index: 99;"></a>
+	                <a href="#" class="jcarousel-control-next" data-jcarouselcontrol="true"><img src="img/right.png" alt="" style="z-index: 99;"></a>
+	    		</div>
+			</div>
+			</div>
+			<div class="col-md-1 display-desktop"><div class="strelka display-desktop" id="top2"></div></div>
+		</div>
+<!-- Напишите нам -->
+	<div class="container-fluid" id="type-us">
+		<div class="container">
+			<div class="col-md-6" id="footer-left-block">
+				<h3>Напишите нам</h3>
+					<form data-toggle="validator" role="form">
+					<div id="input-group">
+						<div class="col-md-6 my-input">
+							<div class="form-group">
+								<input type="text" placeholder="Ваше ФИО" class="form-control 1d1d1d" required style="border-radius: 0px;">
+							</div>	
+						</div>
+						<div class="col-md-6 my-input2">
+							<div class="form-group">
+								<input type="number" class="form-control my-input your-email 1d1d1d" placeholder="Ваш e-mail или телефон" required style="border-radius: 0px;"> 
+							</div>						
+						</div>
+					</div>
+					<textarea class="my-input message 1d1d1d" placeholder="Ваше сообщение"></textarea>
+					<div class="form-group">
+						<p class="text-right"><button type="submit" id="send">Отправить</button></p>
+						<div id="footer-info">
+							<p>2006-2017 &copy; "В РЕМОНТЕ.РУ"</p>
+							<p>Мы отремонтируем вашу квартиру!</p>
+							<button type="button" class="btn btn-link knopka" data-toggle="modal" data-target="#politika-modal">Политика конфиденциальности</button>
+						</div>
+					</div>
+					</form>
+			</div>
+			<div class="col-md-6">
+				<div id="footer-contacts">
+					<h4 class="text-center"><a href="tel:84872588608">+7 (4872) 588-608</a></h4>
+					<p class="text-center"><button type="button" class="btn btn-link knopka zakaz-footer" data-toggle="modal" data-target="#zakaz-zvonok">заказать звонок</button></p>
+					<br>
+					<p class="text-center"><a class="green-button" href="#">Вход для жителей ЖК Технопарк</a></p>
+					<br>
+					<p class="text-center"><a class="green-button green-button2" href="#">Личный кабинет</a></p>
+				</div>
+				
+				
+				
+			</div>
+		</div>
+	</div>
+<!-- Политика конфиденциальности -->
+	<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" id="politika-modal">
+  		<div class="modal-dialog modal-lg">
+    		<div class="modal-content">
+      			<div class="modal-header">
+       				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        			<h4 class="modal-title">Политика конфиденциальности</h4>
+      			</div>
+      		<div class="modal-body">
+        		<p class="text-justify">Наконец-то Вы осуществили свою мечту о квадратных метрах в новостройке! Документы на квартиру на руках, ключи в кармане, но до новоселья еще далеко… Все дело в том, что зачастую новостройка встречает хозяев «голыми» стенами, а это значит, что в новой квартире предстоит делать ремонт.</p>
+				<p class="text-justify">И конечно же такое мероприятие хочется провести с минимальным ущербом для собственного кошелька, но как сделать это не пожертвовав качеством? Давайте разбираться!</p>
+				<p class="text-justify">Плюс новостроек: при ремонте исключается трудозатратный этап демонтажа (исключение – демонтаж и установка окон). А вот «выравнивать» пол приходится практически всегда. Обратите внимание, что на площади более 50 м2 лучше отказаться от классической стяжки, а сделать КНАУФ-Суперпол, т.е. воспользоваться готовой сборной конструкцией. Качество такой стяжки не уступает качеству стяжки, выполненной «мокрым» способом, а вот по теплоизоляционным свойствам и цене такая конструкция выгодно отличается от традиционного решения.</p>
+				<p class="text-justify bold">Отделочные работы</p>
+				<p class="text-justify">Стяжка готова? Переходим к отделочным работам! Если вы решили оклеить стены обоями, выберите обои без рисунка, точнее в мелкую точку. При оклейке эти обои не требуют идеального совмещения рисунка, что позволяет сэкономить на отрезе, в то же время мелкий рисунок поможет скрыть небольшие дефекты на стенах, а это дает экономию материалов на этапе черновой отделки. С другой стороны, богатый выбор цветовых решений позволяет не ограничивать свои дизайнерские фантазии.</p>
+				<p class="text-justify">Если же Вы хотите покрасить стены, обратите внимание на специальные обои под покраску. Кажется, что это дополнительные расходы, но на самом деле плотные флизелиновые обои скроют огрешности выравнивания стен, а это значит, Вы не переплачиваете за этот вид работ. Да и в дальнейшем, если Вы решите отказаться от крашеных стен в пользу другого вида отделки, Вам не нужно будет переплачивать за удаление краски со стен – достаточно будет просто удалить обои.</p>
+				<p class="text-justify bold">Выбор материалов</p>
+				<p class="text-justify">Что касается покупки материалов, многие заказчики просто не хотят тратить свое время на выбор и организацию доставки необходимых материалов на объект. А зря, ведь доверяя этот вопрос бригаде, зачастую Вы переплачиваете. Как правило, частные бригады пользуются тем авансом доверия, который Вы им оказали, послушав отзывы своих знакомых, и заставляют заказчика платить за материалы неоправданно дорого. Не поленитесь взять список всего необходимого у прораба и оформить покупку в крупном интернет-магазине. Увидите: получится намного дешевле!</p>
+      		</div>
+    		</div>
+ 		</div>
+	</div>
+<!-- Заказать проект -->
+	<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" id="zakaz">
+  		<div class="modal-dialog modal-lg">
+    		<div class="modal-content">
+      			<div class="modal-header">
+       				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        			<h4 class="modal-title">Заказать проект</h4>
+      			</div>
+      		<div class="modal-body">
+        		<p class="text-center bold">Наш специалист свяжется с вами в течение 15 минут</p>
+	        			<form data-toggle="validator" role="form">
+  							<div class="form-group">
+    							<input type="text" class="form-control input-fff" id="inputName" placeholder="Ваше ФИО" data-error="Пожалуйста, введите Ваше ФИО" required>
+    							<div class="help-block with-errors"></div>
+  							</div>
+  							<div class="form-group">
+  								<input type="number" class="form-control input-fff" placeholder="Номер телефона" data-error="Номер телефона введен некорректно" required>
+  								<div class="help-block with-errors"></div>
+  							</div>
+  							<br>
+								<textarea placeholder="Ваши пожелания" class="input-fff"></textarea>
+  							<br>
+  							<div class="form-group">
+  								<button type="submit" class="form-button">Отправить</button>
+  							</div>
+  						</form>
+      		</div>
+    		</div>
+ 		</div>
+	</div>
+<!-- Заказать звонок -->
+	<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" id="zakaz-zvonok">
+  		<div class="modal-dialog modal-lg">
+    		<div class="modal-content">
+      			<div class="modal-header">
+       				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        			<h4 class="modal-title">Заказать звонок</h4>
+      			</div>
+      		<div class="modal-body">
+        		<p class="text-center bold">Наш специалист свяжется с вами в течение 15 минут</p>
+	        			<!-- <form data-toggle="validator" role="form">
+	        				<div class="form-group">
+	        					<input type="text" class="form-control input-fff" placeholder="Ваше ФИО" required>
+	        				</div>
+	        				<div class="form-group">
+	        					<input class="form-control input-fff phone-number" placeholder="Номер телефона" required data-error="Bruh, that email address is invalid">
+	        				</div>
+	        				<div class="form-group">
+    							<button type="submit" class="form-button">Отправить</button>
+ 							</div>
+	        			</form> -->
+	        			<form data-toggle="validator" role="form">
+  							<div class="form-group">
+    							<input type="text" class="form-control input-fff" id="inputName3" placeholder="Ваше ФИО" data-error="Пожалуйста, введите Ваше ФИО" required>
+    							<div class="help-block with-errors"></div>
+  							</div>
+  							<div class="form-group">
+  								<input type="number" class="form-control input-fff" placeholder="Номер телефона" data-error="Номер телефона введен некорректно" required>
+  								<div class="help-block with-errors"></div>
+  							</div>
+  							<br><br>
+  							<div class="form-group">
+  								<button type="submit" class="form-button">Отправить</button>
+  							</div>
+  						</form>
+      		</div>
+    		</div>
+ 		</div>
+	</div>
+<!-- Рассчитать стоимость -->
+	<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" id="stoimost">
+  		<div class="modal-dialog modal-lg">
+    		<div class="modal-content">
+      			<div class="modal-header">
+       				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        			<h4 class="modal-title">Рассчитать стоимость</h4>
+      			</div>
+      		<div class="modal-body">
+						<form data-toggle="validator" role="form">
+  							<div class="form-group">
+    							<input type="text" class="form-control input-fff" id="inputName2" placeholder="Ваше ФИО" data-error="Пожалуйста, введите Ваше ФИО" required>
+    							<div class="help-block with-errors"></div>
+  							</div>
+  							<div class="form-group">
+  								<input type="number" class="form-control input-fff" placeholder="Номер телефона" data-error="Номер телефона введен некорректно" required>
+  								<div class="help-block with-errors"></div>
+  							</div>
+  							<br><br>
+  							<div class="form-group">
+  								<button type="submit" class="form-button">Рассчитать стоимость</button>
+  							</div>
+  						</form>
+      		</div>
+    		</div>
+ 		</div>
+	</div>
+<!-- Спасибо за заявку - Благодарность за заявку -->
+	<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" id="thank-you">
+  		<div class="modal-dialog modal-lg">
+    		<div class="modal-content">
+      			<div class="modal-header">
+       				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        			<h4 class="modal-title text-center">Спасибо за заявку!<br>В течение 15 минут с Вами свяжется наш специалист!<br><br></h4>
+      			</div>
+      		<!-- <div class="modal-body">
+      		</div> -->
+    		</div>
+ 		</div>
+	</div>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script src="js/jquery.maskedinput.min.js"></script>
+	<script src="js/jquery.jcarousel.js"></script>
+	<script src="js/jcarousel.responsive.js"></script>
+</body>
+</html>
