@@ -135,3 +135,4 @@ $(document).ready(function(){
         $(".selector-strelka1").attr("style","display:none;");
         });
 });
+$('.carousel').bcSwipe({ threshold: 50 });
