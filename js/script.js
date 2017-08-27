@@ -135,5 +135,7 @@ $(document).ready(function(){
         $(".selector-strelka1").attr("style","display:none;");
         });
 });
+//Инициализация свайпа каруселей Bootstrap
 $('.carousel').bcSwipe({ threshold: 50 });
+//Инициализация свайпа каруселей jCarousel
 $('.jcarousel').jcarousel().jcarouselSwipe();
