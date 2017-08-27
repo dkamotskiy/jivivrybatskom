@@ -6,18 +6,19 @@
     font-family: GilroyRegular; /* Имя шрифта */
     src: url(../fonts/GilroyRegular.otf); /* Путь к файлу со шрифтом */
    }
+ @font-face {
+    font-family: GilroyItalic; /* Имя шрифта */
+    src: url(../fonts/GilroyItalic.otf); /* Путь к файлу со шрифтом */
+   }
 
 @import url('../fonts/GilroyRegular.otf');
+@import url('../fonts/GilroyBold.otf');
+@import url('../fonts/GilroyItalic.otf');
 body{
 	font-family: GilroyRegular;
 	max-width: 100%;
 	overflow-x: hidden;
 }
-/*@media (min-width: 992px) {
-	.container {
-    width: 1280px;
-}
-}*/
 ::-webkit-input-placeholder {color:#1d1d1d;}
 ::-moz-placeholder {color:#1d1d1d;}/* Firefox 19+ */
 :-moz-placeholder {color:#1d1d1d;}/* Firefox 18- */
@@ -1044,4 +1045,25 @@ input::-webkit-inner-spin-button {
 	margin-left: 0;
 	margin-right: 0;
 }
-
+#podrobnee-1, #podrobnee-2, #podrobnee-3, #podrobnee-4 {
+	background: none;
+	padding: 0px;
+	box-shadow: none;
+	border: none;
+	text-decoration: underline;
+}
+#podrobnee-1-small, #podrobnee-2-small, #podrobnee-3-small, #podrobnee-4-small {
+	font-family: GilroyItalic;
+}
+.aktiv #podrobnee-1, .aktiv #podrobnee-2, .aktiv #podrobnee-3, .aktiv #podrobnee-4 {
+	color: #149d34;
+}
+button:active, button:focus {
+  outline: none !important;
+}
+button::-moz-focus-inner {
+  border: 0 !important;
+}
+#vproekte-center-block .jcarousel li img {
+	cursor: pointer;
+}
