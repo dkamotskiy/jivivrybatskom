@@ -1032,3 +1032,7 @@ input::-webkit-inner-spin-button {
 	left:20px;
 	text-align: left;
 }
+#our-partners {
+	margin-left: 0;
+	margin-right: 0;
+}
