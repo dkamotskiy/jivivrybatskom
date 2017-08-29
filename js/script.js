@@ -269,3 +269,6 @@ $(document).ready(function(){
         $("#podrobnee-1-block").attr("class","");
         });
 });
+$(window).load(function () {
+ $(".left").click();
+});
