@@ -22,20 +22,19 @@
 		<div class="container" id="header">
 		<div class="col-md-5 col-xs-12">
 			<p class="header-line prof">
-				<a href="index.html">В РЕМОНТЕ</a>
+				<a href="index.html.html">В РЕМОНТЕ</a>
 				<a href="vproekte.html" style="border-bottom: 2px solid #149d34;">В ПРОЕКТЕ</a>
 				<a href="vtehnologii.html">В ТЕХНОЛОГИИ</a>
 				<a href="vkomande.html">В КОМАНДЕ</a>
 			</p>
 		</div>
 		<div class="col-md-2 col-xs-6">
-			<p class="header-line"><a href="index.html"><img src="img/header-logo.png" alt="Времонте-Отремонтируем Вашу квартиру" class="img-responsive"></a></p>
+			<p class="header-line"><a href="vremonte.html"><img src="img/header-logo.png" alt="Времонте-Отремонтируем Вашу квартиру" class="img-responsive"></a></p>
 		</div>
-		<div class="col-md-1">
-			<p><a href="#" class="header-link">Вход</a></p>
-			<p><a href="#" class="header-link">Регистрация</a></p>
+		<div class="col-md-2">
+			<p class="header-line prof text-right"><a href="#" style="margin-left: 0;">ВХОД</a><span>&nbsp;/</span><a href="#">РЕГИСТРАЦИЯ</a></p>
 		</div>
-		<div class="col-md-4 col-xs-6" id="header-contacts">
+		<div class="col-md-3 col-xs-6" id="header-contacts">
 			<p>
 				<a href="https://www.instagram.com/vremonte.ru/" target="_blank"><img src="img/instagram.png" alt="Instagram"></a>
 				<a href="https://vk.com/vremonte_ru" target="_blank"><img src="img/vk.png" alt="Vk.com"></a>
@@ -107,33 +106,34 @@
 				<a href="vdome.html"><div class="col-md-4 vdom">В ДОМЕ</div></a>
 			</div>
 			<div class="row" id="vproekte-center-block">
-				<div class="col-md-4 col-xs-4">
+				<div class="col-md-4 display-desktop">
 					<br><br><br>
+		<!-- Вертикальный слайдер======================== -->
 					<div class="jcarousel-wrapper" style="position: relative;">
 	                	<div class="jcarousel" data-jcarousel="true">
 	                    	<ul style="left: 0px; top: 0px;">
 	                        	<li data-target="#carousel-example-generic" data-slide-to="0" style="position: relative;">
-	                        		<img src="img/vproekte/vertical-selector-1.jpg" class="vertical-slider-img selected-vertical-slider" alt="" id="vertical-selection-1">
+	                        		<img src="img/vproekte/vertical-selector-2.jpg" class="vertical-slider-img selected-vertical-slider vertical-selection-1" alt="">
 	                        		<div class="selector-strelka1"></div>
 	                        	</li>
-	                        	<li data-target="#carousel-example-generic" data-slide-to="1">
-	                        		<img src="img/vproekte/vertical-selector-2.jpg" class="vertical-slider-img" alt="" id="vertical-selection-2">
+	                        	<li data-target="#carousel-example-generic" data-slide-to="4">
+	                        		<img src="img/vproekte/vertical-selector-1.jpg" class="vertical-slider-img vertical-selection-2" alt="" >
 	                        		<div class="selector-strelka2"></div>
 	                        	</li>
-		                        <li data-target="#carousel-example-generic" data-slide-to="2">
-		                        	<img src="img/vproekte/vertical-selector-3.jpg" class="vertical-slider-img" alt="" id="vertical-selection-3">
+		                        <li data-target="#carousel-example-generic" data-slide-to="8">
+		                        	<img src="img/vproekte/vertical-selector-3.jpg" class="vertical-slider-img vertical-selection-3" alt="">
 		                        	<div class="selector-strelka3"></div>
 		                        </li>
-		                        <li data-target="#carousel-example-generic" data-slide-to="3">
-		                        	<img src="img/vproekte/vertical-selector-1.jpg" class="vertical-slider-img" alt="" id="vertical-selection-4">
+		                        <li data-target="#carousel-example-generic" data-slide-to="0">
+		                        	<img src="img/vproekte/vertical-selector-2.jpg" class="vertical-slider-img vertical-selection-4" alt="">
 		                        	<div class="selector-strelka4"></div>
 		                        </li>
 		                        <li data-target="#carousel-example-generic" data-slide-to="4">
-		                        	<img src="img/vproekte/vertical-selector-2.jpg" class="vertical-slider-img" alt="" id="vertical-selection-5">
+		                        	<img src="img/vproekte/vertical-selector-1.jpg" class="vertical-slider-img vertical-selection-5" alt="">
 		                        	<div class="selector-strelka5"></div>
 		                        </li>
-		                        <li data-target="#carousel-example-generic" data-slide-to="5">
-		                        	<img src="img/vproekte/vertical-selector-3.jpg" class="vertical-slider-img" alt="" id="vertical-selection-6">
+		                        <li data-target="#carousel-example-generic" data-slide-to="8">
+		                        	<img src="img/vproekte/vertical-selector-3.jpg" class="vertical-slider-img vertical-selection-6" alt="">
 		                        	<div class="selector-strelka6"></div>
 		                        </li>
 		                    </ul>
@@ -141,24 +141,84 @@
 		                <a href="#" class="jcarousel-control-prev inactive" data-jcarouselcontrol="true"><img src="img/vproekte/up.png" alt=""></a>
 		                <a href="#" class="jcarousel-control-next" data-jcarouselcontrol="true"><img src="img/vproekte/down.png" alt=""></a>
             		</div>
-            		<a href="#" class="show-another-project display-desktop">ПОКАЗАТЬ ДРУГОЙ ПРОЕКТ</a>
+            		<button href="#" class="show-another-project display-desktop" data-toggle="modal" data-target="#select-project" style="box-shadow: none; border: none;">ВЫБРАТЬ ДРУГОЙ ПРОЕКТ</button>
 				</div>
-				<div class="col-md-8 col-xs-8">
+				<div class="col-md-8">
 					<p class="bold fz30">ПРОЕКТ</p>
 					<p style="margin-top: -10px;" class="fz30">2х комнатная квартира 56 м кв.</p>
 					<p style="margin-top: -20px;" class="fz18">на ул. Фрунзе</p>
+		<!-- Горизонтальный слайдер мобильной версии -->
+					<div class="jcarousel-wrapper display-mobile">
+		                <div class="jcarousel" data-jcarousel="true">
+		                    <ul style="left: 0px; top: 0px;">
+		                        <li style="width: 252px; position: relative;" data-target="#carousel-example-generic" data-slide-to="0">
+		                        	<img src="img/vproekte/vertical-selector-1.jpg" alt="Image 1" class="vertical-selection-1" style="border: 3px solid #149d34;">
+		                        </li>
+		                        <li style="width: 252px; position: relative;" data-target="#carousel-example-generic" data-slide-to="4">
+		                        	<img src="img/vproekte/vertical-selector-2.jpg" alt="Image 2" class="vertical-selection-2">
+		                        </li>
+		                        <li style="width: 252px; position: relative;" data-target="#carousel-example-generic" data-slide-to="8">
+		                        	<img src="img/vproekte/vertical-selector-3.jpg" alt="Image 3" class="vertical-selection-3">
+		                        </li>
+		                        <li style="width: 252px; position: relative;" data-target="#carousel-example-generic" data-slide-to="0">
+		                        	<img src="img/vproekte/vertical-selector-1.jpg" alt="Image 1" class="vertical-selection-4">
+		                        </li>
+		                        <li style="width: 252px; position: relative;" data-target="#carousel-example-generic" data-slide-to="4">
+		                        	<img src="img/vproekte/vertical-selector-2.jpg" alt="Image 2" class="vertical-selection-5">
+		                        </li>
+		                        <li style="width: 252px; position: relative;" data-target="#carousel-example-generic" data-slide-to="8">
+		                        	<img src="img/vproekte/vertical-selector-3.jpg" alt="Image 3" class="vertical-selection-6">
+		                        </li>
+		                    </ul>
+		                </div>
+		                <a href="#" class="jcarousel-control-prev" data-jcarouselcontrol="true"><span class="glyphicon glyphicon-chevron-left"></span></a>
+		                <a href="#" class="jcarousel-control-next" data-jcarouselcontrol="true"><span class="glyphicon glyphicon-chevron-right"></span></a>
+	    			</div>
 					<div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="false">
 					  <!-- Indicators -->
-					  <ol class="carousel-indicators">
+		<!-- Ol для пункта 1 -->
+					  <ol class="carousel-indicators" id="ol-first">
 					    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
 					    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
 					    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
 					    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
 					  </ol>
-
+		<!-- Ol для пункта 2 -->
+					  <ol class="carousel-indicators" id="ol-second" style="display: none;">
+					    <li data-target="#carousel-example-generic" data-slide-to="4" class="active"></li>
+					    <li data-target="#carousel-example-generic" data-slide-to="5"></li>
+					    <li data-target="#carousel-example-generic" data-slide-to="6"></li>
+					    <li data-target="#carousel-example-generic" data-slide-to="7"></li>
+					  </ol>
+		<!-- Ol для пункта 1 -->
+					  <ol class="carousel-indicators" id="ol-third" style="display: none;">
+					    <li data-target="#carousel-example-generic" data-slide-to="8" class="active"></li>
+					    <li data-target="#carousel-example-generic" data-slide-to="9"></li>
+					    <li data-target="#carousel-example-generic" data-slide-to="10"></li>
+					    <li data-target="#carousel-example-generic" data-slide-to="11"></li>
+					  </ol>
+		<!-- Картинки для основного слайдера - по 4 штуки для каждого из трех блоков -->
 					  <!-- Wrapper for slides -->
 					  <div class="carousel-inner">
 					    <div class="item active">
+					      <img src="img/vproekte/slider-1.jpg" alt="...">
+					    </div>
+					    <div class="item">
+					      <img src="img/vproekte/slider-1.jpg" alt="...">
+					    </div>
+					    <div class="item">
+					      <img src="img/vproekte/slider-1.jpg" alt="...">
+					    </div>
+					    <div class="item">
+					      <img src="img/vproekte/slider-1.jpg" alt="...">
+					    </div>
+					    <div class="item">
+					      <img src="img/vproekte/slider-1.jpg" alt="...">
+					    </div>
+					    <div class="item">
+					      <img src="img/vproekte/slider-1.jpg" alt="...">
+					    </div>
+					    <div class="item">
 					      <img src="img/vproekte/slider-1.jpg" alt="...">
 					    </div>
 					    <div class="item">
@@ -204,6 +264,7 @@
 					<p class="text-justify fz18"><img src="img/vproekte/kavychki.jpg" alt="" style="margin-right: 10px; margin-bottom: 10px;">Недавно был опыт с компанией Vremonte. Сделали у нас ремонт на высшем уровне. Мы делали капитальный ремонт в старой хрущевской квартире. Муж нашел фирму, нареканий никаких, все было сделано в срок и очень качественно. Отдельная благодарность дизайнеру Елене, бригадиру Евгению и его команде: сделали нам все так, как мы хотели, а где-то даже лучше, т.к. сотрудники профессионалы и отлично знают, где как сделать, успехов вам!</p>
 					<br>
 					<p class="bold fz18">Алина Романова</p>
+					<button class="show-another-project display-mobile" data-toggle="modal" data-target="#zakaz-zvonok" style="margin-top: 20px; font-size: 14px; border: none; box-shadow: none;">ОСТАВИТЬ ЗАЯВКУ</button>
 					<br><br><br>
 				</div>
 			</div>
@@ -255,41 +316,32 @@
 		<div class="col-md-1"></div>
 		<div class="col-md-10">
 			<div class="row">
-			<div class="col-md-6" id="footer-left-block">
-				<h3>Напишите нам</h3>
-					<form data-toggle="validator" role="form">
-					<div id="input-group">
-						<div class="col-md-6 my-input">
-							<div class="form-group">
-								<input type="text" placeholder="Ваше ФИО" class="form-control 1d1d1d" required style="border-radius: 0px;">
-							</div>	
-						</div>
-						<div class="col-md-6 my-input2">
-							<div class="form-group">
-								<input type="number" class="form-control my-input your-email 1d1d1d" placeholder="Ваш e-mail или телефон" required style="border-radius: 0px;"> 
-							</div>						
-						</div>
-					</div>
-					<textarea class="my-input message 1d1d1d" placeholder="Ваше сообщение"></textarea>
-					<div class="form-group">
-						<p class="text-right"><button type="submit" id="send">Отправить</button></p>
-						<div id="footer-info">
-							<p>2006-2017 &copy; "В РЕМОНТЕ.РУ"</p>
-							<p>Мы отремонтируем вашу квартиру!</p>
-							<button type="button" class="btn btn-link knopka" data-toggle="modal" data-target="#politika-modal">Политика конфиденциальности</button>
-						</div>
-					</div>
-					</form>
+			<div class="col-md-4" id="footer-left-block">
+				<div id="footer-info">
+					<a href="index.html"><img src="img/header-logo-white.png" alt="" class="img-responsive"></a><br>
+					<p>2006-2017 &copy; "В РЕМОНТЕ.РУ"</p>
+					<p>Мы отремонтируем вашу квартиру!</p>
+				</div>
 			</div>
-			<div class="col-md-6">
+			<div class="col-md-4">
 				<div id="footer-contacts">
-					<h4 class="text-center"><a href="tel:84872588608">+7 (4872) 588-608</a></h4>
+					<p class="text-center"><a href="tel:84872588608" class="foot-nomer">+7 (4872) 588-608</a></p>
 					<p class="text-center"><button type="button" class="btn btn-link knopka zakaz-footer" data-toggle="modal" data-target="#zakaz-zvonok">заказать звонок</button></p>
 					<br>
 					<p class="text-center"><a class="green-button" href="#">Вход для жителей ЖК Технопарк</a></p>
 					<br>
 					<p class="text-center"><a class="green-button green-button2" href="#">Личный кабинет</a></p>
 				</div>
+			</div>
+			<div class="col-md-4 footer-right-block">
+				<p class="text-right">
+					<a href="https://www.instagram.com/vremonte.ru/" target="_blank"><img src="img/instagram.png" alt="Instagram"></a>
+					<a href="https://vk.com/vremonte_ru" target="_blank"><img src="img/vk.png" alt="Vk.com"></a>
+					<a href="https://www.facebook.com/vremonte.ru/" target="_blank"><img src="img/fb.png" alt="Facebook"></a>
+				</p>
+				<br>
+				<p class="text-right"><a href="privacy-policy.html">Политика конфиденциальности</a></p>
+				<p class="text-right"><a href="faq.html">Вопрос-ответ</a></p>
 			</div>
 			</div>
 		</div>
@@ -357,17 +409,6 @@
       			</div>
       		<div class="modal-body">
         		<p class="text-center bold">Наш специалист свяжется с вами в течение 15 минут</p>
-	        			<!-- <form data-toggle="validator" role="form">
-	        				<div class="form-group">
-	        					<input type="text" class="form-control input-fff" placeholder="Ваше ФИО" required>
-	        				</div>
-	        				<div class="form-group">
-	        					<input class="form-control input-fff phone-number" placeholder="Номер телефона" required data-error="Bruh, that email address is invalid">
-	        				</div>
-	        				<div class="form-group">
-    							<button type="submit" class="form-button">Отправить</button>
- 							</div>
-	        			</form> -->
 	        			<form data-toggle="validator" role="form">
   							<div class="form-group">
     							<input type="text" class="form-control input-fff" id="inputName3" placeholder="Ваше ФИО" data-error="Пожалуйста, введите Ваше ФИО" required>
@@ -426,6 +467,55 @@
     		</div>
  		</div>
 	</div>
+<!-- Выбрать другой проект -->
+	<div class="modal fade" id="select-project" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	  <div class="modal-dialog">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+	        <p class="modal-title">ВЫБРАТЬ ДРУГОЙ ПРОЕКТ</p>
+	      </div>
+	      <div class="modal-body">
+	        <a href="#">
+		        <div class="row" style="background-color: #e8e8e8;">
+		        	<div class="col-md-4">
+		        		<img src="img/vproekte/slider-1.jpg" alt="" class="img-responsive">
+		        	</div>
+		        	<div class="col-md-8">
+		        		<p>ПРОЕКТ №1</p>
+		        		<p>Ремонт квартиры в новостройке 56м2 на улице Фрунзе</p>
+		        	</div>
+		        </div>
+		    </a>
+	       	<a href="#">
+		        <div class="row">
+		        	<div class="col-md-4">
+		        		<img src="img/vproekte/slider-1.jpg" alt="" class="img-responsive">
+		        	</div>
+		        	<div class="col-md-8">
+		        		<p>ПРОЕКТ №2</p>
+		        		<p>Ремонт квартиры в новостройке 56м2 на улице Фрунзе</p>
+		        	</div>
+		        </div>
+		    </a>
+		    <a href="#">
+		        <div class="row">
+		        	<div class="col-md-4">
+		        		<img src="img/vproekte/slider-1.jpg" alt="" class="img-responsive">
+		        	</div>
+		        	<div class="col-md-8">
+		        		<p>ПРОЕКТ №3</p>
+		        		<p>Ремонт квартиры в новостройке 56м2 на улице Фрунзе</p>
+		        	</div>
+		        </div>
+		    </a>
+	      </div>
+	      <div class="modal-footer" style="border-top: none;">
+	        <button type="button" class="green-button" data-dismiss="modal">Закрыть</button>
+	      </div>
+	    </div><!-- /.modal-content -->
+	  </div><!-- /.modal-dialog -->
+	</div><!-- /.modal -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	<script src="js/jquery.maskedinput.min.js"></script>
 	<script src="js/jquery.jcarousel.js"></script>

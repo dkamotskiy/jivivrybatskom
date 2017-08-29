@@ -183,7 +183,8 @@ h3 {
 /*Напишите нам*/
 #type-us{
 	background-color: #1d1d1d;
-	min-height: 350px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 .my-input {
 	padding-right: 10px;
@@ -234,18 +235,16 @@ h3 {
 
 /*Правый блок футера*/
 #footer-contacts {
-	margin-top:100px;
 	font-family: GilroyBold;
 }
-#footer-contacts h4 a {
+#footer-contacts p .foot-nomer {
 	color:#fff;
-	font-size: 30px;
+	font-size: 18px;
 }
 #footer-info {
 	color: #fff;
 	padding-left: 15px;
-	margin-top: 30px;
-	font-size: 18px;
+	font-size: 14px;
 }
 .conf-policy {
 	font-size: 14px;
@@ -471,7 +470,7 @@ input:checked + label:after {
 }
 .zakaz-footer {
 		color:#fff;
-		font-size: 30px;	
+		font-size: 18px;	
 }
 .zakaz-footer:hover {
 		color:#fff;
@@ -553,29 +552,26 @@ input::-webkit-inner-spin-button {
 }
 /*Дополнительные кнопки*/
 .green-button {
-	padding: 10px 20px;
+	padding: 10px 15px;
 	background-color: #209e47;
 	color:#fff;
 	border: 3px solid #209e47; 
-	width: 300px;
-	font-size: 16px;
+	font-size: 13px;
 }
 .green-button:hover {
 	border:3px solid #209e47;
 	background: transparent;
 	text-decoration: none;
 	color: #fff;
-	width: 300px;
 }
 .green-button:visited {
 	border:3px solid #209e47;
 	background: transparent;
 	text-decoration: none;
 	color: #fff;
-	width: 300px;
 }
 .green-button2 {
-	padding: 10px 82px;
+	padding: 10px 65px;
 }
 /*==========================================СТРАНИЦА "ВПРОЕКТЕ"==============================================================================================================*/
 #vproekte-blocks .col-md-4 {
@@ -612,11 +608,27 @@ input::-webkit-inner-spin-button {
 	background-image: url(../img/vproekte/horizontal-selector.jpg);
 	border: none;
 }
+#vproekte-center-block .col-md-8 #ol-second li {
+	background-image: url(../img/vproekte/vertical-selector-1-active.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+#vproekte-center-block .col-md-8 #ol-third li {
+	background-image: url(../img/vproekte/vertical-selector-3-active.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+}
 #vproekte-center-block .carousel-indicators .active {
 	width: 95px;
 	height: 63px;
 	background-image: url(../img/vproekte/horizontal-selector-active.jpg);
 	border: 3px solid #149d34;
+}
+#vproekte-center-block .col-md-8 #ol-second .active {
+	background-image: url(../img/vproekte/vertical-selector-1.jpg);
+}
+#vproekte-center-block .col-md-8 #ol-third .active {
+	background-image: url(../img/vproekte/vertical-selector-3.jpg);
 }
 #vproekte-center-block .carousel-indicators {
 	bottom: 0;
@@ -1056,7 +1068,7 @@ input::-webkit-inner-spin-button {
 	font-family: GilroyItalic;
 }
 .aktiv #podrobnee-1, .aktiv #podrobnee-2, .aktiv #podrobnee-3, .aktiv #podrobnee-4 {
-	color: #149d34;
+	display: none;
 }
 button:active, button:focus {
   outline: none !important;
@@ -1067,3 +1079,68 @@ button::-moz-focus-inner {
 #vproekte-center-block .jcarousel li img {
 	cursor: pointer;
 }
+.col-md-8 .vertical-selection-1, .col-md-8 .vertical-selection-2, .col-md-8 .vertical-selection-3, .col-md-8 .vertical-selection-4, .col-md-8 .vertical-selection-5, .col-md-8 .vertical-selection-6 {
+	box-sizing: border-box;
+}
+#vproekte-center-block .col-md-8 .jcarousel-wrapper {
+	box-shadow: none;
+}
+.footer-right-block a {
+	color: #fff;
+	text-decoration: underline;
+}
+.links-yakor {
+	margin-top: -10px;
+	margin-bottom: 10px;
+}
+.links-yakor a {
+	color: #000;
+	text-decoration: underline;
+}
+#select-project .row {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-left: 0;
+	margin-right: 0;
+}
+#select-project a {
+	color: #000;
+}
+#select-project .modal-body {
+	max-height: 300px;
+	overflow-y: auto;
+}
+/**/
+#select-project ::-webkit-scrollbar-button { 
+background-image:url(''); 
+background-repeat:no-repeat; 
+width:6px; 
+height:0px 
+} 
+
+#select-project ::-webkit-scrollbar-track { 
+background-color:#e8e8e8; 
+box-shadow:0px 0px 3px #000 inset; 
+} 
+
+#select-project ::-webkit-scrollbar-thumb { 
+-webkit-border-radius: 5px; 
+border-radius: 5px; 
+background-color:#149d34; 
+box-shadow:0px 1px 1px #fff inset; 
+background-image:url('https://yraaa.ru/_pu/24/59610063.png'); 
+background-position:center; 
+background-repeat:no-repeat; 
+} 
+
+#select-project ::-webkit-resizer{ 
+background-image:url(''); 
+background-repeat:no-repeat; 
+width:7px; 
+height:0px 
+} 
+
+#select-project ::-webkit-scrollbar{ 
+width: 11px; 
+}
+

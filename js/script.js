@@ -50,89 +50,176 @@ $(function(){
 });
 //Обработка нажатий вертикального слайдера
 $(document).ready(function(){
-    $( "#vertical-selection-1" ).click(function() {
-        $("#vertical-selection-1").attr("class","vertical-slider-img selected-vertical-slider");
-        $("#vertical-selection-2").attr("class","vertical-slider-img");
-        $("#vertical-selection-3").attr("class","vertical-slider-img");
-        $("#vertical-selection-4").attr("class","vertical-slider-img");
-        $("#vertical-selection-5").attr("class","vertical-slider-img");
-        $("#vertical-selection-6").attr("class","vertical-slider-img");
+    $( ".col-md-4 .vertical-selection-1" ).click(function() {
+        $(".vertical-selection-1").attr("class","vertical-selection-1 vertical-slider-img selected-vertical-slider");
+        $(".vertical-selection-2").attr("class","vertical-selection-2 vertical-slider-img");
+        $(".vertical-selection-3").attr("class","vertical-selection-3 vertical-slider-img");
+        $(".vertical-selection-4").attr("class","vertical-selection-4 vertical-slider-img");
+        $(".vertical-selection-5").attr("class","vertical-selection-5 vertical-slider-img");
+        $(".vertical-selection-6").attr("class","vertical-selection-6 vertical-slider-img");
         $(".selector-strelka1").attr("style","display:block;");
         $(".selector-strelka2").attr("style","display:none;");
         $(".selector-strelka3").attr("style","display:none;");
         $(".selector-strelka4").attr("style","display:none;");
         $(".selector-strelka5").attr("style","display:none;");
         $(".selector-strelka6").attr("style","display:none;");
+        $("#ol-first").attr("style","display:block;");
+        $("#ol-second").attr("style","display:none;");
+        $("#ol-third").attr("style","display:none;");
         });
-    $( "#vertical-selection-2" ).click(function() {
-        $("#vertical-selection-2").attr("class","vertical-slider-img selected-vertical-slider");
-        $("#vertical-selection-1").attr("class","vertical-slider-img");
-        $("#vertical-selection-3").attr("class","vertical-slider-img");
-        $("#vertical-selection-4").attr("class","vertical-slider-img");
-        $("#vertical-selection-5").attr("class","vertical-slider-img");
-        $("#vertical-selection-6").attr("class","vertical-slider-img");
+    $( ".col-md-4 .vertical-selection-2" ).click(function() {
+        $(".vertical-selection-2").attr("class","vertical-selection-2 vertical-slider-img selected-vertical-slider");
+        $(".vertical-selection-1").attr("class","vertical-selection-1 vertical-slider-img");
+        $(".vertical-selection-3").attr("class","vertical-selection-3 vertical-slider-img");
+        $(".vertical-selection-4").attr("class","vertical-selection-4 vertical-slider-img");
+        $(".vertical-selection-5").attr("class","vertical-selection-5 vertical-slider-img");
+        $(".vertical-selection-6").attr("class","vertical-selection-6 vertical-slider-img");
         $(".selector-strelka2").attr("style","display:block;");
         $(".selector-strelka1").attr("style","display:none;");
         $(".selector-strelka3").attr("style","display:none;");
         $(".selector-strelka4").attr("style","display:none;");
         $(".selector-strelka5").attr("style","display:none;");
         $(".selector-strelka6").attr("style","display:none;");
+        $("#ol-second").attr("style","display:block;");
+        $("#ol-first").attr("style","display:none;");
+        $("#ol-third").attr("style","display:none;");
         });
-    $( "#vertical-selection-3" ).click(function() {
-        $("#vertical-selection-3").attr("class","vertical-slider-img selected-vertical-slider");
-        $("#vertical-selection-2").attr("class","vertical-slider-img");
-        $("#vertical-selection-1").attr("class","vertical-slider-img");
-        $("#vertical-selection-4").attr("class","vertical-slider-img");
-        $("#vertical-selection-5").attr("class","vertical-slider-img");
-        $("#vertical-selection-6").attr("class","vertical-slider-img");
+    $( ".col-md-4 .vertical-selection-3" ).click(function() {
+        $(".vertical-selection-3").attr("class","vertical-selection-3 vertical-slider-img selected-vertical-slider");
+        $(".vertical-selection-2").attr("class","vertical-selection-2 vertical-slider-img");
+        $(".vertical-selection-1").attr("class","vertical-selection-1 vertical-slider-img");
+        $(".vertical-selection-4").attr("class","vertical-selection-4 vertical-slider-img");
+        $(".vertical-selection-5").attr("class","vertical-selection-5 vertical-slider-img");
+        $(".vertical-selection-6").attr("class","vertical-selection-6 vertical-slider-img");
         $(".selector-strelka3").attr("style","display:block;");
         $(".selector-strelka2").attr("style","display:none;");
         $(".selector-strelka1").attr("style","display:none;");
         $(".selector-strelka4").attr("style","display:none;");
         $(".selector-strelka5").attr("style","display:none;");
         $(".selector-strelka6").attr("style","display:none;");
+        $("#ol-third").attr("style","display:block;");
+        $("#ol-first").attr("style","display:none;");
+        $("#ol-first").attr("style","display:none;");
         });
-    $( "#vertical-selection-4" ).click(function() {
-        $("#vertical-selection-4").attr("class","vertical-slider-img selected-vertical-slider");
-        $("#vertical-selection-2").attr("class","vertical-slider-img");
-        $("#vertical-selection-3").attr("class","vertical-slider-img");
-        $("#vertical-selection-1").attr("class","vertical-slider-img");
-        $("#vertical-selection-5").attr("class","vertical-slider-img");
-        $("#vertical-selection-6").attr("class","vertical-slider-img");
+    $( ".col-md-4 .vertical-selection-4" ).click(function() {
+        $(".vertical-selection-4").attr("class","vertical-selection-4 vertical-slider-img selected-vertical-slider");
+        $(".vertical-selection-2").attr("class","vertical-selection-2 vertical-slider-img");
+        $(".vertical-selection-3").attr("class","vertical-selection-3 vertical-slider-img");
+        $(".vertical-selection-1").attr("class","vertical-selection-1 vertical-slider-img");
+        $(".vertical-selection-5").attr("class","vertical-selection-5 vertical-slider-img");
+        $(".vertical-selection-6").attr("class","vertical-selection-6 vertical-slider-img");
         $(".selector-strelka4").attr("style","display:block;");
         $(".selector-strelka2").attr("style","display:none;");
         $(".selector-strelka3").attr("style","display:none;");
         $(".selector-strelka1").attr("style","display:none;");
         $(".selector-strelka5").attr("style","display:none;");
         $(".selector-strelka6").attr("style","display:none;");
+        $("#ol-first").attr("style","display:block;");
+        $("#ol-second").attr("style","display:none;");
+        $("#ol-third").attr("style","display:none;");
         });
-    $( "#vertical-selection-5" ).click(function() {
-        $("#vertical-selection-5").attr("class","vertical-slider-img selected-vertical-slider");
-        $("#vertical-selection-2").attr("class","vertical-slider-img");
-        $("#vertical-selection-3").attr("class","vertical-slider-img");
-        $("#vertical-selection-4").attr("class","vertical-slider-img");
-        $("#vertical-selection-1").attr("class","vertical-slider-img");
-        $("#vertical-selection-6").attr("class","vertical-slider-img");
+    $( ".col-md-4 .vertical-selection-5" ).click(function() {
+        $(".vertical-selection-5").attr("class","vertical-selection-5 vertical-slider-img selected-vertical-slider");
+        $(".vertical-selection-2").attr("class","vertical-selection-2 vertical-slider-img");
+        $(".vertical-selection-3").attr("class","vertical-selection-3 vertical-slider-img");
+        $(".vertical-selection-4").attr("class","vertical-selection-4 vertical-slider-img");
+        $(".vertical-selection-1").attr("class","vertical-selection-1 vertical-slider-img");
+        $(".vertical-selection-6").attr("class","vertical-selection-6 vertical-slider-img");
         $(".selector-strelka5").attr("style","display:block;");
         $(".selector-strelka2").attr("style","display:none;");
         $(".selector-strelka3").attr("style","display:none;");
         $(".selector-strelka4").attr("style","display:none;");
         $(".selector-strelka1").attr("style","display:none;");
         $(".selector-strelka6").attr("style","display:none;");
+        $("#ol-second").attr("style","display:block;");
+        $("#ol-first").attr("style","display:none;");
+        $("#ol-third").attr("style","display:none;");
         });
-    $( "#vertical-selection-6" ).click(function() {
-        $("#vertical-selection-6").attr("class","vertical-slider-img selected-vertical-slider");
-        $("#vertical-selection-2").attr("class","vertical-slider-img");
-        $("#vertical-selection-3").attr("class","vertical-slider-img");
-        $("#vertical-selection-4").attr("class","vertical-slider-img");
-        $("#vertical-selection-5").attr("class","vertical-slider-img");
-        $("#vertical-selection-1").attr("class","vertical-slider-img");
+    $( ".col-md-4 .vertical-selection-6" ).click(function() {
+        $(".vertical-selection-6").attr("class","vertical-selection-6 vertical-slider-img selected-vertical-slider");
+        $(".vertical-selection-2").attr("class","vertical-selection-2 vertical-slider-img");
+        $(".vertical-selection-3").attr("class","vertical-selection-3 vertical-slider-img");
+        $(".vertical-selection-4").attr("class","vertical-selection-4 vertical-slider-img");
+        $(".vertical-selection-5").attr("class","vertical-selection-5 vertical-slider-img");
+        $(".vertical-selection-1").attr("class","vertical-selection-1 vertical-slider-img");
         $(".selector-strelka6").attr("style","display:block;");
         $(".selector-strelka2").attr("style","display:none;");
         $(".selector-strelka3").attr("style","display:none;");
         $(".selector-strelka4").attr("style","display:none;");
         $(".selector-strelka5").attr("style","display:none;");
         $(".selector-strelka1").attr("style","display:none;");
+        $("#ol-third").attr("style","display:block;");
+        $("#ol-first").attr("style","display:none;");
+        $("#ol-first").attr("style","display:none;");
+        });
+});
+// Обработка нажатий горизонтального слайдера над Bootstrap
+$(document).ready(function(){
+    $( ".col-md-8 .vertical-selection-1" ).click(function() {
+        $("#ol-first").attr("style","display:block;");
+        $("#ol-second").attr("style","display:none;");
+        $("#ol-third").attr("style","display:none;");
+        $(".col-md-8 .vertical-selection-1").attr("style","border: 3px solid #149d34;");
+        $(".col-md-8 .vertical-selection-2").attr("style","border: none;");
+        $(".col-md-8 .vertical-selection-3").attr("style","border: none;");
+        $(".col-md-8 .vertical-selection-4").attr("style","border: none;");
+        $(".col-md-8 .vertical-selection-5").attr("style","border: none;");
+        $(".col-md-8 .vertical-selection-6").attr("style","border: none;");
+        });
+    $( ".col-md-8 .vertical-selection-2" ).click(function() {
+        $("#ol-second").attr("style","display:block;");
+        $("#ol-first").attr("style","display:none;");
+        $("#ol-third").attr("style","display:none;");
+        $(".col-md-8 .vertical-selection-2").attr("style","border: 3px solid #149d34;");
+        $(".col-md-8 .vertical-selection-1").attr("style","border: none;");
+        $(".col-md-8 .vertical-selection-3").attr("style","border: none;");
+        $(".col-md-8 .vertical-selection-4").attr("style","border: none;");
+        $(".col-md-8 .vertical-selection-5").attr("style","border: none;");
+        $(".col-md-8 .vertical-selection-6").attr("style","border: none;");
+        });
+    $( ".col-md-8 .vertical-selection-3" ).click(function() {
+        $("#ol-third").attr("style","display:block;");
+        $("#ol-second").attr("style","display:none;");
+        $("#ol-first").attr("style","display:none;");
+        $(".col-md-8 .vertical-selection-3").attr("style","border: 3px solid #149d34;");
+        $(".col-md-8 .vertical-selection-2").attr("style","border: none;");
+        $(".col-md-8 .vertical-selection-1").attr("style","border: none;");
+        $(".col-md-8 .vertical-selection-4").attr("style","border: none;");
+        $(".col-md-8 .vertical-selection-5").attr("style","border: none;");
+        $(".col-md-8 .vertical-selection-6").attr("style","border: none;");
+        });
+    $( ".col-md-8 .vertical-selection-4" ).click(function() {
+        $("#ol-first").attr("style","display:block;");
+        $("#ol-second").attr("style","display:none;");
+        $("#ol-third").attr("style","display:none;");
+        $(".col-md-8 .vertical-selection-4").attr("style","border: 3px solid #149d34;");
+        $(".col-md-8 .vertical-selection-2").attr("style","border: none;");
+        $(".col-md-8 .vertical-selection-3").attr("style","border: none;");
+        $(".col-md-8 .vertical-selection-1").attr("style","border: none;");
+        $(".col-md-8 .vertical-selection-5").attr("style","border: none;");
+        $(".col-md-8 .vertical-selection-6").attr("style","border: none;");
+        });
+    $( ".col-md-8 .vertical-selection-5" ).click(function() {
+        $("#ol-second").attr("style","display:block;");
+        $("#ol-first").attr("style","display:none;");
+        $("#ol-third").attr("style","display:none;");
+        $(".col-md-8 .vertical-selection-5").attr("style","border: 3px solid #149d34;");
+        $(".col-md-8 .vertical-selection-2").attr("style","border: none;");
+        $(".col-md-8 .vertical-selection-3").attr("style","border: none;");
+        $(".col-md-8 .vertical-selection-4").attr("style","border: none;");
+        $(".col-md-8 .vertical-selection-1").attr("style","border: none;");
+        $(".col-md-8 .vertical-selection-6").attr("style","border: none;");
+        });
+    $( ".col-md-8 .vertical-selection-6" ).click(function() {
+        $("#ol-third").attr("style","display:block;");
+        $("#ol-second").attr("style","display:none;");
+        $("#ol-first").attr("style","display:none;");
+        $(".col-md-8 .vertical-selection-6").attr("style","border: 3px solid #149d34;");
+        $(".col-md-8 .vertical-selection-2").attr("style","border: none;");
+        $(".col-md-8 .vertical-selection-3").attr("style","border: none;");
+        $(".col-md-8 .vertical-selection-4").attr("style","border: none;");
+        $(".col-md-8 .vertical-selection-5").attr("style","border: none;");
+        $(".col-md-8 .vertical-selection-1").attr("style","border: none;");
         });
 });
 //Инициализация свайпа каруселей Bootstrap

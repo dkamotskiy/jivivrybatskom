@@ -1,11 +1,11 @@
 (function($) {
     $(function() {
-        $('#vproekte-main-block .jcarousel')
+        $('#vproekte-main-block .col-md-4 .jcarousel')
             .jcarousel({
                 vertical: true
             });
 
-        $('#vproekte-main-block .jcarousel-control-prev')
+        $('#vproekte-main-block .col-md-4 .jcarousel-control-prev')
             .on('jcarouselcontrol:active', function() {
                 $(this).removeClass('inactive');
             })
@@ -16,7 +16,7 @@
                 target: '-=1'
             });
 
-        $('#vproekte-main-block .jcarousel-control-next')
+        $('#vproekte-main-block .col-md-4 .jcarousel-control-next')
             .on('jcarouselcontrol:active', function() {
                 $(this).removeClass('inactive');
             })
@@ -27,7 +27,7 @@
                 target: '+=1'
             });
 
-        $('#vproekte-main-block .jcarousel-pagination')
+        $('#vproekte-main-block .col-md-4 .jcarousel-pagination')
             .on('jcarouselpagination:active', 'a', function() {
                 $(this).addClass('active');
             })
