@@ -1143,4 +1143,7 @@ height:0px
 #select-project ::-webkit-scrollbar{ 
 width: 11px; 
 }
+.instruction {
+	display: none;
+}
 
