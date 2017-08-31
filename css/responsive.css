@@ -251,6 +251,10 @@
 }
 
 @media (min-width: 992px) {
+	.-px27 {
+		margin-left: -27px;
+		margin-right: -27px;
+	}
 	#vproekte-main-block .col-md-4 .jcarousel {
 	width: 170px;
 }
