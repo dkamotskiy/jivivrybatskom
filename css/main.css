@@ -150,18 +150,20 @@ table {
 
 /*напишите нам*/
 #our-partners{
-	min-height: 240px;
+	padding-top: 30px;
+	padding-bottom: 20px;
 	background-color: #282828;
 	position: relative;
+	margin-top: -1px;
 }
 h3 {
 	text-transform: uppercase;
 	font-size: 24px;
 	font-family: GilroyBold;
 	color: #fff;
-	margin-top: 50px;
 	margin-bottom: 0px;
 	padding-bottom: 0px;
+	margin-top: 0;
 }
 #our-partners li img {
 	filter: alpha(Opacity=30);
@@ -183,8 +185,8 @@ h3 {
 /*Напишите нам*/
 #type-us{
 	background-color: #1d1d1d;
-	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-top: 15px;
+	padding-bottom: 15px;
 }
 .my-input {
 	padding-right: 10px;
@@ -239,7 +241,7 @@ h3 {
 }
 #footer-contacts p .foot-nomer {
 	color:#fff;
-	font-size: 18px;
+	font-size: 20px;
 }
 #footer-info {
 	color: #fff;
@@ -552,7 +554,7 @@ input::-webkit-inner-spin-button {
 }
 /*Дополнительные кнопки*/
 .green-button {
-	padding: 10px 15px;
+	padding: 8px 13px;
 	background-color: #209e47;
 	color:#fff;
 	border: 3px solid #209e47; 
@@ -571,7 +573,7 @@ input::-webkit-inner-spin-button {
 	color: #fff;
 }
 .green-button2 {
-	padding: 10px 65px;
+	padding: 8px 64px;
 }
 /*==========================================СТРАНИЦА "ВПРОЕКТЕ"==============================================================================================================*/
 #vproekte-blocks .col-md-4 {
@@ -693,7 +695,7 @@ input::-webkit-inner-spin-button {
 	background-size: cover;
 	text-decoration: none;
 	border-bottom: 1px solid #fff;
-	height: 25%
+	height: 25%;
 }
 .vkomande-button:hover {
 	text-decoration: none;
@@ -731,11 +733,6 @@ input::-webkit-inner-spin-button {
 .otzyvy div a {
 	color: #000;
 	text-decoration: underline;
-}
-.otzyvy div:last-child {
-	padding-top: 5px;
-	padding-bottom: 5px;
-	border-bottom: none;
 }
 #vkomande-main-block .col-md-1, #vtehnoligii-main-block .col-md-1 {
 	background-image: url(../img/vproekte/bg-left-right.jpg);
@@ -1057,7 +1054,7 @@ input::-webkit-inner-spin-button {
 	margin-left: 0;
 	margin-right: 0;
 }
-#podrobnee-1, #podrobnee-2, #podrobnee-3, #podrobnee-4 {
+#podrobnee-1, #podrobnee-2, #podrobnee-3, #podrobnee-4, #svernut-1, #svernut-2, #svernut-3, #svernut-4 {
 	background: none;
 	padding: 0px;
 	box-shadow: none;
@@ -1069,6 +1066,13 @@ input::-webkit-inner-spin-button {
 }
 .aktiv #podrobnee-1, .aktiv #podrobnee-2, .aktiv #podrobnee-3, .aktiv #podrobnee-4 {
 	display: none;
+}
+#svernut-1, #svernut-2, #svernut-3, #svernut-4 {
+	display: none;
+	color: #149d34;
+} 
+.aktiv #svernut-1, .aktiv #svernut-2, .aktiv #svernut-3, .aktiv #svernut-4 {
+	display: block;
 }
 button:active, button:focus {
   outline: none !important;
@@ -1146,4 +1150,16 @@ width: 11px;
 .instruction {
 	display: none;
 }
-
+.footer-right-block p {
+	font-size: 15px;
+}
+.polzunok {
+	position: absolute;
+	right: 0px;
+	top: 50%;
+	margin-top: -15px;
+	width: 15px;
+	height: 30px;
+	background-color: #149d34;
+	z-index: 9999;
+}
