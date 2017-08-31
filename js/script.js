@@ -416,7 +416,7 @@ $(document).ready(function(){
 });
 $(document).ready(function() {
     var w = $(window).width(); 
-    if (w >= 992) { 
+    if (w >= 50) { 
         // Обработка нажатий на кнопку "Свернуть"
     $(document).ready(function(){
     $( "#svernut-1" ).click(function() {
