@@ -226,152 +226,223 @@ $(document).ready(function(){
 $('.carousel').bcSwipe({ threshold: 50 });
 //Инициализация свайпа каруселей jCarousel
 $('.jcarousel').jcarousel().jcarouselSwipe();
+// Обработка нажатий на главной странице
+$(document).ready(function() {
+    var w = $(window).width(); 
+    if (w >= 992) { 
+$(document).ready(function(){
+    $( ".img-2 img" ).click(function() {
+        $(".img-2 .img-responsive").attr("src","img/img-2-selected.jpg");
+        $(".img-6 .img-responsive").attr("src","img/img6.jpg");
+        $(".img-7 .img-responsive").attr("src","img/img7.jpg");
+        $(".img-3 .img-responsive").attr("src","img/img3.jpg");
+        $(".img-2 span").attr("style","color:#000;");
+        $(".img-6 span").attr("style","color:#fff;");
+        $(".img-7 span").attr("style","color:#fff;");
+        $(".img-3 span").attr("style","color:#fff;");
+        $(".img-2 .buttons-image2").attr("style","display:block;");
+        $(".img-3 .buttons-image3").attr("style","display:none;");
+        $(".img-6 .buttons-image6").attr("style","display:none;");
+        $(".img-7 .buttons-image7").attr("style","display:none;");
+        });
+    $( ".img-3 img" ).click(function() {
+        $(".img-3 .img-responsive").attr("src","img/img3-selected.jpg");
+        $(".img-2 .img-responsive").attr("src","img/img2.jpg");
+        $(".img-6 .img-responsive").attr("src","img/img6.jpg");
+        $(".img-7 .img-responsive").attr("src","img/img7.jpg");
+        $(".img-2 span").attr("style","color:#fff;");
+        $(".img-3 span").attr("style","color:#000;");
+        $(".img-6 span").attr("style","color:#fff;");
+        $(".img-7 span").attr("style","color:#fff;");
+        $(".img-2 .buttons-image2").attr("style","display:none;");
+        $(".img-3 .buttons-image3").attr("style","display:block;");
+        $(".img-6 .buttons-image6").attr("style","display:none;");
+        $(".img-7 .buttons-image7").attr("style","display:none;");
+        });
+    $( ".img-6 img" ).click(function() {
+        $(".img-6 .img-responsive").attr("src","img/img-6-selected.jpg");
+        $(".img-2 .img-responsive").attr("src","img/img2.jpg");
+        $(".img-7 .img-responsive").attr("src","img/img7.jpg");
+        $(".img-3 .img-responsive").attr("src","img/img3.jpg");
+        $(".img-6 span").attr("style","color:#000;");
+        $(".img-2 span").attr("style","color:#fff;");
+        $(".img-7 span").attr("style","color:#fff;");
+        $(".img-3 span").attr("style","color:#fff;");
+        $(".img-2 .buttons-image2").attr("style","display:none;");
+        $(".img-3 .buttons-image3").attr("style","display:none;");
+        $(".img-6 .buttons-image6").attr("style","display:block;");
+        $(".img-7 .buttons-image7").attr("style","display:none;");
+        });
+    $( ".img-7 img" ).click(function() {
+        $(".img-7 .img-responsive").attr("src","img/img-7-selected.jpg");
+        $(".img-6 .img-responsive").attr("src","img/img6.jpg");
+        $(".img-2 .img-responsive").attr("src","img/img2.jpg");
+        $(".img-3 .img-responsive").attr("src","img/img3.jpg");
+        $(".img-7 span").attr("style","color:#000;");
+        $(".img-6 span").attr("style","color:#fff;");
+        $(".img-2 span").attr("style","color:#fff;");
+        $(".img-3 span").attr("style","color:#fff;");
+        $(".img-2 .buttons-image2").attr("style","display:none;");
+        $(".img-3 .buttons-image3").attr("style","display:none;");
+        $(".img-6 .buttons-image6").attr("style","display:none;");
+        $(".img-7 .buttons-image7").attr("style","display:block;");
+        });
+  });
+  }
+  });
+// Обработка нажатий на главной странице - адаптивная версия
+$(document).ready(function() {
+    var w = $(window).width(); 
+    if (w < 992) { 
+$(document).ready(function(){
+    $( ".img-2 img" ).click(function() {
+        $(".img-2 .img-responsive").attr("src","img/img-2-selected.jpg");
+        $(".img-6 .img-responsive").attr("src","img/img6.jpg");
+        $(".img-7 .img-responsive").attr("src","img/img7.jpg");
+        $(".img-3 .img-responsive").attr("src","img/img3.jpg");
+        $(".img-2 span").attr("style","color:#000;");
+        $(".img-6 span").attr("style","color:#fff;");
+        $(".img-7 span").attr("style","color:#fff;");
+        $(".img-3 span").attr("style","color:#fff;");
+        $(".img-2 .buttons-image-responsive").attr("style","display:block;");
+        $(".img-3 .buttons-image-responsive").attr("style","display:none;");
+        $(".img-6 .buttons-image-responsive").attr("style","display:none;");
+        $(".img-7 .buttons-image-responsive").attr("style","display:none;");
+        });
+    $( ".img-3 img" ).click(function() {
+        $(".img-3 .img-responsive").attr("src","img/img3-selected.jpg");
+        $(".img-2 .img-responsive").attr("src","img/img2.jpg");
+        $(".img-6 .img-responsive").attr("src","img/img6.jpg");
+        $(".img-7 .img-responsive").attr("src","img/img7.jpg");
+        $(".img-2 span").attr("style","color:#fff;");
+        $(".img-3 span").attr("style","color:#000;");
+        $(".img-6 span").attr("style","color:#fff;");
+        $(".img-7 span").attr("style","color:#fff;");
+        $(".img-3 .buttons-image-responsive").attr("style","display:block;");
+        $(".img-2 .buttons-image-responsive").attr("style","display:none;");
+        $(".img-6 .buttons-image-responsive").attr("style","display:none;");
+        $(".img-7 .buttons-image-responsive").attr("style","display:none;");
+        });
+    $( ".img-6 img" ).click(function() {
+        $(".img-6 .img-responsive").attr("src","img/img-6-selected.jpg");
+        $(".img-2 .img-responsive").attr("src","img/img2.jpg");
+        $(".img-7 .img-responsive").attr("src","img/img7.jpg");
+        $(".img-3 .img-responsive").attr("src","img/img3.jpg");
+        $(".img-6 span").attr("style","color:#000;");
+        $(".img-2 span").attr("style","color:#fff;");
+        $(".img-7 span").attr("style","color:#fff;");
+        $(".img-3 span").attr("style","color:#fff;");
+        $(".img-6 .buttons-image-responsive").attr("style","display:block;");
+        $(".img-3 .buttons-image-responsive").attr("style","display:none;");
+        $(".img-2 .buttons-image-responsive").attr("style","display:none;");
+        $(".img-7 .buttons-image-responsive").attr("style","display:none;");
+        });
+    $( ".img-7 img" ).click(function() {
+        $(".img-7 .img-responsive").attr("src","img/img-7-selected.jpg");
+        $(".img-6 .img-responsive").attr("src","img/img6.jpg");
+        $(".img-2 .img-responsive").attr("src","img/img2.jpg");
+        $(".img-3 .img-responsive").attr("src","img/img3.jpg");
+        $(".img-7 span").attr("style","color:#000;");
+        $(".img-6 span").attr("style","color:#fff;");
+        $(".img-2 span").attr("style","color:#fff;");
+        $(".img-3 span").attr("style","color:#fff;");
+        $(".img-7 .buttons-image-responsive").attr("style","display:block;");
+        $(".img-3 .buttons-image-responsive").attr("style","display:none;");
+        $(".img-6 .buttons-image-responsive").attr("style","display:none;");
+        $(".img-2 .buttons-image-responsive").attr("style","display:none;");
+        });
+  });
+  }
+  });
+//Обработка ресайза картинок на странице vkomande
+$(document).ready(function(){
+    var h = $('.otzyvy').height() / 4;
+    $('.vkomande-button').css({'height': h});
+  });
+$(window).resize(function(){
+    var h = $('.otzyvy').height() / 4;
+    $('.vkomande-button').css({'height': h});
+  });
 //Обработка нажатий на кнопки "Подробнее"
 $(document).ready(function(){
     $( "#podrobnee-1" ).click(function() {
-        $("#podrobnee-1-small").html("<span>Недавно был опыт с компанией Vremonte. Сделали у нас ремонт на высшем уровне. Мы делали капитальный ремонт в старой хрущевской квартире. Муж нашел фирму, нареканий никаких, все было сделано в срок и очень качественно. Отдельная благодарность дизайнеру Елене, бригадиру Евгению и его команде: сделали нам все так, как мы хотели, а где-то даже лучше, т.к. сотрудники профессионалы и отлично знают, где как сделать, успехов вам!</span>");
-        $("#podrobnee-2-small").html("Хочу выразить огромную благодарность сотрудникам и дизайнеру Елене за роскошный ремонт, бригадиру Николаю, отвечающему за капитальное строительство квартиры и ...");
-        $("#podrobnee-3-small").html("Хочу выразить огромную благодарность сотрудникам и дизайнеру Елене за роскошный ремонт, бригадиру Николаю, отвечающему за капитальное строительство квартиры и ...");
-        $("#podrobnee-4-small").html("Хочу выразить огромную благодарность сотрудникам и дизайнеру Елене за роскошный ремонт, бригадиру Николаю, отвечающему за капитальное строительство квартиры и ...");
-        $("#podrobnee-1-block").attr("class","aktiv");
-        $("#podrobnee-2-block").attr("class","");
-        $("#podrobnee-3-block").attr("class","");
-        $("#podrobnee-4-block").attr("class","");
-        $(".col-md-10 .row").attr("style","height:auto;");
+        $("#podrobnee-1-block-small").attr("style","display:none;");
+        $("#podrobnee-3-block-small").attr("style","display:block;");
+        $("#podrobnee-4-block-small").attr("style","display:block;");
+        $("#podrobnee-2-block-small").attr("style","display:block;");
+        $("#podrobnee-1-block").attr("style","display:block;");
+        $("#podrobnee-2-block").attr("style","display:none;");
+        $("#podrobnee-3-block").attr("style","display:none;");
+        $("#podrobnee-4-block").attr("style","display:none;");
+        var h = $('.otzyvy').height() / 4;
+        $('.vkomande-button').css({'height': h});
         });
     $( "#podrobnee-2" ).click(function() {
-        $("#podrobnee-2-small").html("Недавно был опыт с компанией Vremonte. Сделали у нас ремонт на высшем уровне. Мы делали капитальный ремонт в старой хрущевской квартире. Муж нашел фирму, нареканий никаких, все было сделано в срок и очень качественно. Отдельная благодарность дизайнеру Елене, бригадиру Евгению и его команде: сделали нам все так, как мы хотели, а где-то даже лучше, т.к. сотрудники профессионалы и отлично знают, где как сделать, успехов вам!");
-        $("#podrobnee-1-small").html("Хочу выразить огромную благодарность сотрудникам и дизайнеру Елене за роскошный ремонт, бригадиру Николаю, отвечающему за капитальное строительство квартиры и ...");
-        $("#podrobnee-3-small").html("Хочу выразить огромную благодарность сотрудникам и дизайнеру Елене за роскошный ремонт, бригадиру Николаю, отвечающему за капитальное строительство квартиры и ...");
-        $("#podrobnee-4-small").html("Хочу выразить огромную благодарность сотрудникам и дизайнеру Елене за роскошный ремонт, бригадиру Николаю, отвечающему за капитальное строительство квартиры и ...");
-        $("#podrobnee-2-block").attr("class","aktiv");
-        $("#podrobnee-1-block").attr("class","");
-        $("#podrobnee-3-block").attr("class","");
-        $("#podrobnee-4-block").attr("class","");
-        $(".col-md-10 .row").attr("style","height:auto;");
+        $("#podrobnee-1-block-small").attr("style","display:block;");
+        $("#podrobnee-3-block-small").attr("style","display:block;");
+        $("#podrobnee-4-block-small").attr("style","display:block;");
+        $("#podrobnee-2-block-small").attr("style","display:none;");
+        $("#podrobnee-2-block").attr("style","display:block;");
+        $("#podrobnee-1-block").attr("style","display:none;");
+        $("#podrobnee-3-block").attr("style","display:none;");
+        $("#podrobnee-4-block").attr("style","display:none;");
+        var h = $('.otzyvy').height() / 4;
+        $('.vkomande-button').css({'height': h});
         });
     $( "#podrobnee-3" ).click(function() {
-        $("#podrobnee-3-small").html("Недавно был опыт с компанией Vremonte. Сделали у нас ремонт на высшем уровне. Мы делали капитальный ремонт в старой хрущевской квартире. Муж нашел фирму, нареканий никаких, все было сделано в срок и очень качественно. Отдельная благодарность дизайнеру Елене, бригадиру Евгению и его команде: сделали нам все так, как мы хотели, а где-то даже лучше, т.к. сотрудники профессионалы и отлично знают, где как сделать, успехов вам!");
-        $("#podrobnee-1-small").html("Хочу выразить огромную благодарность сотрудникам и дизайнеру Елене за роскошный ремонт, бригадиру Николаю, отвечающему за капитальное строительство квартиры и ...");
-        $("#podrobnee-2-small").html("Хочу выразить огромную благодарность сотрудникам и дизайнеру Елене за роскошный ремонт, бригадиру Николаю, отвечающему за капитальное строительство квартиры и ...");
-        $("#podrobnee-4-small").html("Хочу выразить огромную благодарность сотрудникам и дизайнеру Елене за роскошный ремонт, бригадиру Николаю, отвечающему за капитальное строительство квартиры и ...");
-        $("#podrobnee-3-block").attr("class","aktiv");
-        $("#podrobnee-2-block").attr("class","");
-        $("#podrobnee-1-block").attr("class","");
-        $("#podrobnee-4-block").attr("class","");
-        $(".col-md-10 .row").attr("style","height:auto;");
+       $("#podrobnee-3-block").attr("style","display:block;");
+        $("#podrobnee-1-block").attr("style","display:none;");
+        $("#podrobnee-2-block").attr("style","display:none;");
+        $("#podrobnee-4-block").attr("style","display:none;");
+        $("#podrobnee-1-block-small").attr("style","display:block;");
+        $("#podrobnee-2-block-small").attr("style","display:block;");
+        $("#podrobnee-4-block-small").attr("style","display:block;");
+        $("#podrobnee-3-block-small").attr("style","display:none;");
+        var h = $('.otzyvy').height() / 4;
+        $('.vkomande-button').css({'height': h});
         });
     $( "#podrobnee-4" ).click(function() {
-        $("#podrobnee-4-small").html("Недавно был опыт с компанией Vremonte. Сделали у нас ремонт на высшем уровне. Мы делали капитальный ремонт в старой хрущевской квартире. Муж нашел фирму, нареканий никаких, все было сделано в срок и очень качественно. Отдельная благодарность дизайнеру Елене, бригадиру Евгению и его команде: сделали нам все так, как мы хотели, а где-то даже лучше, т.к. сотрудники профессионалы и отлично знают, где как сделать, успехов вам!");
-        $("#podrobnee-1-small").html("Хочу выразить огромную благодарность сотрудникам и дизайнеру Елене за роскошный ремонт, бригадиру Николаю, отвечающему за капитальное строительство квартиры и ...");
-        $("#podrobnee-3-small").html("Хочу выразить огромную благодарность сотрудникам и дизайнеру Елене за роскошный ремонт, бригадиру Николаю, отвечающему за капитальное строительство квартиры и ...");
-        $("#podrobnee-2-small").html("Хочу выразить огромную благодарность сотрудникам и дизайнеру Елене за роскошный ремонт, бригадиру Николаю, отвечающему за капитальное строительство квартиры и ...");
-        $("#podrobnee-4-block").attr("class","aktiv");
-        $("#podrobnee-2-block").attr("class","");
-        $("#podrobnee-3-block").attr("class","");
-        $("#podrobnee-1-block").attr("class","");
-        $(".col-md-10 .row").attr("style","height:auto;");
+        $("#podrobnee-4-block").attr("style","display:block;");
+        $("#podrobnee-1-block").attr("style","display:none;");
+        $("#podrobnee-3-block").attr("style","display:none;");
+        $("#podrobnee-2-block").attr("style","display:none;");
+        $("#podrobnee-1-block-small").attr("style","display:block;");
+        $("#podrobnee-3-block-small").attr("style","display:block;");
+        $("#podrobnee-2-block-small").attr("style","display:block;");
+        $("#podrobnee-4-block-small").attr("style","display:none;");
+        var h = $('.otzyvy').height() / 4;
+        $('.vkomande-button').css({'height': h});
         });
 });
 $(document).ready(function() {
     var w = $(window).width(); 
-    if (w >= 992 && w < 1200) { 
+    if (w >= 992) { 
         // Обработка нажатий на кнопку "Свернуть"
     $(document).ready(function(){
     $( "#svernut-1" ).click(function() {
-        $("#podrobnee-1-small").html("<span>Хочу выразить огромную благодарность сотрудникам и дизайнеру Елене за роскошный ремонт, бригадиру Николаю, отвечающему за капитальное строительство квартиры и ...</span>");
-        $("#podrobnee-1-block").attr("class","");
-        $(".col-md-10 .row").attr("style","height:744px;");
-        $('.vkomande-button').attr("style","height:25%;");
-
+        $("#podrobnee-1-block").attr("style","display:none;");
+        $("#podrobnee-1-block-small").attr("style","display:block;");
+        var h = $('.otzyvy').height() / 4;
+        $('.vkomande-button').css({'height': h});
         });
     $( "#svernut-2" ).click(function() {
-        $("#podrobnee-2-small").html("Хочу выразить огромную благодарность сотрудникам и дизайнеру Елене за роскошный ремонт, бригадиру Николаю, отвечающему за капитальное строительство квартиры и ...");
-        $("#podrobnee-2-block").attr("class","");
-        $(".col-md-10 .row").attr("style","height:744px;");
-        $('.vkomande-button').attr("style","height:25%;");
+        $("#podrobnee-2-block").attr("style","display:none;");
+        $("#podrobnee-2-block-small").attr("style","display:block;");
+         var h = $('.otzyvy').height() / 4;
+        $('.vkomande-button').css({'height': h});
         });
     $( "#svernut-3" ).click(function() {
-        $("#podrobnee-3-small").html("Хочу выразить огромную благодарность сотрудникам и дизайнеру Елене за роскошный ремонт, бригадиру Николаю, отвечающему за капитальное строительство квартиры и ...");
-        $("#podrobnee-3-block").attr("class","");
-        $(".col-md-10 .row").attr("style","height:744px;");
-        $('.vkomande-button').attr("style","height:25%;");
+        $("#podrobnee-3-block").attr("style","display:none;");
+        $("#podrobnee-3-block-small").attr("style","display:block;");
+        var h = $('.otzyvy').height() / 4;
+        $('.vkomande-button').css({'height': h});
         });
     $( "#svernut-4" ).click(function() {
-        $("#podrobnee-4-small").html("Хочу выразить огромную благодарность сотрудникам и дизайнеру Елене за роскошный ремонт, бригадиру Николаю, отвечающему за капитальное строительство квартиры и ...");
-        $("#podrobnee-4-block").attr("class","");
-        $(".col-md-10 .row").attr("style","height:744px;");
-        $('.vkomande-button').attr("style","height:25%;");
+        $("#podrobnee-4-block").attr("style","display:none;");
+        $("#podrobnee-4-block-small").attr("style","display:block;");
+        var h = $('.otzyvy').height() / 4;
+        $('.vkomande-button').css({'height': h});
         });
 }); 
     }
   });
-$(document).ready(function() {
-    var w = $(window).width(); 
-    if (w >= 1200) { 
-        // Обработка нажатий на кнопку "Свернуть"
-    $(document).ready(function(){
-    $( "#svernut-1" ).click(function() {
-        $("#podrobnee-1-small").html("<span>Хочу выразить огромную благодарность сотрудникам и дизайнеру Елене за роскошный ремонт, бригадиру Николаю, отвечающему за капитальное строительство квартиры и ...</span>");
-        $("#podrobnee-1-block").attr("class","");
-        $(".col-md-10 .row").attr("style","height:664px;");
-        $('.vkomande-button').attr("style","height:25%;");
-
-        });
-    $( "#svernut-2" ).click(function() {
-        $("#podrobnee-2-small").html("Хочу выразить огромную благодарность сотрудникам и дизайнеру Елене за роскошный ремонт, бригадиру Николаю, отвечающему за капитальное строительство квартиры и ...");
-        $("#podrobnee-2-block").attr("class","");
-        $(".col-md-10 .row").attr("style","height:664px;");
-        $('.vkomande-button').attr("style","height:25%;");
-        });
-    $( "#svernut-3" ).click(function() {
-        $("#podrobnee-3-small").html("Хочу выразить огромную благодарность сотрудникам и дизайнеру Елене за роскошный ремонт, бригадиру Николаю, отвечающему за капитальное строительство квартиры и ...");
-        $("#podrobnee-3-block").attr("class","");
-        $(".col-md-10 .row").attr("style","height:664px;");
-        $('.vkomande-button').attr("style","height:25%;");
-        });
-    $( "#svernut-4" ).click(function() {
-        $("#podrobnee-4-small").html("Хочу выразить огромную благодарность сотрудникам и дизайнеру Елене за роскошный ремонт, бригадиру Николаю, отвечающему за капитальное строительство квартиры и ...");
-        $("#podrobnee-4-block").attr("class","");
-        $(".col-md-10 .row").attr("style","height:664px;");
-        $('.vkomande-button').attr("style","height:25%;");
-        });
-}); 
-    }
-  });
-$(document).ready(function() {
-    var w = $(window).width(); 
-    if (w < 1200) { 
-        // Обработка нажатий на кнопку "Свернуть"
-    $(document).ready(function(){
-    $( "#svernut-1" ).click(function() {
-        $("#podrobnee-1-small").html("<span>Хочу выразить огромную благодарность сотрудникам и дизайнеру Елене за роскошный ремонт, бригадиру Николаю, отвечающему за капитальное строительство квартиры и ...</span>");
-        $("#podrobnee-1-block").attr("class","");
-
-        });
-    $( "#svernut-2" ).click(function() {
-        $("#podrobnee-2-small").html("Хочу выразить огромную благодарность сотрудникам и дизайнеру Елене за роскошный ремонт, бригадиру Николаю, отвечающему за капитальное строительство квартиры и ...");
-        $("#podrobnee-2-block").attr("class","");
-        });
-    $( "#svernut-3" ).click(function() {
-        $("#podrobnee-3-small").html("Хочу выразить огромную благодарность сотрудникам и дизайнеру Елене за роскошный ремонт, бригадиру Николаю, отвечающему за капитальное строительство квартиры и ...");
-        $("#podrobnee-3-block").attr("class","");
-        });
-    $( "#svernut-4" ).click(function() {
-        $("#podrobnee-4-small").html("Хочу выразить огромную благодарность сотрудникам и дизайнеру Елене за роскошный ремонт, бригадиру Николаю, отвечающему за капитальное строительство квартиры и ...");
-        $("#podrobnee-4-block").attr("class","");
-        });
-}); 
-    }
-  });
-$( window ).resize(function() {
-$('.vkomande-button', this).each(function() {
-    // найти высоту элемента
-    var height = $('.col-md-10').height();
-    //  присвоить эту высоту всем элементам с классом live_view.
-    $('.vkomande-button').css('height', height);
-});
-});
-// $(window).load(function () {
-//  $(".left").click();
-// });

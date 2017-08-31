@@ -135,7 +135,7 @@ table {
 .img-2,.img-3,.img-6,.img-7,.img-8, .img-4 {
 	position: relative;
 }
-.img-1 img, .img-2 img, .img-3 img, .img-4 img, .img-5 img, .img-6 img, .img-7 img, .img-8 img {
+.img-1 .img-responsive, .img-2 .img-responsive, .img-3 .img-responsive, .img-4 .img-responsive, .img-5 .img-responsive, .img-6 .img-responsive, .img-7 .img-responsive, .img-8 .img-responsive {
 	width: 100%;
 }
 .img-3 span img {
@@ -336,21 +336,21 @@ h3 {
 .fishka2 {
 	position: absolute;
 }
-#buttons-image {
+.buttons-image {
 	margin-top: 20px;
 }
-#buttons-image a {
+.buttons-image a {
 	color: #000;
 	font-size: 16px;
 	text-decoration: underline;
 }
-#buttons-image button:hover {
+.buttons-image button:hover {
 	text-decoration: none;
 }
-#buttons-image img {
+.buttons-image img {
 	margin-right: 10px;
 }
-#buttons-image button {
+.buttons-image button {
 	padding: 0px;
 	margin-right: 10px;
 	color:#000;
@@ -490,7 +490,7 @@ input:checked + label:after {
 	position: absolute;
 	z-index: 9999;
 	right:25px;
-	bottom:-229px;
+	bottom:-157px;
 	background-image: url(../img/strelka.png);
 	opacity:0.6;
 	cursor: pointer;
@@ -688,14 +688,12 @@ input::-webkit-inner-spin-button {
 	display: block;
 	color: #fff;
 	font-size: 30px;
-	padding-top: 70px;
-	padding-bottom: 70px;
 	text-transform: uppercase;
 	-webkit-background-size: cover;
 	background-size: cover;
 	text-decoration: none;
 	border-bottom: 1px solid #fff;
-	height: 25%;
+	position: relative;
 }
 .vkomande-button:hover {
 	text-decoration: none;
@@ -717,9 +715,24 @@ input::-webkit-inner-spin-button {
 .vkomande-button:nth-child(4):hover {
 	color: #000;
 }
+.vkomande-button p {
+	margin: 0;
+	position: absolute;
+	left:50%;
+	top:50%;
+	margin-top: -21px;
+	margin-left: -46px;
+}
 .otzyvy {
 	border-left: 1px solid #a1a1a1;
 	border-right: 1px solid #a1a1a1;
+	font-family: GilroyItalic;
+}
+.otzyvy span {
+	font-family: GilroyItalic;
+}
+.otzyvy button {
+	font-family: GilroyRegular;
 }
 .otzyvy div {
 	border-bottom: 1px solid #a1a1a1;
@@ -927,7 +940,7 @@ input::-webkit-inner-spin-button {
 /*ВКОМАНДЕ*/
 .central-nadpis {
 	position: absolute;
-	top:30%;
+	margin-top:50%;
 	padding-right: 15px;
 }
 .vertical-slider-img {
@@ -1045,6 +1058,7 @@ input::-webkit-inner-spin-button {
 #our-partners {
 	margin-left: 0;
 	margin-right: 0;
+	margin-top: -5px;
 }
 #vproekte-center-block .carousel-indicators {
 	width: 90%;
@@ -1068,7 +1082,7 @@ input::-webkit-inner-spin-button {
 	display: none;
 }
 #svernut-1, #svernut-2, #svernut-3, #svernut-4 {
-	display: none;
+/*	display: none;*/
 	color: #149d34;
 } 
 .aktiv #svernut-1, .aktiv #svernut-2, .aktiv #svernut-3, .aktiv #svernut-4 {
@@ -1162,4 +1176,17 @@ width: 11px;
 	height: 30px;
 	background-color: #149d34;
 	z-index: 9999;
+}
+#colonka-for-slides .buttons-image-responsive {
+	right: auto;
+	left:10px;
+}
+.vkomande-button .ml-118 {
+	margin-left: -118px;
+}
+.vkomande-button .ml-122 {
+	margin-left: -122px;
+}
+.vkomande-button .ml-78 {
+	margin-left: -78px;
 }
