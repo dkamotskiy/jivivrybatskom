@@ -1,4 +1,23 @@
 @media (max-width: 992px) {
+	#our-team .regular {
+		margin-bottom: 30px;
+	}
+	#advantages .row {
+		padding-top: 0;
+		margin-top: -10px;
+	}
+	#advantages .row .col-md-8 {
+		font-size: 14px;
+	}
+	#advantages .col-xs-4 {
+		margin-top: 30px;
+	}
+	#advantages .col-xs-8 {
+		margin-top: 30px;
+	}
+	#advantages .nomarg {
+		margin-top: -10px;
+	}
 	.central-nadpis {
 	margin-top:20px;
 }
@@ -254,12 +273,16 @@
 }
 
 @media (min-width: 992px) {
+
 	.-px27 {
 		margin-left: -27px;
 		margin-right: -27px;
 	}
 	#vproekte-main-block .col-md-4 .jcarousel {
 	width: 170px;
+}
+#header-contacts {
+	margin-top: -10px;
 }
 #type-us .col-md-10 {
 	padding-left: 0px;
@@ -343,11 +366,34 @@
 
 }
 @media screen and (max-width: 1200px) and (min-width: 1000px) {
+	.prof a {
+		font-size: 11px;
+	}
 	.span-left {
 		left:3%;
 	}
 	#try .col-md-6 .span-right {
 		right:2%;
+	}
+	.fishka {
+		width: 50px;
+	}
+	.span-left {
+		font-size: 26px;
+	}
+	#try .col-md-6 .span-right {
+		font-size: 26px;
+	}
+}
+@media (min-width: 1200px) {
+	#colonka .buttons-image {
+		margin-top: 10px;
+	}
+	.pt30 {
+		padding-top: 30px;
+	}
+	.pt15 {
+		padding-top: 15px;
 	}
 }
 @media (max-width: 700px) {
@@ -359,16 +405,22 @@
 		padding:10px 64px;
 	}
 	.span-left {
-		font-size: 24px;
+		font-size: 18px;
+	}
+	.span-left p {
+		font-size: 14px;
+	}
+	.span-right p {
+		font-size: 14px;
 	}
 	#try .col-md-6 .span-right {
-		font-size: 24px;
+		font-size: 18px;
 	}
 	.span-left {
-		left:4%;
+		left:1%;
 	}
 	#try .col-md-6 .span-right {
-		right:4%;
+		right:1%;
 	}
 	#header .col-md-3 {
 		padding-right: 15px;

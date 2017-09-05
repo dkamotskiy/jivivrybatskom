@@ -123,7 +123,7 @@ table {
 }
 /*Картинки*/
 .back .col-md-1 {
-	background-image: url(../img/bg-center.jpg);
+	background-image: url(../img/stripes.png);
 	position: relative;
 }
 #images {
@@ -306,7 +306,7 @@ h3 {
 	top:73%;
 }
 .back .col-md-1 {
-	background-image: url(../img/bg-center.jpg);
+	background-image: url(../img/stripes.png);
 	position: relative;
 }
 #try {
@@ -478,7 +478,7 @@ input:checked + label:after {
 		color:#fff;
 }
 .fishka-right {
-	bottom:10px;
+	bottom:15px;
 	left:10px;
 	top:auto;
 	right: auto;
@@ -654,7 +654,7 @@ input::-webkit-inner-spin-button {
 	display: block;
     flex:none;
 }
-.equal-vproekte, .equal-vproekte > div[class*='col-1'], .equal-vproekte > div[class*='col-10'], .equal-vproekte > div[class*='col-3'], .equal-vproekte > div[class*='col-4'], .equal-vproekte > div[class*='col-5'] {
+.equal-vproekte, .equal-vproekte > div[class*='col-1'], .equal-vproekte > div[class*='col-10'], .equal-vproekte > div[class*='col-3'], .equal-vproekte > div[class*='col-4'], .equal-vproekte > div[class*='col-5'], .equal-vproekte > div[class*='col-6'] {
     display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
@@ -663,11 +663,11 @@ input::-webkit-inner-spin-button {
     flex:1 0 auto;
 }
 #vproekte-main-block .col-md-1 {
-	background-image: url(../img/vproekte/bg-left-right.jpg);
-	background-repeat: no-repeat;
-	-webkit-background-size: cover;
-	background-size: cover;
-	background-position: center center;
+	background-image: url(../img/stripes.png);
+/*	background-repeat: no-repeat;*/
+/*	-webkit-background-size: cover;
+	background-size: cover;*/
+/*	background-position: center center;*/
 }
 #header div {
 	padding-left: 0;
@@ -748,11 +748,11 @@ input::-webkit-inner-spin-button {
 	text-decoration: underline;
 }
 #vkomande-main-block .col-md-1, #vtehnoligii-main-block .col-md-1 {
-	background-image: url(../img/vproekte/bg-left-right.jpg);
-	background-repeat: no-repeat;
-	-webkit-background-size: cover;
-	background-size: cover;
-	background-position: center center;
+	background-image: url(../img/stripes.png);
+/*	background-repeat: no-repeat;*/
+/*	-webkit-background-size: cover;
+	background-size: cover;*/
+/*	background-position: center center;*/
 }
 .otzyvy .aktiv {
 	background-color: #e9e9e9;
@@ -1189,4 +1189,135 @@ width: 11px;
 }
 .vkomande-button .ml-78 {
 	margin-left: -78px;
+}
+#colonka .big-strelka {
+	width: auto;
+	height:100%;
+	position: absolute;
+	top:0;
+	left:0;
+	cursor: pointer;
+}
+#colonka span {
+	cursor: pointer;
+}
+#colonka-for-slides .big-strelka {
+	left:auto;
+	right:0;
+}
+#colonka-for-slides span {
+	cursor: pointer;
+}
+#vproekte-center-block #buttons-image {
+	margin-top: 20px;
+	margin-bottom: -10px;
+}
+#vproekte-center-block #buttons-image button{
+	color: #000;	
+}
+#our-partners li img{
+	opacity: 1;
+	border-right: 3px  solid transparent;
+}
+.buttons-image button {
+	font-family: GilroyBold;
+	border-bottom: 2px solid #149d34;
+	text-decoration: none;
+}
+.buttons-image button:hover {
+	color: #000;
+}
+.green-strelka {
+	width: 5%;
+    height: 20%;
+    position: absolute;
+    top: 45%;
+    cursor: pointer;
+}
+#colonka-for-slides .green-strelka {
+	right:0;
+}
+#header-contacts img {
+	width: 31px;
+	height: 31px;
+}
+.footer-right-block img {
+	width: 40px;
+	height: 40px;
+}
+/*Страница Преимущества-------------------------------------------------*/
+#advantages, #our-team, #contacts-page {
+	padding-top: 30px;
+	padding-bottom: 50px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+#advantages p:first-child, #our-team p:first-child, #contacts-page .bold {
+	text-transform: uppercase;
+	font-size: 30px;
+	padding-bottom: 30px;
+}
+#advantages .row {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	vertical-align: middle;
+}
+#advantages .row .col-md-8 {
+	text-align: center;
+	font-size: 18px;
+}
+#advantages img {
+	margin: 10px;
+}
+/*Наша команда----------------------------------------------------------*/
+#our-team .bold {
+	margin-top: 20px;
+	font-size: 20px;
+}
+#our-team .regular {
+	margin-top: -10px;
+	margin-bottom: 20px;
+}
+#our-team img {
+	margin: 0 auto;
+}
+/*Страница Контакты---------------------------------------------------*/
+#contacts-page div {
+	margin-left: 20px;
+}
+#contacts-page div p {
+	font-size: 20px;
+}
+#contacts-page img {
+	max-height: 20px;
+	margin-right: 15px;
+}
+#contacts-page a {
+	color: #000;
+}
+#contacts-page a:hover {
+	color: #000;
+}
+#contacts-page button {
+	background-color: #149d34;
+	font-family: GilroyBold;
+	margin-top: 60px;
+}
+#contacts-page iframe {
+	margin-top: 30px;
+	margin-right: -20px;
+}
+/*Страница Вдизайне---------------------------------------------------*/
+#vdizayne .vtehno-main-link {
+	padding-top: 65px;
+	padding-bottom: 65px;
+}
+#vdizayne .vtehno-main-link:nth-child(2){
+	background-image: url(../img/vdizayne/proekt.jpg);
+}
+#vdizayne .vtehno-main-link:nth-child(3){
+	background-image: url(../img/vdizayne/planirovka.jpg);
+}
+#vdizayne .vtehno-main-link:nth-child(1){
+	background-image: url(../img/vdizayne/design.jpg);
 }

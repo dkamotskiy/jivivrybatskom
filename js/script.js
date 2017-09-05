@@ -231,7 +231,11 @@ $(document).ready(function() {
     var w = $(window).width(); 
     if (w >= 992) { 
 $(document).ready(function(){
-    $( ".img-2 img" ).click(function() {
+    $( ".img-2 .big-strelka" ).click(function() {
+        $(".img-2 .big-strelka").attr("style","display:none;");
+        $(".img-3 .big-strelka").attr("style","display:block;");
+        $(".img-6 .big-strelka").attr("style","display:block;");
+        $(".img-7 .big-strelka").attr("style","display:block;");
         $(".img-2 .img-responsive").attr("src","img/img-2-selected.jpg");
         $(".img-6 .img-responsive").attr("src","img/img6.jpg");
         $(".img-7 .img-responsive").attr("src","img/img7.jpg");
@@ -244,8 +248,38 @@ $(document).ready(function(){
         $(".img-3 .buttons-image3").attr("style","display:none;");
         $(".img-6 .buttons-image6").attr("style","display:none;");
         $(".img-7 .buttons-image7").attr("style","display:none;");
+        $(".img-2 .green-strelka").attr("style","display:block;");
+        $(".img-3 .green-strelka").attr("style","display:none;");
+        $(".img-6 .green-strelka").attr("style","display:none;");
+        $(".img-7 .green-strelka").attr("style","display:none;");
         });
-    $( ".img-3 img" ).click(function() {
+    $( ".img-2 span" ).click(function() {
+        $(".img-2 .big-strelka").attr("style","display:none;");
+        $(".img-3 .big-strelka").attr("style","display:block;");
+        $(".img-6 .big-strelka").attr("style","display:block;");
+        $(".img-7 .big-strelka").attr("style","display:block;");
+        $(".img-2 .img-responsive").attr("src","img/img-2-selected.jpg");
+        $(".img-6 .img-responsive").attr("src","img/img6.jpg");
+        $(".img-7 .img-responsive").attr("src","img/img7.jpg");
+        $(".img-3 .img-responsive").attr("src","img/img3.jpg");
+        $(".img-2 span").attr("style","color:#000;");
+        $(".img-6 span").attr("style","color:#fff;");
+        $(".img-7 span").attr("style","color:#fff;");
+        $(".img-3 span").attr("style","color:#fff;");
+        $(".img-2 .buttons-image2").attr("style","display:block;");
+        $(".img-3 .buttons-image3").attr("style","display:none;");
+        $(".img-6 .buttons-image6").attr("style","display:none;");
+        $(".img-7 .buttons-image7").attr("style","display:none;");
+        $(".img-2 .green-strelka").attr("style","display:block;");
+        $(".img-3 .green-strelka").attr("style","display:none;");
+        $(".img-6 .green-strelka").attr("style","display:none;");
+        $(".img-7 .green-strelka").attr("style","display:none;");
+        });
+    $( ".img-3 .big-strelka" ).click(function() {
+        $(".img-3 .big-strelka").attr("style","display:none;");
+        $(".img-2 .big-strelka").attr("style","display:block;");
+        $(".img-6 .big-strelka").attr("style","display:block;");
+        $(".img-7 .big-strelka").attr("style","display:block;");
         $(".img-3 .img-responsive").attr("src","img/img3-selected.jpg");
         $(".img-2 .img-responsive").attr("src","img/img2.jpg");
         $(".img-6 .img-responsive").attr("src","img/img6.jpg");
@@ -258,8 +292,38 @@ $(document).ready(function(){
         $(".img-3 .buttons-image3").attr("style","display:block;");
         $(".img-6 .buttons-image6").attr("style","display:none;");
         $(".img-7 .buttons-image7").attr("style","display:none;");
+        $(".img-3 .green-strelka").attr("style","display:block;");
+        $(".img-2 .green-strelka").attr("style","display:none;");
+        $(".img-6 .green-strelka").attr("style","display:none;");
+        $(".img-7 .green-strelka").attr("style","display:none;");
         });
-    $( ".img-6 img" ).click(function() {
+    $( ".img-3 span" ).click(function() {
+        $(".img-3 .big-strelka").attr("style","display:none;");
+        $(".img-2 .big-strelka").attr("style","display:block;");
+        $(".img-6 .big-strelka").attr("style","display:block;");
+        $(".img-7 .big-strelka").attr("style","display:block;");
+        $(".img-3 .img-responsive").attr("src","img/img3-selected.jpg");
+        $(".img-2 .img-responsive").attr("src","img/img2.jpg");
+        $(".img-6 .img-responsive").attr("src","img/img6.jpg");
+        $(".img-7 .img-responsive").attr("src","img/img7.jpg");
+        $(".img-2 span").attr("style","color:#fff;");
+        $(".img-3 span").attr("style","color:#000;");
+        $(".img-6 span").attr("style","color:#fff;");
+        $(".img-7 span").attr("style","color:#fff;");
+        $(".img-2 .buttons-image2").attr("style","display:none;");
+        $(".img-3 .buttons-image3").attr("style","display:block;");
+        $(".img-6 .buttons-image6").attr("style","display:none;");
+        $(".img-7 .buttons-image7").attr("style","display:none;");
+        $(".img-3 .green-strelka").attr("style","display:block;");
+        $(".img-2 .green-strelka").attr("style","display:none;");
+        $(".img-6 .green-strelka").attr("style","display:none;");
+        $(".img-7 .green-strelka").attr("style","display:none;");
+        });
+    $( ".img-6 .big-strelka" ).click(function() {
+        $(".img-6 .big-strelka").attr("style","display:none;");
+        $(".img-3 .big-strelka").attr("style","display:block;");
+        $(".img-2 .big-strelka").attr("style","display:block;");
+        $(".img-7 .big-strelka").attr("style","display:block;");
         $(".img-6 .img-responsive").attr("src","img/img-6-selected.jpg");
         $(".img-2 .img-responsive").attr("src","img/img2.jpg");
         $(".img-7 .img-responsive").attr("src","img/img7.jpg");
@@ -272,8 +336,38 @@ $(document).ready(function(){
         $(".img-3 .buttons-image3").attr("style","display:none;");
         $(".img-6 .buttons-image6").attr("style","display:block;");
         $(".img-7 .buttons-image7").attr("style","display:none;");
+        $(".img-6 .green-strelka").attr("style","display:block;");
+        $(".img-2 .green-strelka").attr("style","display:none;");
+        $(".img-3 .green-strelka").attr("style","display:none;");
+        $(".img-7 .green-strelka").attr("style","display:none;");
         });
-    $( ".img-7 img" ).click(function() {
+    $( ".img-6 span" ).click(function() {
+        $(".img-6 .big-strelka").attr("style","display:none;");
+        $(".img-3 .big-strelka").attr("style","display:block;");
+        $(".img-2 .big-strelka").attr("style","display:block;");
+        $(".img-7 .big-strelka").attr("style","display:block;");
+        $(".img-6 .img-responsive").attr("src","img/img-6-selected.jpg");
+        $(".img-2 .img-responsive").attr("src","img/img2.jpg");
+        $(".img-7 .img-responsive").attr("src","img/img7.jpg");
+        $(".img-3 .img-responsive").attr("src","img/img3.jpg");
+        $(".img-6 span").attr("style","color:#000;");
+        $(".img-2 span").attr("style","color:#fff;");
+        $(".img-7 span").attr("style","color:#fff;");
+        $(".img-3 span").attr("style","color:#fff;");
+        $(".img-2 .buttons-image2").attr("style","display:none;");
+        $(".img-3 .buttons-image3").attr("style","display:none;");
+        $(".img-6 .buttons-image6").attr("style","display:block;");
+        $(".img-7 .buttons-image7").attr("style","display:none;");
+        $(".img-6 .green-strelka").attr("style","display:block;");
+        $(".img-2 .green-strelka").attr("style","display:none;");
+        $(".img-3 .green-strelka").attr("style","display:none;");
+        $(".img-7 .green-strelka").attr("style","display:none;");
+        });
+    $( ".img-7 .big-strelka" ).click(function() {
+        $(".img-7 .big-strelka").attr("style","display:none;");
+        $(".img-3 .big-strelka").attr("style","display:block;");
+        $(".img-6 .big-strelka").attr("style","display:block;");
+        $(".img-2 .big-strelka").attr("style","display:block;");
         $(".img-7 .img-responsive").attr("src","img/img-7-selected.jpg");
         $(".img-6 .img-responsive").attr("src","img/img6.jpg");
         $(".img-2 .img-responsive").attr("src","img/img2.jpg");
@@ -286,6 +380,56 @@ $(document).ready(function(){
         $(".img-3 .buttons-image3").attr("style","display:none;");
         $(".img-6 .buttons-image6").attr("style","display:none;");
         $(".img-7 .buttons-image7").attr("style","display:block;");
+        $(".img-7 .green-strelka").attr("style","display:block;");
+        $(".img-2 .green-strelka").attr("style","display:none;");
+        $(".img-3 .green-strelka").attr("style","display:none;");
+        $(".img-6 .green-strelka").attr("style","display:none;");
+        });
+    $( ".img-7 span" ).click(function() {
+        $(".img-7 .big-strelka").attr("style","display:none;");
+        $(".img-3 .big-strelka").attr("style","display:block;");
+        $(".img-6 .big-strelka").attr("style","display:block;");
+        $(".img-2 .big-strelka").attr("style","display:block;");
+        $(".img-7 .img-responsive").attr("src","img/img-7-selected.jpg");
+        $(".img-6 .img-responsive").attr("src","img/img6.jpg");
+        $(".img-2 .img-responsive").attr("src","img/img2.jpg");
+        $(".img-3 .img-responsive").attr("src","img/img3.jpg");
+        $(".img-7 span").attr("style","color:#000;");
+        $(".img-6 span").attr("style","color:#fff;");
+        $(".img-2 span").attr("style","color:#fff;");
+        $(".img-3 span").attr("style","color:#fff;");
+        $(".img-2 .buttons-image2").attr("style","display:none;");
+        $(".img-3 .buttons-image3").attr("style","display:none;");
+        $(".img-6 .buttons-image6").attr("style","display:none;");
+        $(".img-7 .buttons-image7").attr("style","display:block;");
+        $(".img-7 .green-strelka").attr("style","display:block;");
+        $(".img-2 .green-strelka").attr("style","display:none;");
+        $(".img-3 .green-strelka").attr("style","display:none;");
+        $(".img-6 .green-strelka").attr("style","display:none;");
+        });
+    $( ".img-2 .green-strelka" ).click(function() {
+        $(".img-2 .buttons-image2").attr("style","display:none;");
+        $(".img-2 .img-responsive").attr("src","img/img2.jpg");
+        $(".img-2 span").attr("style","color:#fff;");
+        $(".img-2 .big-strelka").attr("style","display:block;");
+        });
+    $( ".img-3 .green-strelka" ).click(function() {
+        $(".img-3 .buttons-image3").attr("style","display:none;");
+        $(".img-3 .img-responsive").attr("src","img/img3.jpg");
+        $(".img-3 span").attr("style","color:#fff;");
+        $(".img-3 .big-strelka").attr("style","display:block;");
+        });
+    $( ".img-6 .green-strelka" ).click(function() {
+        $(".img-6 .buttons-image6").attr("style","display:none;");
+        $(".img-6 .img-responsive").attr("src","img/img6.jpg");
+        $(".img-6 span").attr("style","color:#fff;");
+        $(".img-6 .big-strelka").attr("style","display:block;");
+        });
+    $( ".img-7 .green-strelka" ).click(function() {
+        $(".img-7 .buttons-image7").attr("style","display:none;");
+        $(".img-7 .img-responsive").attr("src","img/img7.jpg");
+        $(".img-7 span").attr("style","color:#fff;");
+        $(".img-7 .big-strelka").attr("style","display:block;");
         });
   });
   }
@@ -295,7 +439,7 @@ $(document).ready(function() {
     var w = $(window).width(); 
     if (w < 992) { 
 $(document).ready(function(){
-    $( ".img-2 img" ).click(function() {
+    $( ".img-2 .big-strelka" ).click(function() {
         $(".img-2 .img-responsive").attr("src","img/img-2-selected.jpg");
         $(".img-6 .img-responsive").attr("src","img/img6.jpg");
         $(".img-7 .img-responsive").attr("src","img/img7.jpg");
@@ -308,8 +452,38 @@ $(document).ready(function(){
         $(".img-3 .buttons-image-responsive").attr("style","display:none;");
         $(".img-6 .buttons-image-responsive").attr("style","display:none;");
         $(".img-7 .buttons-image-responsive").attr("style","display:none;");
+        $(".img-2 .big-strelka").attr("style","display:none;");
+        $(".img-3 .big-strelka").attr("style","display:block;");
+        $(".img-6 .big-strelka").attr("style","display:block;");
+        $(".img-7 .big-strelka").attr("style","display:block;");
+        $(".img-2 ol").attr("style","right:auto; left:20px; text-align:left;");
+        $(".img-3 ol").attr("style","right:20px; left:auto; text-align:right;");
+        $(".img-6 ol").attr("style","right:auto; left:20px; text-align:left;");
+        $(".img-7 ol").attr("style","right:auto; left:20px; text-align:left");
         });
-    $( ".img-3 img" ).click(function() {
+    $( ".img-2 span" ).click(function() {
+        $(".img-2 .img-responsive").attr("src","img/img-2-selected.jpg");
+        $(".img-6 .img-responsive").attr("src","img/img6.jpg");
+        $(".img-7 .img-responsive").attr("src","img/img7.jpg");
+        $(".img-3 .img-responsive").attr("src","img/img3.jpg");
+        $(".img-2 span").attr("style","color:#000;");
+        $(".img-6 span").attr("style","color:#fff;");
+        $(".img-7 span").attr("style","color:#fff;");
+        $(".img-3 span").attr("style","color:#fff;");
+        $(".img-2 .buttons-image-responsive").attr("style","display:block;");
+        $(".img-3 .buttons-image-responsive").attr("style","display:none;");
+        $(".img-6 .buttons-image-responsive").attr("style","display:none;");
+        $(".img-7 .buttons-image-responsive").attr("style","display:none;");
+        $(".img-2 .big-strelka").attr("style","display:none;");
+        $(".img-3 .big-strelka").attr("style","display:block;");
+        $(".img-6 .big-strelka").attr("style","display:block;");
+        $(".img-7 .big-strelka").attr("style","display:block;");
+        $(".img-2 ol").attr("style","right:auto; left:20px; text-align:left;");
+        $(".img-3 ol").attr("style","right:20px; left:auto; text-align:right;");
+        $(".img-6 ol").attr("style","right:auto; left:20px; text-align:left;");
+        $(".img-7 ol").attr("style","right:auto; left:20px; text-align:left");
+        });
+    $( ".img-3 .big-strelka" ).click(function() {
         $(".img-3 .img-responsive").attr("src","img/img3-selected.jpg");
         $(".img-2 .img-responsive").attr("src","img/img2.jpg");
         $(".img-6 .img-responsive").attr("src","img/img6.jpg");
@@ -322,8 +496,38 @@ $(document).ready(function(){
         $(".img-2 .buttons-image-responsive").attr("style","display:none;");
         $(".img-6 .buttons-image-responsive").attr("style","display:none;");
         $(".img-7 .buttons-image-responsive").attr("style","display:none;");
+        $(".img-3 .big-strelka").attr("style","display:none;");
+        $(".img-2 .big-strelka").attr("style","display:block;");
+        $(".img-6 .big-strelka").attr("style","display:block;");
+        $(".img-7 .big-strelka").attr("style","display:block;");
+        $(".img-3 ol").attr("style","right:auto; left:20px; text-align:left;");
+        $(".img-2 ol").attr("style","right:20px; left:auto; text-align:right;");
+        $(".img-6 ol").attr("style","right:auto; left:20px; text-align:left;");
+        $(".img-7 ol").attr("style","right:auto; left:20px; text-align:left");
         });
-    $( ".img-6 img" ).click(function() {
+    $( ".img-3 span" ).click(function() {
+        $(".img-3 .img-responsive").attr("src","img/img3-selected.jpg");
+        $(".img-2 .img-responsive").attr("src","img/img2.jpg");
+        $(".img-6 .img-responsive").attr("src","img/img6.jpg");
+        $(".img-7 .img-responsive").attr("src","img/img7.jpg");
+        $(".img-2 span").attr("style","color:#fff;");
+        $(".img-3 span").attr("style","color:#000;");
+        $(".img-6 span").attr("style","color:#fff;");
+        $(".img-7 span").attr("style","color:#fff;");
+        $(".img-3 .buttons-image-responsive").attr("style","display:block;");
+        $(".img-2 .buttons-image-responsive").attr("style","display:none;");
+        $(".img-6 .buttons-image-responsive").attr("style","display:none;");
+        $(".img-7 .buttons-image-responsive").attr("style","display:none;");
+        $(".img-3 .big-strelka").attr("style","display:none;");
+        $(".img-2 .big-strelka").attr("style","display:block;");
+        $(".img-6 .big-strelka").attr("style","display:block;");
+        $(".img-7 .big-strelka").attr("style","display:block;");
+        $(".img-3 ol").attr("style","right:auto; left:20px; text-align:left;");
+        $(".img-2 ol").attr("style","right:20px; left:auto; text-align:right;");
+        $(".img-6 ol").attr("style","right:auto; left:20px; text-align:left;");
+        $(".img-7 ol").attr("style","right:auto; left:20px; text-align:left");
+        });
+    $( ".img-6 .big-strelka" ).click(function() {
         $(".img-6 .img-responsive").attr("src","img/img-6-selected.jpg");
         $(".img-2 .img-responsive").attr("src","img/img2.jpg");
         $(".img-7 .img-responsive").attr("src","img/img7.jpg");
@@ -336,8 +540,38 @@ $(document).ready(function(){
         $(".img-3 .buttons-image-responsive").attr("style","display:none;");
         $(".img-2 .buttons-image-responsive").attr("style","display:none;");
         $(".img-7 .buttons-image-responsive").attr("style","display:none;");
+        $(".img-6 .big-strelka").attr("style","display:none;");
+        $(".img-3 .big-strelka").attr("style","display:block;");
+        $(".img-2 .big-strelka").attr("style","display:block;");
+        $(".img-7 .big-strelka").attr("style","display:block;");
+        $(".img-7 ol").attr("style","right:auto; left:20px; text-align:left;");
+        $(".img-2 ol").attr("style","right:20px; left:auto; text-align:right;");
+        $(".img-3 ol").attr("style","right:20px; left:auto; text-align:right;");
+        $(".img-6 ol").attr("style","right:20px; left:auto; text-align:right;");
         });
-    $( ".img-7 img" ).click(function() {
+    $( ".img-6 span" ).click(function() {
+        $(".img-6 .img-responsive").attr("src","img/img-6-selected.jpg");
+        $(".img-2 .img-responsive").attr("src","img/img2.jpg");
+        $(".img-7 .img-responsive").attr("src","img/img7.jpg");
+        $(".img-3 .img-responsive").attr("src","img/img3.jpg");
+        $(".img-6 span").attr("style","color:#000;");
+        $(".img-2 span").attr("style","color:#fff;");
+        $(".img-7 span").attr("style","color:#fff;");
+        $(".img-3 span").attr("style","color:#fff;");
+        $(".img-6 .buttons-image-responsive").attr("style","display:block;");
+        $(".img-3 .buttons-image-responsive").attr("style","display:none;");
+        $(".img-2 .buttons-image-responsive").attr("style","display:none;");
+        $(".img-7 .buttons-image-responsive").attr("style","display:none;");
+        $(".img-6 .big-strelka").attr("style","display:none;");
+        $(".img-3 .big-strelka").attr("style","display:block;");
+        $(".img-2 .big-strelka").attr("style","display:block;");
+        $(".img-7 .big-strelka").attr("style","display:block;");
+        $(".img-7 ol").attr("style","right:auto; left:20px; text-align:left;");
+        $(".img-2 ol").attr("style","right:20px; left:auto; text-align:right;");
+        $(".img-3 ol").attr("style","right:20px; left:auto; text-align:right;");
+        $(".img-6 ol").attr("style","right:20px; left:auto; text-align:right;");
+        });
+    $( ".img-7 .big-strelka" ).click(function() {
         $(".img-7 .img-responsive").attr("src","img/img-7-selected.jpg");
         $(".img-6 .img-responsive").attr("src","img/img6.jpg");
         $(".img-2 .img-responsive").attr("src","img/img2.jpg");
@@ -350,18 +584,57 @@ $(document).ready(function(){
         $(".img-3 .buttons-image-responsive").attr("style","display:none;");
         $(".img-6 .buttons-image-responsive").attr("style","display:none;");
         $(".img-2 .buttons-image-responsive").attr("style","display:none;");
+        $(".img-7 .big-strelka").attr("style","display:none;");
+        $(".img-3 .big-strelka").attr("style","display:block;");
+        $(".img-6 .big-strelka").attr("style","display:block;");
+        $(".img-2 .big-strelka").attr("style","display:block;");
+        $(".img-6 ol").attr("style","right:auto; left:20px; text-align:left;");
+        $(".img-2 ol").attr("style","right:20px; left:auto; text-align:right;");
+        $(".img-3 ol").attr("style","right:20px; left:auto; text-align:right;");
+        $(".img-7 ol").attr("style","right:20px; left:auto; text-align:right;");
+        });
+    $( ".img-7 span" ).click(function() {
+        $(".img-7 .img-responsive").attr("src","img/img-7-selected.jpg");
+        $(".img-6 .img-responsive").attr("src","img/img6.jpg");
+        $(".img-2 .img-responsive").attr("src","img/img2.jpg");
+        $(".img-3 .img-responsive").attr("src","img/img3.jpg");
+        $(".img-7 span").attr("style","color:#000;");
+        $(".img-6 span").attr("style","color:#fff;");
+        $(".img-2 span").attr("style","color:#fff;");
+        $(".img-3 span").attr("style","color:#fff;");
+        $(".img-7 .buttons-image-responsive").attr("style","display:block;");
+        $(".img-3 .buttons-image-responsive").attr("style","display:none;");
+        $(".img-6 .buttons-image-responsive").attr("style","display:none;");
+        $(".img-2 .buttons-image-responsive").attr("style","display:none;");
+        $(".img-7 .big-strelka").attr("style","display:none;");
+        $(".img-3 .big-strelka").attr("style","display:block;");
+        $(".img-6 .big-strelka").attr("style","display:block;");
+        $(".img-2 .big-strelka").attr("style","display:block;");
+        $(".img-6 ol").attr("style","right:auto; left:20px; text-align:left;");
+        $(".img-2 ol").attr("style","right:20px; left:auto; text-align:right;");
+        $(".img-3 ol").attr("style","right:20px; left:auto; text-align:right;");
+        $(".img-7 ol").attr("style","right:20px; left:auto; text-align:right;");
         });
   });
   }
   });
 //Обработка ресайза картинок на странице vkomande
+// $(document).ready(function(){
+//     var h = $('.separating').height() / 4 + 15;
+//     $('.vkomande-button').css({'height': h});
+//   });
+// $(window).resize(function(){
+//     var h = $('.separating').height() / 4 + 15;
+//     $('.vkomande-button').css({'height': h});
+//   });
+//Обработка ресайза картинок на странице vkomande
 $(document).ready(function(){
-    var h = $('.otzyvy').height() / 4;
-    $('.vkomande-button').css({'height': h});
+    var h = $('.separating').height() / 4;
+    $('#vkomande-page .vkomande-button').css({'height': h});
   });
 $(window).resize(function(){
-    var h = $('.otzyvy').height() / 4;
-    $('.vkomande-button').css({'height': h});
+    var h = $('.separating').height() / 4;
+    $('#vkomande-page .vkomande-button').css({'height': h});
   });
 //Обработка нажатий на кнопки "Подробнее"
 $(document).ready(function(){
