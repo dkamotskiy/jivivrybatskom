@@ -1,4 +1,7 @@
 @media (max-width: 992px) {
+	#advantages .bold {
+		margin-bottom: 30px;
+	}
 	#contacts-page div {
 	margin-left: 0px;
 }
