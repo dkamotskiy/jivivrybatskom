@@ -4,7 +4,7 @@
 	}
 	#contacts-page div {
 	margin-left: 0px;
-}
+	}
 	#our-team .regular {
 		margin-bottom: 30px;
 	}
@@ -26,7 +26,7 @@
 	}
 	.central-nadpis {
 	margin-top:20px;
-}
+	}
 	.equal-vproekte, .equal-vproekte > div[class*='col-1'], .equal-vproekte > div[class*='col-10'], .equal-vproekte > div[class*='col-3'], .equal-vproekte > div[class*='col-4'], .equal-vproekte > div[class*='col-5'] {
     display: block;
     flex:none;
@@ -298,7 +298,6 @@
 		margin-left: 0;
 		margin-right: 0;
 	}
-}
 #header-contacts {
 	margin-top: -10px;
 }
