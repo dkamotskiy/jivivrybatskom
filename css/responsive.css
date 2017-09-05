@@ -1,4 +1,7 @@
 @media (max-width: 992px) {
+	#contacts-page div {
+	margin-left: 0px;
+}
 	#our-team .regular {
 		margin-bottom: 30px;
 	}
