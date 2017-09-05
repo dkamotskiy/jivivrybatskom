@@ -279,6 +279,9 @@
 }
 
 @media (min-width: 992px) {
+	#advantages p:first-child {
+		padding-bottom: 0;
+	}
 
 	.-px27 {
 		margin-left: -27px;
@@ -286,6 +289,15 @@
 	}
 	#vproekte-main-block .col-md-4 .jcarousel {
 	width: 170px;
+	}
+	#vproekte-main-block {
+		margin-left: 0;
+		margin-right: 0;
+	}
+	#vkomande-main-block {
+		margin-left: 0;
+		margin-right: 0;
+	}
 }
 #header-contacts {
 	margin-top: -10px;
