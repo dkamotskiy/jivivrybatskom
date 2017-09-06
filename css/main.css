@@ -186,7 +186,7 @@ h3 {
 #type-us{
 	background-color: #1d1d1d;
 	padding-top: 15px;
-	padding-bottom: 15px;
+	padding-bottom: 8px;
 }
 .my-input {
 	padding-right: 10px;
@@ -573,7 +573,7 @@ input::-webkit-inner-spin-button {
 	color: #fff;
 }
 .green-button2 {
-	padding: 8px 64px;
+	padding: 8px 63px;
 }
 /*==========================================СТРАНИЦА "ВПРОЕКТЕ"==============================================================================================================*/
 #vproekte-blocks .col-md-4 {
@@ -692,7 +692,6 @@ input::-webkit-inner-spin-button {
 	-webkit-background-size: cover;
 	background-size: cover;
 	text-decoration: none;
-	border-bottom: 1px solid #fff;
 	position: relative;
 }
 .vkomande-button:hover {
@@ -764,6 +763,7 @@ input::-webkit-inner-spin-button {
 .vtehno-main-link {
 	padding-top: 50px;
 	padding-bottom: 50px;
+	height: 142px;	
 	font-size: 30px;
 	display: block;
 	text-align: center;
@@ -1308,10 +1308,10 @@ width: 11px;
 	margin-right: -20px;
 }
 /*Страница Вдизайне---------------------------------------------------*/
-#vdizayne .vtehno-main-link {
+/*#vdizayne .vtehno-main-link {
 	padding-top: 65px;
 	padding-bottom: 65px;
-}
+}*/
 #vdizayne .vtehno-main-link:nth-child(2){
 	background-image: url(../img/vdizayne/proekt.jpg);
 }
@@ -1322,12 +1322,57 @@ width: 11px;
 	background-image: url(../img/vdizayne/design.jpg);
 }
 /*---*/
-#our-partners .jcarousel-control-next {
+/*#our-partners .jcarousel-control-next {
 	right:-4px;
 }
 #our-partners .jcarousel-control-prev {
 	left: -13px;
-}
+}*/
 .prof a.ml50 {
-	margin-left: 50px;	
+	margin-left: 16px;	
+}
+#our-partners .jcarousel {
+	width: 80%;	
+	margin: 0 auto;	
+}
+.header-line.prof .ml50 {
+	background-color: #149d34;
+	color: #fff;
+	font-family: GilroyBold;
+	padding: 10px 20px;
+	border: 2px solid #149d34;
+}
+.header-line.prof .ml50:hover {
+	border-bottom: none;	
+	border: 2px solid #149d34;
+	background-color: transparent;
+	color: #000;	
+}
+#footer-contacts {
+	margin-top: 20px;	
+}
+
+.prof button {
+    padding-left: 20px;
+    padding-right: 20px;
+    background: #149d34;
+    color: #fff;
+    line-height: 35px;
+    margin-left: 16px;	
+}
+.prof button:hover {
+	border: 2px solid #149d34;
+	background-color: transparent;
+	text-decoration: none;	
+	color: #000;	
+}
+#footer-contacts .green-button {
+	padding: 10px 16px;
+	font-size: 16px;	
+}
+#entering .modal-lg {
+	max-width: 600px;
+}
+#entering .modal-lg .green-button:hover {
+	color: #000;
 }

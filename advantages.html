@@ -29,7 +29,7 @@
 				<a href="vtehnologii.html">В ТЕХНОЛОГИИ</a>
 				<a href="vdizayne.html">В ДИЗАЙНЕ</a>
 				<a href="vkomande.html" style="border-bottom: 2px solid #149d34;">В КОМАНДЕ</a>
-				<a href="#" class="ml50">ВХОД</a>
+				<button class="btn-link" data-toggle="modal" data-target="#entering">ВХОД</button>
 			</p>
 		</div>
 		<div class="col-md-3 col-xs-6" id="header-contacts">
@@ -200,11 +200,8 @@
 			<div class="col-md-4">
 				<div id="footer-contacts">
 					<p class="text-center"><a href="tel:84872588608" class="foot-nomer">+7 (4872) 588-608</a></p>
-					<p class="text-center"><button type="button" class="btn btn-link knopka zakaz-footer" data-toggle="modal" data-target="#zakaz-zvonok">заказать звонок</button></p>
 					<br>
-					<p class="text-center"><a class="green-button" href="#">Вход для жителей ЖК Технопарк</a></p>
-					<br>
-					<p class="text-center"><a class="green-button green-button2" href="#">Личный кабинет</a></p>
+					<p class="text-center"><button class="green-button" data-toggle="modal" data-target="#zakaz-zvonok">Оставить заявку</button></p>
 				</div>
 			</div>
 			<div class="col-md-4 footer-right-block">
@@ -222,23 +219,19 @@
 		<div class="col-md-1"></div>
 	</div>
 <!-- МОДАЛЬНЫЕ ОКНА===================================================================================================================================================== -->
-<!-- Политика конфиденциальности -->
-	<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" id="politika-modal">
+<!-- Кнопка "Вход" -->
+	<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" id="entering">
   		<div class="modal-dialog modal-lg">
     		<div class="modal-content">
       			<div class="modal-header">
        				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-        			<h4 class="modal-title">Политика конфиденциальности</h4>
+        			<h4 class="modal-title">ВХОД</h4>
       			</div>
       		<div class="modal-body">
-        		<p class="text-justify">Наконец-то Вы осуществили свою мечту о квадратных метрах в новостройке! Документы на квартиру на руках, ключи в кармане, но до новоселья еще далеко… Все дело в том, что зачастую новостройка встречает хозяев «голыми» стенами, а это значит, что в новой квартире предстоит делать ремонт.</p>
-				<p class="text-justify">И конечно же такое мероприятие хочется провести с минимальным ущербом для собственного кошелька, но как сделать это не пожертвовав качеством? Давайте разбираться!</p>
-				<p class="text-justify">Плюс новостроек: при ремонте исключается трудозатратный этап демонтажа (исключение – демонтаж и установка окон). А вот «выравнивать» пол приходится практически всегда. Обратите внимание, что на площади более 50 м2 лучше отказаться от классической стяжки, а сделать КНАУФ-Суперпол, т.е. воспользоваться готовой сборной конструкцией. Качество такой стяжки не уступает качеству стяжки, выполненной «мокрым» способом, а вот по теплоизоляционным свойствам и цене такая конструкция выгодно отличается от традиционного решения.</p>
-				<p class="text-justify bold">Отделочные работы</p>
-				<p class="text-justify">Стяжка готова? Переходим к отделочным работам! Если вы решили оклеить стены обоями, выберите обои без рисунка, точнее в мелкую точку. При оклейке эти обои не требуют идеального совмещения рисунка, что позволяет сэкономить на отрезе, в то же время мелкий рисунок поможет скрыть небольшие дефекты на стенах, а это дает экономию материалов на этапе черновой отделки. С другой стороны, богатый выбор цветовых решений позволяет не ограничивать свои дизайнерские фантазии.</p>
-				<p class="text-justify">Если же Вы хотите покрасить стены, обратите внимание на специальные обои под покраску. Кажется, что это дополнительные расходы, но на самом деле плотные флизелиновые обои скроют огрешности выравнивания стен, а это значит, Вы не переплачиваете за этот вид работ. Да и в дальнейшем, если Вы решите отказаться от крашеных стен в пользу другого вида отделки, Вам не нужно будет переплачивать за удаление краски со стен – достаточно будет просто удалить обои.</p>
-				<p class="text-justify bold">Выбор материалов</p>
-				<p class="text-justify">Что касается покупки материалов, многие заказчики просто не хотят тратить свое время на выбор и организацию доставки необходимых материалов на объект. А зря, ведь доверяя этот вопрос бригаде, зачастую Вы переплачиваете. Как правило, частные бригады пользуются тем авансом доверия, который Вы им оказали, послушав отзывы своих знакомых, и заставляют заказчика платить за материалы неоправданно дорого. Не поленитесь взять список всего необходимого у прораба и оформить покупку в крупном интернет-магазине. Увидите: получится намного дешевле!</p>
+      				<br>	<br>	
+				<p class="text-center"><a class="green-button" href="#">Вход для жителей ЖК Технопарк</a></p>
+					<br>
+					<p class="text-center"><a class="green-button green-button2" href="#">Личный кабинет</a></p>
       		</div>
     		</div>
  		</div>
@@ -294,105 +287,6 @@
     							<button type="submit" class="form-button">Отправить</button>
  							</div>
 	        			</form> -->
-	        			<form data-toggle="validator" role="form">
-  							<div class="form-group">
-    							<input type="text" class="form-control input-fff" id="inputName3" placeholder="Ваше ФИО" data-error="Пожалуйста, введите Ваше ФИО" required>
-    							<div class="help-block with-errors"></div>
-  							</div>
-  							<div class="form-group">
-  								<input type="number" class="form-control input-fff" placeholder="Номер телефона" data-error="Номер телефона введен некорректно" required>
-  								<div class="help-block with-errors"></div>
-  							</div>
-  							<br><br>
-  							<div class="form-group">
-  								<button type="submit" class="form-button">Отправить</button>
-  							</div>
-  						</form>
-      		</div>
-    		</div>
- 		</div>
-	</div>
-<!-- Рассчитать стоимость -->
-	<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" id="stoimost">
-  		<div class="modal-dialog modal-lg">
-    		<div class="modal-content">
-      			<div class="modal-header">
-       				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-        			<h4 class="modal-title">Рассчитать стоимость</h4>
-      			</div>
-      		<div class="modal-body">
-						<form data-toggle="validator" role="form">
-  							<div class="form-group">
-    							<input type="text" class="form-control input-fff" id="inputName2" placeholder="Ваше ФИО" data-error="Пожалуйста, введите Ваше ФИО" required>
-    							<div class="help-block with-errors"></div>
-  							</div>
-  							<div class="form-group">
-  								<input type="number" class="form-control input-fff" placeholder="Номер телефона" data-error="Номер телефона введен некорректно" required>
-  								<div class="help-block with-errors"></div>
-  							</div>
-  							<br><br>
-  							<div class="form-group">
-  								<button type="submit" class="form-button">Рассчитать стоимость</button>
-  							</div>
-  						</form>
-      		</div>
-    		</div>
- 		</div>
-	</div>
-<!-- Спасибо за заявку - Благодарность за заявку -->
-	<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" id="thank-you">
-  		<div class="modal-dialog modal-lg">
-    		<div class="modal-content">
-      			<div class="modal-header">
-       				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-        			<h4 class="modal-title text-center">Спасибо за заявку!<br>В течение 15 минут с Вами свяжется наш специалист!<br><br></h4>
-      			</div>
-      		<!-- <div class="modal-body">
-      		</div> -->
-    		</div>
- 		</div>
-	</div>
-<!-- =================================================МОДАЛЬНЫЕ ОКНА========================================================================= -->
-<!-- Заказать проект -->
-	<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" id="zakaz">
-  		<div class="modal-dialog modal-lg">
-    		<div class="modal-content">
-      			<div class="modal-header">
-       				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-        			<h4 class="modal-title">Заказать проект</h4>
-      			</div>
-      		<div class="modal-body">
-        		<p class="text-center bold">Наш специалист свяжется с вами в течение 15 минут</p>
-	        			<form data-toggle="validator" role="form">
-  							<div class="form-group">
-    							<input type="text" class="form-control input-fff" id="inputName" placeholder="Ваше ФИО" data-error="Пожалуйста, введите Ваше ФИО" required>
-    							<div class="help-block with-errors"></div>
-  							</div>
-  							<div class="form-group">
-  								<input type="number" class="form-control input-fff" placeholder="Номер телефона" data-error="Номер телефона введен некорректно" required>
-  								<div class="help-block with-errors"></div>
-  							</div>
-  							<br>
-								<textarea placeholder="Ваши пожелания" class="input-fff"></textarea>
-  							<br>
-  							<div class="form-group">
-  								<button type="submit" class="form-button">Отправить</button>
-  							</div>
-  						</form>
-      		</div>
-    		</div>
- 		</div>
-	</div>
-<!-- Заказать звонок -->
-	<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" id="zakaz-zvonok">
-  		<div class="modal-dialog modal-lg">
-    		<div class="modal-content">
-      			<div class="modal-header">
-       				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-        			<h4 class="modal-title">Заказать звонок</h4>
-      			</div>
-      		<div class="modal-body">
-        		<p class="text-center bold">Наш специалист свяжется с вами в течение 15 минут</p>
 	        			<form data-toggle="validator" role="form">
   							<div class="form-group">
     							<input type="text" class="form-control input-fff" id="inputName3" placeholder="Ваше ФИО" data-error="Пожалуйста, введите Ваше ФИО" required>
