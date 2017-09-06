@@ -1366,6 +1366,12 @@ width: 11px;
 	text-decoration: none;	
 	color: #000;	
 }
+.prof button:focus {
+	border: 2px solid #149d34;
+	background-color: transparent;
+	text-decoration: none;	
+	color: #000;	
+}
 #footer-contacts .green-button {
 	padding: 10px 16px;
 	font-size: 16px;	
