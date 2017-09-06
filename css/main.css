@@ -1168,14 +1168,15 @@ width: 11px;
 	font-size: 15px;
 }
 .polzunok {
-	position: absolute;
+	/*position: absolute;
 	right: 0px;
 	top: 50%;
 	margin-top: -15px;
 	width: 15px;
 	height: 30px;
 	background-color: #149d34;
-	z-index: 9999;
+	z-index: 9999;*/
+	display: none;	
 }
 #colonka-for-slides .buttons-image-responsive {
 	right: auto;
