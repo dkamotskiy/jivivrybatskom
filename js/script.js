@@ -628,14 +628,14 @@ $(document).ready(function(){
 //     $('.vkomande-button').css({'height': h});
 //   });
 //Обработка ресайза картинок на странице vkomande
-$(document).ready(function(){
-    var h = $('.separating').height() / 4;
-    $('#vkomande-page .vkomande-button').css({'height': h});
-  });
-$(window).resize(function(){
-    var h = $('.separating').height() / 4;
-    $('#vkomande-page .vkomande-button').css({'height': h});
-  });
+// $(document).ready(function(){
+//     var h = $('.separating').height() / 4;
+//     $('#vkomande-page .vkomande-button').css({'height': h});
+//   });
+// $(window).resize(function(){
+//     var h = $('.separating').height() / 4;
+//     $('#vkomande-page .vkomande-button').css({'height': h});
+//   });
 //Обработка нажатий на кнопки "Подробнее"
 $(document).ready(function(){
     $( "#podrobnee-1" ).click(function() {

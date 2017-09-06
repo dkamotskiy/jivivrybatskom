@@ -1321,3 +1321,13 @@ width: 11px;
 #vdizayne .vtehno-main-link:nth-child(1){
 	background-image: url(../img/vdizayne/design.jpg);
 }
+/*---*/
+#our-partners .jcarousel-control-next {
+	right:-4px;
+}
+#our-partners .jcarousel-control-prev {
+	left: -13px;
+}
+.prof a.ml50 {
+	margin-left: 50px;	
+}
