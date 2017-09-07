@@ -284,10 +284,10 @@
 }
 
 @media (min-width: 992px) {
-	#type-us .col-md-10 .row {
+	/*#type-us .col-md-10 .row {
 	margin-left: -23px;	
 	margin-right: -23px;	
-}
+}*/
 	#advantages p:first-child {
 		padding-bottom: 0;
 	}
@@ -411,12 +411,15 @@
 		font-size: 26px;
 	}
 	.prof button {
-		    padding-left: 16px;
-		    padding-right: 16px;
+		    padding-left: 14px;
+		    padding-right: 14px;
 		    background: #149d34;
 		    color: #fff;
 		    line-height: 32px;
-		    margin-left: 11px;
+		    margin-left: 8px;
+	}
+	.header-line.prof {
+		margin-left: -45px;
 	}
 }
 @media (min-width: 1200px) {

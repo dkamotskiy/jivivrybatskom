@@ -71,9 +71,11 @@ table {
 	font-size: 18px;
 
 }
-.header-line{
-	line-height: 110px;
-	vertical-align: middle;
+.header-line.prof{
+	margin-top: 53px;
+	margin-left: -15px;
+	margin-right: -50px;
+	text-align: center;
 }
 #header-contacts p, #header-contacts button {
 	margin-left: auto;
@@ -781,15 +783,19 @@ input::-webkit-inner-spin-button {
 }
 .vtehno-main-link:nth-child(2) {
 	background-image: url(../img/vtehnologii/main-link-2.jpg);
+	margin-top: -1px;	
 }
 .vtehno-main-link:nth-child(3) {
 	background-image: url(../img/vtehnologii/main-link-3.jpg);
+	margin-top: -1px;	
 }
 .vtehno-main-link:nth-child(4) {
 	background-image: url(../img/vtehnologii/main-link-4.jpg);
+	margin-top: -1px;	
 }
 .vtehno-main-link:nth-child(5) {
 	background-image: url(../img/vtehnologii/main-link-5.jpg);
+	margin-top: -1px;	
 }
 #vtehnoligii-main-block .col-md-3 {
 	padding-left: 0;

@@ -17,32 +17,34 @@
 </head>
 <body>
 <!-- Меню====================================================================================================================================================================== -->
-	<div class="container-fluid" id="header-back">
-		<div class="container" id="header">
-		<div class="col-md-3 col-xs-6">
-			<p class="header-line"><a href="index.html"><img src="img/header-logo.png" alt="Времонте-Отремонтируем Вашу квартиру" class="img-responsive"></a></p>
+		<div class="row" id="header-back">
+			<div class="col-md-1">	</div>
+			<div class="col-md-10" id="header" style="padding-left: 0; padding-right: 0;">
+				<div class="col-md-3 col-xs-6">
+					<p class="header-line"><a href="index.html"><img src="img/header-logo.png" alt="Времонте-Отремонтируем Вашу квартиру" class="img-responsive"></a></p>
+				</div>
+				<div class="col-md-6 col-xs-12" style="padding-left: 0; padding-right: 0;">
+					<p class="header-line prof">
+						<a href="index.html" style="border-bottom: 2px solid #149d34;">В РЕМОНТЕ</a>
+						<a href="vproekte.html">В ПРОЕКТЕ</a>
+						<a href="vtehnologii.html">В ТЕХНОЛОГИИ</a>
+						<a href="vdizayne.html">В ДИЗАЙНЕ</a>
+						<a href="vkomande.html">В КОМАНДЕ</a>
+						<button class="btn-link" data-toggle="modal" data-target="#entering">ВХОД</button>
+					</p>
+				</div>
+				<div class="col-md-3 col-xs-6" id="header-contacts">
+					<p>
+						<a href="https://www.instagram.com/vremonte.ru/" target="_blank"><img src="img/instagram.png" alt="Instagram"></a>
+						<a href="https://vk.com/vremonte_ru" target="_blank"><img src="img/vk.png" alt="Vk.com"></a>
+						<a href="https://www.facebook.com/vremonte.ru/" target="_blank"><img src="img/fb.png" alt="Facebook"></a>
+					</p>
+					<p class="phone"><a href="tel:84872588608">+7 (4872) 588-608</a></p>
+					<button type="button" class="btn btn-link knopka zz" data-toggle="modal" data-target="#zakaz-zvonok">заказать звонок</button>
+				</div>
+			</div>
+			<div class="col-md-1">	</div>
 		</div>
-		<div class="col-md-6 col-xs-12">
-			<p class="header-line prof">
-				<a href="index.html" style="border-bottom: 2px solid #149d34;">В РЕМОНТЕ</a>
-				<a href="vproekte.html">В ПРОЕКТЕ</a>
-				<a href="vtehnologii.html">В ТЕХНОЛОГИИ</a>
-				<a href="vdizayne.html">В ДИЗАЙНЕ</a>
-				<a href="vkomande.html">В КОМАНДЕ</a>
-				<button class="btn-link" data-toggle="modal" data-target="#entering">ВХОД</button>
-			</p>
-		</div>
-		<div class="col-md-3 col-xs-6" id="header-contacts">
-			<p>
-				<a href="https://www.instagram.com/vremonte.ru/" target="_blank"><img src="img/instagram.png" alt="Instagram"></a>
-				<a href="https://vk.com/vremonte_ru" target="_blank"><img src="img/vk.png" alt="Vk.com"></a>
-				<a href="https://www.facebook.com/vremonte.ru/" target="_blank"><img src="img/fb.png" alt="Facebook"></a>
-			</p>
-			<p class="phone"><a href="tel:84872588608">+7 (4872) 588-608</a></p>
-			<button type="button" class="btn btn-link knopka zz" data-toggle="modal" data-target="#zakaz-zvonok">заказать звонок</button>
-		</div>
-	</div>
-	</div>
 <!-- Меню - адаптивная версия ================================================================================================================================================-->
 	<div class="container-fluid" id="adaptive-header">
 		<a href="#"><img src="img/header-logo-small.png" alt=""></a>
@@ -526,13 +528,16 @@
 	<div class="row" id="type-us">
 		<div class="col-md-1"></div>
 		<div class="col-md-10">
-			<div class="row">
-			<div class="col-md-4" id="footer-left-block">
-				<div id="footer-info">
-					<a href="index.html"><img src="img/header-logo-white.png" alt="" class="img-responsive"></a><br>
-					<p>2006-2017 &copy; "В РЕМОНТЕ.РУ"</p>
-					<p>Мы отремонтируем вашу квартиру!</p>
-				</div>
+			<div class="row display-desktop">
+			<div class="col-md-4 footer-right-block">
+				<p class="text-left">
+					<a href="https://www.instagram.com/vremonte.ru/" target="_blank"><img src="img/instagram-white.png" alt="Instagram"></a>
+					<a href="https://vk.com/vremonte_ru" target="_blank"><img src="img/vk-white.png" alt="Vk.com"></a>
+					<a href="https://www.facebook.com/vremonte.ru/" target="_blank"><img src="img/fb-white.png" alt="Facebook"></a>
+				</p>
+				<br>
+				<p class="text-left"><a href="privacy-policy.html">Политика конфиденциальности</a></p>
+				<p class="text-left"><a href="faq.html">Вопрос-ответ</a></p>
 			</div>
 			<div class="col-md-4">
 				<div id="footer-contacts">
@@ -541,15 +546,39 @@
 					<p class="text-center"><button class="green-button" data-toggle="modal" data-target="#zakaz-zvonok">Оставить заявку</button></p>
 				</div>
 			</div>
-			<div class="col-md-4 footer-right-block">
-				<p class="text-right">
+			<div class="col-md-4" id="footer-left-block">
+				<div id="footer-info">
+					<a href="index.html"><p class="text-right"><img src="img/header-logo-white.png" alt="" class="img-responsive" style="display: inline;"><br></p></a>
+					<p class="text-right">2006-2017 &copy; "В РЕМОНТЕ.РУ"</p>
+					<p class="text-right">Мы отремонтируем вашу квартиру!</p>
+				</div>
+			</div>
+			</div>
+			<!-- ====================================================================================== -->
+			<div class="row display-mobile">
+			<div class="col-md-4" id="footer-left-block">
+				<div id="footer-info">
+					<p class="text-right"><a href="index.html" class="text-right"><img src="img/header-logo-white.png" alt="" class="img-responsive"></a><br></p>
+					<p class="text-right">2006-2017 &copy; "В РЕМОНТЕ.РУ"</p>
+					<p class="text-right">Мы отремонтируем вашу квартиру!</p>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div id="footer-contacts" style="margin-top: 20px;	">
+					<p class="text-center"><a href="tel:84872588608" class="foot-nomer">+7 (4872) 588-608</a></p>
+					<br>
+					<p class="text-center"><button class="green-button" data-toggle="modal" data-target="#zakaz-zvonok">Оставить заявку</button></p>
+				</div>
+			</div>
+			<div class="col-md-4 footer-right-block text-center">
+				<p>
 					<a href="https://www.instagram.com/vremonte.ru/" target="_blank"><img src="img/instagram-white.png" alt="Instagram"></a>
 					<a href="https://vk.com/vremonte_ru" target="_blank"><img src="img/vk-white.png" alt="Vk.com"></a>
 					<a href="https://www.facebook.com/vremonte.ru/" target="_blank"><img src="img/fb-white.png" alt="Facebook"></a>
 				</p>
 				<br>
-				<p class="text-right"><a href="privacy-policy.html">Политика конфиденциальности</a></p>
-				<p class="text-right"><a href="faq.html">Вопрос-ответ</a></p>
+				<p><a href="privacy-policy.html">Политика конфиденциальности</a></p>
+				<p><a href="faq.html">Вопрос-ответ</a></p>
 			</div>
 			</div>
 		</div>
