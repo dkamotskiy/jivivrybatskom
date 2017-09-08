@@ -1378,10 +1378,13 @@ width: 11px;
 	font-size: 14px;
 	padding: 8px 16px;
 	text-transform: uppercase;
+	border:2px solid #149d34;
+	box-sizing: border-box;
 }
 .new-button:hover {
 	text-decoration: none;
-	color: #fff;
+	color: #149d34;
+	background-color: #fff;
 }
 a.new-button {
 	padding: 10px 16px;
