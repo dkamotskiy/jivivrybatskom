@@ -341,23 +341,11 @@ h3 {
 .buttons-image {
 	margin-top: 20px;
 }
-.buttons-image a {
-	color: #000;
-	font-size: 16px;
-	text-decoration: underline;
-}
 .buttons-image button:hover {
 	text-decoration: none;
 }
 .buttons-image img {
 	margin-right: 10px;
-}
-.buttons-image button {
-	padding: 0px;
-	margin-right: 10px;
-	color:#000;
-	font-size: 16px;
-	text-decoration: underline;
 }
 /*Заказать проект*/
 .bs-example-modal-lg {
@@ -1226,14 +1214,6 @@ width: 11px;
 	opacity: 1;
 	border-right: 3px  solid transparent;
 }
-.buttons-image button {
-	font-family: GilroyBold;
-	border-bottom: 2px solid #149d34;
-	text-decoration: none;
-}
-.buttons-image button:hover {
-	color: #000;
-}
 .green-strelka {
 	width: 5%;
     height: 20%;
@@ -1388,4 +1368,30 @@ width: 11px;
 }
 #entering .modal-lg .green-button:hover {
 	color: #000;
+}
+.new-button {
+	background-color: #149d34;
+	font-family: GilroyRegular;
+	color: #fff;
+	box-shadow: none;
+	border: none;
+	font-size: 14px;
+	padding: 8px 16px;
+	text-transform: uppercase;
+}
+.new-button:hover {
+	text-decoration: none;
+	color: #fff;
+}
+a.new-button {
+	padding: 10px 16px;
+}
+.buttons-image {
+	position: absolute;
+	left: 15px;
+	bottom: 5px;
+}
+#colonka-for-slides .buttons-image {
+	left: auto;
+	right: 15px;
 }

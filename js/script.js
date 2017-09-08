@@ -231,7 +231,8 @@ $(document).ready(function() {
     var w = $(window).width(); 
     if (w >= 992) { 
 $(document).ready(function(){
-    $( ".img-2 .big-strelka" ).click(function() {
+    $( ".img-2" ).mouseover(function() {
+        $(".img-2 span").attr("style","display:none;");
         $(".img-2 .big-strelka").attr("style","display:none;");
         $(".img-3 .big-strelka").attr("style","display:block;");
         $(".img-6 .big-strelka").attr("style","display:block;");
@@ -240,7 +241,6 @@ $(document).ready(function(){
         $(".img-6 .img-responsive").attr("src","img/img6.jpg");
         $(".img-7 .img-responsive").attr("src","img/img7.jpg");
         $(".img-3 .img-responsive").attr("src","img/img3.jpg");
-        $(".img-2 span").attr("style","color:#000;");
         $(".img-6 span").attr("style","color:#fff;");
         $(".img-7 span").attr("style","color:#fff;");
         $(".img-3 span").attr("style","color:#fff;");
@@ -254,6 +254,7 @@ $(document).ready(function(){
         $(".img-7 .green-strelka").attr("style","display:none;");
         });
     $( ".img-2 span" ).click(function() {
+        $(".img-2 span").attr("style","display:none;");
         $(".img-2 .big-strelka").attr("style","display:none;");
         $(".img-3 .big-strelka").attr("style","display:block;");
         $(".img-6 .big-strelka").attr("style","display:block;");
@@ -262,7 +263,6 @@ $(document).ready(function(){
         $(".img-6 .img-responsive").attr("src","img/img6.jpg");
         $(".img-7 .img-responsive").attr("src","img/img7.jpg");
         $(".img-3 .img-responsive").attr("src","img/img3.jpg");
-        $(".img-2 span").attr("style","color:#000;");
         $(".img-6 span").attr("style","color:#fff;");
         $(".img-7 span").attr("style","color:#fff;");
         $(".img-3 span").attr("style","color:#fff;");
@@ -275,7 +275,7 @@ $(document).ready(function(){
         $(".img-6 .green-strelka").attr("style","display:none;");
         $(".img-7 .green-strelka").attr("style","display:none;");
         });
-    $( ".img-3 .big-strelka" ).click(function() {
+    $( ".img-3" ).mouseover(function() {
         $(".img-3 .big-strelka").attr("style","display:none;");
         $(".img-2 .big-strelka").attr("style","display:block;");
         $(".img-6 .big-strelka").attr("style","display:block;");
@@ -285,7 +285,7 @@ $(document).ready(function(){
         $(".img-6 .img-responsive").attr("src","img/img6.jpg");
         $(".img-7 .img-responsive").attr("src","img/img7.jpg");
         $(".img-2 span").attr("style","color:#fff;");
-        $(".img-3 span").attr("style","color:#000;");
+        $(".img-3 span").attr("style","display:none;");
         $(".img-6 span").attr("style","color:#fff;");
         $(".img-7 span").attr("style","color:#fff;");
         $(".img-2 .buttons-image2").attr("style","display:none;");
@@ -307,7 +307,7 @@ $(document).ready(function(){
         $(".img-6 .img-responsive").attr("src","img/img6.jpg");
         $(".img-7 .img-responsive").attr("src","img/img7.jpg");
         $(".img-2 span").attr("style","color:#fff;");
-        $(".img-3 span").attr("style","color:#000;");
+        $(".img-3 span").attr("style","display:none;");
         $(".img-6 span").attr("style","color:#fff;");
         $(".img-7 span").attr("style","color:#fff;");
         $(".img-2 .buttons-image2").attr("style","display:none;");
@@ -319,7 +319,7 @@ $(document).ready(function(){
         $(".img-6 .green-strelka").attr("style","display:none;");
         $(".img-7 .green-strelka").attr("style","display:none;");
         });
-    $( ".img-6 .big-strelka" ).click(function() {
+    $( ".img-6" ).mouseover(function() {
         $(".img-6 .big-strelka").attr("style","display:none;");
         $(".img-3 .big-strelka").attr("style","display:block;");
         $(".img-2 .big-strelka").attr("style","display:block;");
@@ -328,7 +328,7 @@ $(document).ready(function(){
         $(".img-2 .img-responsive").attr("src","img/img2.jpg");
         $(".img-7 .img-responsive").attr("src","img/img7.jpg");
         $(".img-3 .img-responsive").attr("src","img/img3.jpg");
-        $(".img-6 span").attr("style","color:#000;");
+        $(".img-6 span").attr("style","display:none;");
         $(".img-2 span").attr("style","color:#fff;");
         $(".img-7 span").attr("style","color:#fff;");
         $(".img-3 span").attr("style","color:#fff;");
@@ -350,7 +350,7 @@ $(document).ready(function(){
         $(".img-2 .img-responsive").attr("src","img/img2.jpg");
         $(".img-7 .img-responsive").attr("src","img/img7.jpg");
         $(".img-3 .img-responsive").attr("src","img/img3.jpg");
-        $(".img-6 span").attr("style","color:#000;");
+        $(".img-6 span").attr("style","display:none;");
         $(".img-2 span").attr("style","color:#fff;");
         $(".img-7 span").attr("style","color:#fff;");
         $(".img-3 span").attr("style","color:#fff;");
@@ -363,7 +363,7 @@ $(document).ready(function(){
         $(".img-3 .green-strelka").attr("style","display:none;");
         $(".img-7 .green-strelka").attr("style","display:none;");
         });
-    $( ".img-7 .big-strelka" ).click(function() {
+    $( ".img-7" ).mouseover(function() {
         $(".img-7 .big-strelka").attr("style","display:none;");
         $(".img-3 .big-strelka").attr("style","display:block;");
         $(".img-6 .big-strelka").attr("style","display:block;");
@@ -372,7 +372,7 @@ $(document).ready(function(){
         $(".img-6 .img-responsive").attr("src","img/img6.jpg");
         $(".img-2 .img-responsive").attr("src","img/img2.jpg");
         $(".img-3 .img-responsive").attr("src","img/img3.jpg");
-        $(".img-7 span").attr("style","color:#000;");
+        $(".img-7 span").attr("style","display:none;");
         $(".img-6 span").attr("style","color:#fff;");
         $(".img-2 span").attr("style","color:#fff;");
         $(".img-3 span").attr("style","color:#fff;");
@@ -394,7 +394,7 @@ $(document).ready(function(){
         $(".img-6 .img-responsive").attr("src","img/img6.jpg");
         $(".img-2 .img-responsive").attr("src","img/img2.jpg");
         $(".img-3 .img-responsive").attr("src","img/img3.jpg");
-        $(".img-7 span").attr("style","color:#000;");
+        $(".img-7 span").attr("style","display:none;");
         $(".img-6 span").attr("style","color:#fff;");
         $(".img-2 span").attr("style","color:#fff;");
         $(".img-3 span").attr("style","color:#fff;");
@@ -444,7 +444,7 @@ $(document).ready(function(){
         $(".img-6 .img-responsive").attr("src","img/img6.jpg");
         $(".img-7 .img-responsive").attr("src","img/img7.jpg");
         $(".img-3 .img-responsive").attr("src","img/img3.jpg");
-        $(".img-2 span").attr("style","color:#000;");
+        $(".img-2 span").attr("style","display:none;");
         $(".img-6 span").attr("style","color:#fff;");
         $(".img-7 span").attr("style","color:#fff;");
         $(".img-3 span").attr("style","color:#fff;");
@@ -466,7 +466,7 @@ $(document).ready(function(){
         $(".img-6 .img-responsive").attr("src","img/img6.jpg");
         $(".img-7 .img-responsive").attr("src","img/img7.jpg");
         $(".img-3 .img-responsive").attr("src","img/img3.jpg");
-        $(".img-2 span").attr("style","color:#000;");
+        $(".img-2 span").attr("style","display:none;");
         $(".img-6 span").attr("style","color:#fff;");
         $(".img-7 span").attr("style","color:#fff;");
         $(".img-3 span").attr("style","color:#fff;");
@@ -489,7 +489,7 @@ $(document).ready(function(){
         $(".img-6 .img-responsive").attr("src","img/img6.jpg");
         $(".img-7 .img-responsive").attr("src","img/img7.jpg");
         $(".img-2 span").attr("style","color:#fff;");
-        $(".img-3 span").attr("style","color:#000;");
+        $(".img-3 span").attr("style","display:none;");
         $(".img-6 span").attr("style","color:#fff;");
         $(".img-7 span").attr("style","color:#fff;");
         $(".img-3 .buttons-image-responsive").attr("style","display:block;");
@@ -511,7 +511,7 @@ $(document).ready(function(){
         $(".img-6 .img-responsive").attr("src","img/img6.jpg");
         $(".img-7 .img-responsive").attr("src","img/img7.jpg");
         $(".img-2 span").attr("style","color:#fff;");
-        $(".img-3 span").attr("style","color:#000;");
+        $(".img-3 span").attr("style","display:none;");
         $(".img-6 span").attr("style","color:#fff;");
         $(".img-7 span").attr("style","color:#fff;");
         $(".img-3 .buttons-image-responsive").attr("style","display:block;");
@@ -532,7 +532,7 @@ $(document).ready(function(){
         $(".img-2 .img-responsive").attr("src","img/img2.jpg");
         $(".img-7 .img-responsive").attr("src","img/img7.jpg");
         $(".img-3 .img-responsive").attr("src","img/img3.jpg");
-        $(".img-6 span").attr("style","color:#000;");
+        $(".img-6 span").attr("style","display:none;");
         $(".img-2 span").attr("style","color:#fff;");
         $(".img-7 span").attr("style","color:#fff;");
         $(".img-3 span").attr("style","color:#fff;");
@@ -554,7 +554,7 @@ $(document).ready(function(){
         $(".img-2 .img-responsive").attr("src","img/img2.jpg");
         $(".img-7 .img-responsive").attr("src","img/img7.jpg");
         $(".img-3 .img-responsive").attr("src","img/img3.jpg");
-        $(".img-6 span").attr("style","color:#000;");
+        $(".img-6 span").attr("style","display:none;");
         $(".img-2 span").attr("style","color:#fff;");
         $(".img-7 span").attr("style","color:#fff;");
         $(".img-3 span").attr("style","color:#fff;");
@@ -576,7 +576,7 @@ $(document).ready(function(){
         $(".img-6 .img-responsive").attr("src","img/img6.jpg");
         $(".img-2 .img-responsive").attr("src","img/img2.jpg");
         $(".img-3 .img-responsive").attr("src","img/img3.jpg");
-        $(".img-7 span").attr("style","color:#000;");
+        $(".img-7 span").attr("style","display:none;");
         $(".img-6 span").attr("style","color:#fff;");
         $(".img-2 span").attr("style","color:#fff;");
         $(".img-3 span").attr("style","color:#fff;");
@@ -598,7 +598,7 @@ $(document).ready(function(){
         $(".img-6 .img-responsive").attr("src","img/img6.jpg");
         $(".img-2 .img-responsive").attr("src","img/img2.jpg");
         $(".img-3 .img-responsive").attr("src","img/img3.jpg");
-        $(".img-7 span").attr("style","color:#000;");
+        $(".img-7 span").attr("style","display:none;");
         $(".img-6 span").attr("style","color:#fff;");
         $(".img-2 span").attr("style","color:#fff;");
         $(".img-3 span").attr("style","color:#fff;");
