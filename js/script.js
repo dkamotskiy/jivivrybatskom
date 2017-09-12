@@ -11,7 +11,7 @@ $(document).ready(function() {
 		$('body, html').animate({scrollTop: 0}, 1000);
 });
 });
-// Нажатие
+// Нажатие на миниатюру видео
 $(document).ready(function(){
     $( "#selector-video-1" ).click(function() {
         $("#selector-video-1").attr("style","border: 3px solid #899e00;");
@@ -618,7 +618,7 @@ $(document).ready(function(){
   });
   }
   });
-//Обработка ресайза картинок на странице vkomande
+//Обработка ресайза картинок на странице vkomande, при необходимости вернуть высоту блока в четверть от высоты центральной части страницы - вернуть
 // $(document).ready(function(){
 //     var h = $('.separating').height() / 4 + 15;
 //     $('.vkomande-button').css({'height': h});

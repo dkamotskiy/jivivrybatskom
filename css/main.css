@@ -1,3 +1,5 @@
+/*0. Основные стили--------------------------------------------------*/
+/*0.0. Шрифты--------------------------------------------------------*/
 @font-face {
     font-family: GilroyBold; /* Имя шрифта */
     src: url(../fonts/GilroyBold.otf); /* Путь к файлу со шрифтом */
@@ -19,10 +21,12 @@ body{
 	max-width: 100%;
 	overflow-x: hidden;
 }
+/*0.1. Стилизация плейсхолдеров-------------------------*/
 ::-webkit-input-placeholder {color:#1d1d1d;}
 ::-moz-placeholder {color:#1d1d1d;}/* Firefox 19+ */
 :-moz-placeholder {color:#1d1d1d;}/* Firefox 18- */
 :-ms-input-placeholder {color:#1d1d1d;}
+/*0.2. Стили универсальные------------------------------*/
 table {
 	width:100%;
 	border:0px;
@@ -57,7 +61,7 @@ table {
 	top:30%;
 	color: #000;
 }
-/*Хедер*/
+/*1. Стилизация хедера------------------------------------*/
 #header-back {
 	border-bottom: 1px solid #a1a1a1;
 }
@@ -123,7 +127,7 @@ table {
 .zz:hover {
 	text-decoration: underline;
 }
-/*Картинки*/
+/*2. Главная страница--------------------------------*/
 .back .col-md-1 {
 	background-image: url(../img/stripes.png);
 	position: relative;
@@ -150,7 +154,7 @@ table {
 	top:40%;
 }
 
-/*напишите нам*/
+/*2.1. Футер------------------------------------*/
 #our-partners{
 	padding-top: 30px;
 	padding-bottom: 20px;
@@ -184,7 +188,6 @@ h3 {
 #our-partners .first-img {
 	margin-left: 0;
 }
-/*Напишите нам*/
 #type-us{
 	background-color: #1d1d1d;
 	padding-top: 15px;
@@ -236,8 +239,6 @@ h3 {
 	background-color:#149d34;
 	color:#fff;
 }
-
-/*Правый блок футера*/
 #footer-contacts {
 	font-family: GilroyBold;
 }
@@ -260,7 +261,7 @@ h3 {
 	color:#fff;
 	padding: 0px;
 }
-/*Политика конфиденциальности*/
+/*3. Модальное окно политика конфиденциальности*/
 .close {
 	color:#149d34;
 	font-size: 50px;
@@ -288,8 +289,7 @@ h3 {
 .bold {
 	font-family: GilroyBold;
 }
-/*Попытка*/
-
+/*4. Блок "Партнеры"--------------------------------------*/
 #try .col-md-6 .span-right {
 	color: #fff;
 	padding-left: 0px;
@@ -347,7 +347,7 @@ h3 {
 .buttons-image img {
 	margin-right: 10px;
 }
-/*Заказать проект*/
+/*5. Модальное окно Заказать проект------------------------------------------*/
 .bs-example-modal-lg {
 	z-index: 9999;
 }
@@ -383,7 +383,7 @@ h3 {
 	text-decoration: none;
 	background-color: #149d34;
 }
-/*Заказать звонок*/
+/*6. Модальное окно Заказать звонок-----------------------*/
 #zakaz-zvonok .form-button {
 	margin-bottom: 50px;
 	background-color: transparent;
@@ -392,7 +392,7 @@ h3 {
 	background-color: #149d34;
 	color: #fff;
 }
-/*Расчет стоимости*/
+/*7. Модальное окно Расчет стоимости*/
 .checkbox {
 	width:22px;
 	height:22px;
@@ -427,7 +427,7 @@ h3 {
 	color:#000;
 }
 
-/*Секбоксы*/
+/*8. Стилизация чекбоксов------------------------*/
 label {
 	position: relative;
 }
@@ -473,7 +473,7 @@ input:checked + label:after {
 	top:auto;
 	right: auto;
 }
-/*Стрелка*/
+/*9. Стрелка Вверх-------------------------------------*/
 .strelka {
 	width:72px;
 	height:72px;
@@ -497,7 +497,7 @@ input:checked + label:after {
 	-webkit-background-size: cover;
 	background-size: cover;
 }
-/*табличка*/
+/*10. Табличка-------------------------------------------*/
 td {
 	padding-left: 3px;
 	padding-right: 2px;
@@ -524,7 +524,7 @@ input[class="form-control input-fff"]::-webkit-input-placeholder {
 input[class="form-control input-fff phone-number"]::-webkit-input-placeholder {
 	color: #fff;
 }
-/*Стрелки типа number*/
+/*11. Стрелки типа number-----------------------------------------*/
 input[type='number'] {
     -moz-appearance:textfield;
 }
@@ -542,7 +542,7 @@ input::-webkit-inner-spin-button {
     display: flex;
     flex:1 0 auto;
 }
-/*Дополнительные кнопки*/
+/*12. Дополнительные кнопки----------------------------------------*/
 .green-button {
 	padding: 8px 13px;
 	background-color: #209e47;
@@ -565,7 +565,7 @@ input::-webkit-inner-spin-button {
 .green-button2 {
 	padding: 8px 63px;
 }
-/*==========================================СТРАНИЦА "ВПРОЕКТЕ"==============================================================================================================*/
+/*13. СТРАНИЦА "ВПРОЕКТЕ"==============================================================================================================*/
 #vproekte-blocks .col-md-4 {
 	padding-top: 40px;
 	padding-bottom: 40px;
@@ -654,10 +654,6 @@ input::-webkit-inner-spin-button {
 }
 #vproekte-main-block .col-md-1 {
 	background-image: url(../img/stripes.png);
-/*	background-repeat: no-repeat;*/
-/*	-webkit-background-size: cover;
-	background-size: cover;*/
-/*	background-position: center center;*/
 }
 #header div {
 	padding-left: 0;
@@ -673,7 +669,7 @@ input::-webkit-inner-spin-button {
 	padding-left: 40px;
 	text-decoration: underline;
 }
-/*СТРАНИЦА ВКОМАНДЕ============================================================================================*/
+/*14. СТРАНИЦА ВКОМАНДЕ============================================================================================*/
 .vkomande-button {
 	display: block;
 	color: #fff;
@@ -738,10 +734,6 @@ input::-webkit-inner-spin-button {
 }
 #vkomande-main-block .col-md-1, #vtehnoligii-main-block .col-md-1 {
 	background-image: url(../img/stripes.png);
-/*	background-repeat: no-repeat;*/
-/*	-webkit-background-size: cover;
-	background-size: cover;*/
-/*	background-position: center center;*/
 }
 .otzyvy .aktiv {
 	background-color: #e9e9e9;
@@ -749,7 +741,7 @@ input::-webkit-inner-spin-button {
 .otzyvy .aktiv a {
 	color: #30a74c;
 }
-/*СТРАНИЦА ВТЕХНОЛОГИИ=============================================================================================*/
+/*15. СТРАНИЦА ВТЕХНОЛОГИИ=============================================================================================*/
 .vtehno-main-link {
 	padding-top: 50px;
 	padding-bottom: 50px;
@@ -1162,14 +1154,6 @@ width: 11px;
 	font-size: 15px;
 }
 .polzunok {
-	/*position: absolute;
-	right: 0px;
-	top: 50%;
-	margin-top: -15px;
-	width: 15px;
-	height: 30px;
-	background-color: #149d34;
-	z-index: 9999;*/
 	display: none;	
 }
 #colonka-for-slides .buttons-image-responsive {
@@ -1232,7 +1216,7 @@ width: 11px;
 	width: 40px;
 	height: 40px;
 }
-/*Страница Преимущества-------------------------------------------------*/
+/*17. Страница Преимущества-------------------------------------------------*/
 #advantages, #our-team, #contacts-page {
 	padding-top: 30px;
 	padding-bottom: 50px;
@@ -1256,7 +1240,7 @@ width: 11px;
 #advantages img {
 	margin: 10px;
 }
-/*Наша команда----------------------------------------------------------*/
+/*18. Наша команда----------------------------------------------------------*/
 #our-team .bold {
 	margin-top: 20px;
 	font-size: 20px;
@@ -1268,7 +1252,7 @@ width: 11px;
 #our-team img {
 	margin: 0 auto;
 }
-/*Страница Контакты---------------------------------------------------*/
+/*19. Страница Контакты---------------------------------------------------*/
 #contacts-page div {
 	margin-left: 20px;
 }
@@ -1294,11 +1278,7 @@ width: 11px;
 	margin-top: 30px;
 	margin-right: -20px;
 }
-/*Страница Вдизайне---------------------------------------------------*/
-/*#vdizayne .vtehno-main-link {
-	padding-top: 65px;
-	padding-bottom: 65px;
-}*/
+/*20. Страница Вдизайне---------------------------------------------------*/
 #vdizayne .vtehno-main-link:nth-child(2){
 	background-image: url(../img/vdizayne/proekt.jpg);
 }
@@ -1308,13 +1288,6 @@ width: 11px;
 #vdizayne .vtehno-main-link:nth-child(1){
 	background-image: url(../img/vdizayne/design.jpg);
 }
-/*---*/
-/*#our-partners .jcarousel-control-next {
-	right:-4px;
-}
-#our-partners .jcarousel-control-prev {
-	left: -13px;
-}*/
 .prof a.ml50 {
 	margin-left: 16px;	
 }
@@ -1338,7 +1311,6 @@ width: 11px;
 #footer-contacts {
 	margin-top: 20px;	
 }
-
 .prof button {
     padding-left: 20px;
     padding-right: 20px;

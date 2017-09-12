@@ -1,3 +1,4 @@
+/*1. Стили для мобильной версии---------------------------------------------------*/
 @media (max-width: 992px) {
 	#colonka .img-3 ol {
 		right: auto;
@@ -282,12 +283,8 @@
 		color: #000;
 	}
 }
-
+/*2. Стили для десктопной версии---------------------------------------------------*/
 @media (min-width: 992px) {
-	/*#type-us .col-md-10 .row {
-	margin-left: -23px;	
-	margin-right: -23px;	
-}*/
 	#advantages p:first-child {
 		padding-bottom: 0;
 	}
@@ -307,38 +304,39 @@
 		margin-left: 0;
 		margin-right: 0;
 	}
-#header-contacts {
-	margin-top: -10px;
-}
-#type-us .col-md-10 {
-	padding-left: 0px;
-	padding-right: 0px;
-}
-#our-partners .col-md-10 {
-	padding-left: 0;
-	padding-right: 0;
-}
-.mt5 {
-		margin-top:5px;
+	#header-contacts {
+		margin-top: -10px;
 	}
-.display-mobile {
-	display: none;
-}
-.display-desktop {
-	display: block;
-}
-.equal, .equal > div[class*='col-'] {
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    flex:1 0 auto;
-}
-#adaptive-header {
+	#type-us .col-md-10 {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	#our-partners .col-md-10 {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.mt5 {
+			margin-top:5px;
+		}
+	.display-mobile {
 		display: none;
 	}
+	.display-desktop {
+		display: block;
+	}
+	.equal, .equal > div[class*='col-'] {
+	    display: -webkit-box;
+	    display: -moz-box;
+	    display: -ms-flexbox;
+	    display: -webkit-flex;
+	    display: flex;
+	    flex:1 0 auto;
+	}
+	#adaptive-header {
+			display: none;
+		}
 }
+/*3. Дополнительные стили для мобильной версии---------------------------------------------------*/
 @media (max-width: 992px) {
 .equal, .equal > div[class*='col-'] {
     display: block;
@@ -356,6 +354,7 @@
 		display: none;
 	}
 }
+/*4. Стили для десктопной версии до 1200---------------------------------------------------*/
 @media (max-width: 1200px) {
 	#try .img-4 .span-left4 {
 		display: none;
@@ -430,6 +429,7 @@
 		margin-left: -45px;
 	}
 }
+/*5. Стили для высоких разрешений---------------------------------------------------*/
 @media (min-width: 1200px) {
 	#colonka .buttons-image {
 		margin-top: 10px;
@@ -441,6 +441,7 @@
 		padding-top: 15px;
 	}
 }
+/*6. Стили для низких разрешений---------------------------------------------------*/
 @media (max-width: 700px) {
 	.green-button {
     padding: 10px 10px;
@@ -478,10 +479,6 @@
 		padding-right: 0;
 		display: block;
 	}
-/*	#header-responsive {
-		padding-left: 5px;
-		padding-right: 5px;
-	}*/
 	#header-responsive #for-js-2 {
 		position: absolute;
 		right:15px;
