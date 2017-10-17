@@ -3,12 +3,14 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Контакты - Ремонт в Видном</title>
-	<link rel="stylesheet" href="css/bootstrap.css">
+	<title>Портфолио - Ремонт в Видном</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="css/jcarousel.responsive.css">
+	<link rel="stylesheet" href="css/magnific-popup.css">
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/responsive.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.20/jquery.fancybox.css" />
 </head>
 <body>
 <!------------------------------------------------------------ ШАПКА---------------------------------------------------------- -->
@@ -59,10 +61,10 @@
 			      </li>
 <!-- 		          <li><a href="#">Услуги</a></li> -->
 		          <li><a href="price.html">Цены</a></li>
-		          <li><a href="portfolio.html">Портфолио</a></li>
+		          <li class="active"><a href="portfolio.html">Портфолио</a></li>
 		          <li><a href="feedback.html">Отзывы</a></li>
 		          <li><a href="akcii.html">Акции</a></li>
-		          <li class="active"><a href="contacts.html">Контакты</a></li>
+		          <li><a href="contacts.html">Контакты</a></li>
 		        </ul>
 		        <form class="navbar-form navbar-left" role="search">
 		        </form>
@@ -97,15 +99,15 @@
 			          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Услуги<b class="caret"></b></a>
 			          <ul class="dropdown-menu">
 			            <li><a href="uslugi.html">Ремонт квартир в новостройке</a></li>
-			            <li><a href="uslugi-kosmetika.html">Косметический ремонт квартир</a></li>
-			            <li><a href="uslugi-kapital.html">Капитальный ремонт квартир</a></li>
+			            <li><a href="uslugi.html">Косметический ремонт квартир</a></li>
+			            <li><a href="uslugi.html">Капитальный ремонт квартир</a></li>
 			          </ul>
 			      </li>
 		          <li><a href="price.html">Цены</a></li>
-		          <li><a href="portfolio.html">Портфолио</a></li>
+		          <li class="active"><a href="portfolio.html">Портфолио</a></li>
 		          <li><a href="feedback.html">Отзывы</a></li>
 		          <li><a href="akcii.html">Акции</a></li>
-		          <li class="active"><a href="contacts.html">Контакты</a></li>
+		          <li><a href="contacts.html">Контакты</a></li>
 		        </ul>
 		      </div>
 		    </div>
@@ -120,25 +122,67 @@
 	</div>
 <!------------------------------------------------------------ КОНЕЦ ШАПКИ --------------------------------------------------------->
 <!------------------------------------------------------------ НАЧАЛО ТЕЛА---------------------------------------------------------- -->
-<div class="container-fluid" id="contacts-page-container">
-	<div class="container">
-	<h1 class="bold text-center">КОНТАКТЫ</h1><br><br>	
-	<div class="row">
-		<div class="col-md-4">
-			<p class="regular">Номера телефонов:</p>
-			<p class="bold"><a href="tel:89035473538">8 <img class="phone-number-picture">(903)<img class="phone-number-picture"> 547-<img class="phone-number-picture">35-38</a></p>
-			<p class="bold"><a href="tel:89035567662">8 <img class="phone-number-picture">(903)<img class="phone-number-picture"> 556-<img class="phone-number-picture">76-62</a></p><br>
-			<p class="regular">Местоположение:</p>
-			<p class="bold">МО, г. Видное,</p>
-			<p class="bold">ул. Строителей 15</p><br>
-			<p class="regular"><a href="mailto:info@vidnorem.ru">info@vidnorem.ru</a></p>
-		</div>
-		<div class="col-md-8" style="padding-left: 0; padding-right: 0;">
-				<iframe src="https://yandex.ru/map-widget/v1/-/CBUij8SekA" width="100%" height="400" frameborder="0"></iframe>
+	<div class="container-fluid" id="our-works">
+		<div class="container popup-gallery">
+			<h1 class="bold text-center">ПОРТФОЛИО</h1><br><br>
+			<div class="row">
+				<!-- Проект 1========================================== -->
+				<div class="col-md-4 gallery">
+					<a class="" href="img/portfolio/object1.jpg"><img src="img/portfolio/object1.jpg" alt="" class="img-responsive"></a>
+					<a class="" href="img/portfolio/object1.jpg" style="display: none;"><img src="img/portfolio/object1.jpg" alt="" class="img-responsive"></a>
+					<a class="" href="img/portfolio/object1.jpg" style="display: none;"><img src="img/portfolio/object1.jpg" alt="" class="img-responsive"></a>
+					<a class="" href="img/portfolio/object1.jpg" style="display: none;"><img src="img/portfolio/object1.jpg" alt="" class="img-responsive"></a>
+					<p class="regular"><br>Тип: ремонт в новостройке, 60<span>2</span><br>Москва, ул. Пушкина, д. 14, кв. 88</p><br>
+				</div>
+				<!-- Проект 2 ==========================================-->
+				<div class="col-md-4 gallery">
+					<a class="" href="img/portfolio/object1.jpg"><img src="img/portfolio/object1.jpg" alt="" class="img-responsive"></a>
+					<a class="" href="img/portfolio/object1.jpg" style="display: none;"><img src="img/portfolio/object1.jpg" alt="" class="img-responsive"></a>
+					<a class="" href="img/portfolio/object1.jpg" style="display: none;"><img src="img/portfolio/object1.jpg" alt="" class="img-responsive"></a>
+					<a class="" href="img/portfolio/object1.jpg" style="display: none;"><img src="img/portfolio/object1.jpg" alt="" class="img-responsive"></a>
+					<p class="regular"><br>Тип: ремонт в новостройке, 60<span>2</span><br>Москва, ул. Пушкина, д. 14, кв. 88</p><br>
+				</div>
+				<!-- Проект 3========================================== -->
+				<div class="col-md-4 gallery">
+					<a class="" href="img/portfolio/object1.jpg"><img src="img/portfolio/object1.jpg" alt="" class="img-responsive"></a>
+					<a class="" href="img/portfolio/object1.jpg" style="display: none;"><img src="img/portfolio/object1.jpg" alt="" class="img-responsive"></a>
+					<a class="" href="img/portfolio/object1.jpg" style="display: none;"><img src="img/portfolio/object1.jpg" alt="" class="img-responsive"></a>
+					<a class="" href="img/portfolio/object1.jpg" style="display: none;"><img src="img/portfolio/object1.jpg" alt="" class="img-responsive"></a>
+					<p class="regular"><br>Тип: ремонт в новостройке, 60<span>2</span><br>Москва, ул. Пушкина, д. 14, кв. 88</p><br>
+				</div>
+			</div>
+			<div class="row">
+				<!-- Проект 4 ==========================================-->
+				<div class="col-md-4 gallery">
+					<a class="" href="img/portfolio/object1.jpg"><img src="img/portfolio/object1.jpg" alt="" class="img-responsive"></a>
+					<a class="" href="img/portfolio/object1.jpg" style="display: none;"><img src="img/portfolio/object1.jpg" alt="" class="img-responsive"></a>
+					<a class="" href="img/portfolio/object1.jpg" style="display: none;"><img src="img/portfolio/object1.jpg" alt="" class="img-responsive"></a>
+					<a class="" href="img/portfolio/object1.jpg" style="display: none;"><img src="img/portfolio/object1.jpg" alt="" class="img-responsive"></a>
+					<p class="regular"><br>Тип: ремонт в новостройке, 60<span>2</span><br>Москва, ул. Пушкина, д. 14, кв. 88</p><br>
+				</div>
+				<!-- Проект 5 ==========================================-->
+				<div class="col-md-4 gallery">
+					<a class="" href="img/portfolio/object1.jpg"><img src="img/portfolio/object1.jpg" alt="" class="img-responsive"></a>
+					<a class="" href="img/portfolio/object1.jpg" style="display: none;"><img src="img/portfolio/object1.jpg" alt="" class="img-responsive"></a>
+					<a class="" href="img/portfolio/object1.jpg" style="display: none;"><img src="img/portfolio/object1.jpg" alt="" class="img-responsive"></a>
+					<a class="" href="img/portfolio/object1.jpg" style="display: none;"><img src="img/portfolio/object1.jpg" alt="" class="img-responsive"></a>
+					<p class="regular"><br>Тип: ремонт в новостройке, 60<span>2</span><br>Москва, ул. Пушкина, д. 14, кв. 88</p><br>
+				</div>
+				<!-- Проект 6========================================== -->
+				<div class="col-md-4 gallery">
+					<a class="" href="img/portfolio/object1.jpg"><img src="img/portfolio/object1.jpg" alt="" class="img-responsive"></a>
+					<a class="" href="img/portfolio/object1.jpg" style="display: none;"><img src="img/portfolio/object1.jpg" alt="" class="img-responsive"></a>
+					<a class="" href="img/portfolio/object1.jpg" style="display: none;"><img src="img/portfolio/object1.jpg" alt="" class="img-responsive"></a>
+					<a class="" href="img/portfolio/object1.jpg" style="display: none;"><img src="img/portfolio/object1.jpg" alt="" class="img-responsive"></a>
+					<p class="regular"><br>Тип: ремонт в новостройке, 60<span>2</span><br>Москва, ул. Пушкина, д. 14, кв. 88</p><br>
+				</div>
+			</div>
+			<br><br>
+			<p class="bold text-center" style="font-size: 20px;">ВЫЗВАТЬ ЗАМЕРЩИКА</p><br>
+			<p class="text-center"><button type="button" class="btn btn-success regular" data-toggle="modal" data-target="#myModal3">Оставить заявку</button></p>
 		</div>
 	</div>
-	</div>
-</div>
+
 <!-- ----------------------------------------------------------КОНЕЦ ТЕЛА---------------------------------------------------------- -->
 <!-- ----------------------------------------------------------НАЧАЛО ФУТЕРА---------------------------------------------------------- -->
 	<div class="container-fluid bold" id="footer">
@@ -172,7 +216,7 @@
 		<br>
 		<p class="text-center pf2 bold"><a href="tel:89035473538">8 <img class="phone-number-picture">(903)<img class="phone-number-picture"> 547-<img class="phone-number-picture">35-38</a></p>
 		<p class="text-center pf2 bold"><a href="tel:89035567662">8 <img class="phone-number-picture">(903)<img class="phone-number-picture"> 556-<img class="phone-number-picture">76-62</a></p>
-		<p class="text-center pf3 bold"><a href="mailto:info@vidnorem.ru">info@vidnorem.ru</a></p><br>
+		<p class="text-center pf3 bold"><a href="mailto:info@vidnorem.ru" class="link-email">sinfo@vidnorem.ru</a></p><br>
 		<p class="text-center"><button type="button" class="btn btn-success regular" data-toggle="modal" data-target="#myModal3">Оставить заявку</button></p><br>
 		<p class="text-center">
 			<a href="#" class="icon"><i class="fa fa-vk" aria-hidden="true"></i></a>
@@ -299,10 +343,11 @@
   </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-	<script src="js/jcarousel.responsive.js"></script>
-	<script src="js/jquery.jcarousel.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.20/jquery.fancybox.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-	<script src="http://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+	<script src="js/jquery.bcSwipe.js"></script>
+	<script src="js/jquery.magnific-popup.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
 	<script src="https://use.fontawesome.com/02bcef1f84.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.9/validator.js"></script>
 </body>

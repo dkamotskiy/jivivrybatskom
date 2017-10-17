@@ -1,328 +1,239 @@
-/*1. Стили для мобильной версии---------------------------------------------------*/
+/*=========1. Стилизация мобильной версии=============================================*/
 @media (max-width: 992px) {
-	#colonka .img-3 ol {
-		right: auto;
-		left:20px;
-		text-align: left;	
-	}
-	#advantages .bold {
-		margin-bottom: 30px;
-	}
-	#contacts-page div {
-	margin-left: 0px;
-	}
-	#our-team .regular {
-		margin-bottom: 30px;
-	}
-	#advantages .row {
-		padding-top: 0;
-		margin-top: -10px;
-	}
-	#advantages .row .col-md-8 {
-		font-size: 14px;
-	}
-	#advantages .col-xs-4 {
-		margin-top: 30px;
-	}
-	#advantages .col-xs-8 {
-		margin-top: 30px;
-	}
-	#advantages .nomarg {
-		margin-top: -10px;
-	}
-	.central-nadpis {
-	margin-top:20px;
-	}
-	.equal-vproekte, .equal-vproekte > div[class*='col-1'], .equal-vproekte > div[class*='col-10'], .equal-vproekte > div[class*='col-3'], .equal-vproekte > div[class*='col-4'], .equal-vproekte > div[class*='col-5'] {
-    display: block;
-    flex:none;
-}
-.footer-right-block {
-	margin-top: 30px;
-}
-#type-us .col-md-4 {
-	padding-left: 0;
-	padding-right: 0;
-}
-#type-us .col-md-10 {
-	padding-left: 0;
-	padding-right: 0;
-}
-#type-us .text-right {
-	text-align: center;
-}
-#type-us .row {
-	margin-left: 0;
-	margin-right: 0;
-	padding-left: 15px;
-	padding-right: 15px;
-}
-#type-us {
-	margin-left: 0;
-	margin-right: 0;
-}
-#vproekte-center-block .col-md-4 .jcarousel-wrapper {
-	width: 50px;
-	height: 150px;
-}
-.selector-strelka1, .selector-strelka2, .selector-strelka3, .selector-strelka4, .selector-strelka5, .selector-strelka6 {
-	width: 10px;
-	height: 20px;
-	top: 5px;
-	right: -10px;
-	-webkit-background-size: cover;
-	background-size: cover;
-}
-.selector-strelka2{
-	top: 35px;
-	right: 0;
-}
-.selector-strelka3{
-	top: 65px;
-	right: 0;
-}
-.selector-strelka4{
-	top: 95px;
-	right: 0;
-}
-.selector-strelka5{
-	top: 125px;
-	right: 0;
-}
-.selector-strelka6{
-	top: 155px;
-	right: 0;
-}
-#vproekte-main-block .col-md-4 .jcarousel {
-	width: 60px;
-	height: 150px;
-}
-#vproekte-main-block .col-md-4 .jcarousel-control-prev {
-	left:10px;
-}
-#vproekte-main-block .col-md-4 .jcarousel-control-next {
-	right: 11px;
-}
-#vproekte-main-block .block-buttons-resp button {
-	padding: 0;
-	color: #000;
-}
-#vproekte-main-block .carousel-indicators {
-	margin-bottom: 0;
-}
-.fz30 {
-	font-size: 20px;
-}
-.fz18 {
-	font-size: 13px;
-}
-#vproekte-center-block .carousel-indicators li, #vproekte-center-block .carousel-indicators .active {
-	width: 30px;
-	height: 20px;
-	-webkit-background-size: cover;
-	background-size: cover;
-}
-#vproekte-main-block {
-	margin-left: 0;
-	margin-right: 0;
-}
-	.central-nadpis {
-	position: inherit;
-	top:0;
-	padding-right: 0;
-}
-#vkomande-main-block {
-	margin-left: 0;
-	margin-right: 0;
-	margin-top: 30px;
-}
-.otzyvy {
-	border-left: none;
-	border-right: none; 
-}
-
-	#type-us {
-		padding-bottom: 20px;
-	}
-	#vtehnoligii-main-block iframe {
-		margin-top: 30px;
-	}
-	.iframe-block {
-		max-width: 530px;
-		margin: 0 auto;
-	}
-	.mt-20 {
-		margin-top: -20px;
-	}
-	.pol img {
-	margin: 0 auto;
-	margin-top: 20px;
-	margin-bottom: 20px;
-	}
-	.mt5 {
-		margin-top:-10px;
-	}
-	.display-mobile {
-	display: block;
-	}
-	.display-desktop {
-		display: none;
-	}
-	#adaptive-header {
-		display: block;
+	/*1.1. ШАПКА----------------------------------------------------*/
+	#header-responsive {
+		display:block;
+		font-family: RobotoSlab-Bold;
+		background-color: #faffe9;
 	}
 	#header {
-		height:auto;
+		display:none;
 	}
-	.fishka {
+	#menu {
 		display: none;
 	}
-	.img-1 .img-responsive, .img-2 .img-responsive, .img-3 .img-responsive, .img-4 .img-responsive, .img-5 .img-responsive, .img-6 .img-responsive, .img-7 .img-responsive, .img-8 .img-responsive {
-		width:100%;
+	.navbar-toogle {
+		border:1px solid #000;
+		background-color: #899e00;
 	}
-	.img-3 span img {
-		width:auto;
-	}
-	.img-1, .img-5, .img-4, .img-8 {
-		display: none;
-	}
-	#header .col-md-5 {
-		text-align: center;
-		font-size: 22px;
-		line-height: 20px;
-	}
-	#header-back {
-		padding-left: 0;
-		padding-right: 0;
-	}
-	#header div {
-		padding-left: 0px;
-		padding-right: 0px;
-	}
-	#try .col-md-6 .span-left3 {
-		top:30%;
-	}
-	#phone {
-		font-size: 22px;	
-	}
-	.modal-body {
-		padding-left: 10px;
-		padding-right: 10px;
-	}
-	#zakaz-zvonok .modal-content, #stoimost .modal-content, #zakaz .modal-content{
-		width:auto;
-	}
-	.fading-of-margin{
-		margin-top: -30px;
-	}
-	.header-line {
-		line-height: 30px;
-		margin-top: 20px;
-		font-size: 20px;	
-	}
-	#try {
-		margin-top: -1px;	
-	}
-	.buttons-image img {
-		margin-right: 0px;
-	}
-	#our-partners {
-		margin-top: -1px;
-	}
-	#our-partners h3 {
-		text-align: center;
-	}
-	.partners {
-		padding-left: 0;
-		padding-right: 	0;
-	}
-	#type-us h3 {
-		text-align: center;
-	}
-	.my-input, .my-input2 {
-		width:100%;
-	}
-	.my-input, .my-input2 {
-		padding-left: 0;
-		padding-right: 0;
-	}
-	#footer-left-block {
-		padding-right: 0px;
-		text-align: center;
-	}
-	#footer-left-block img {
+	#knopka-adaptive {
 		margin: 0 auto;
+		float: right;
+		width:50px;
+		height: 50px;
+		background-color: #899e00;
+		color: #fff;
+		margin-top:17px;
 	}
-	.message {
-		padding:10px;
-		margin-top: 35px;
-	}
-	.col-md-1 {
-		display: none;
-	}
-	#footer-info button {
-		margin-bottom: 20px;
-	}
-	#footer-contacts {
+	#knopka-adaptive span {
+		color: #fff;
+		width:100%;
+		background-color: #fff;
 		margin-top: 10px;
 	}
-	.navbar {
+	#zayavka .col-md-5 {
+		display: none;
+	}
+	.zayavka-right-block {
+		margin-top: -60px;
+	}
+	#knopka-adaptive span:nth-child(2) {
+	margin-top:0px;
+	}
+	.navbar-header {
+		padding:10px 20px;
+	}
+	.navbar-header img {
+		max-width:50px;
+		margin-left: 25px;
+	}
+	#navbar-header-name {
+		font-size: 12px;
+		color: #899e00;
 		margin-bottom: 0;
-		background: none;
-		box-shadow: none;
-		border: none;
 	}
-	#adaptive-header {
-		padding-top: 15px;
-		padding-bottom: 15px;
+	.navbar-header .col-xs-6 {
+		padding:0px;
 	}
-	#adaptive-header button:hover {
-		background: none;
-	}
-	#adaptive-header button span {
-		color: #000;
-	}
-}
-/*2. Стили для десктопной версии---------------------------------------------------*/
-@media (min-width: 992px) {
-	#advantages p:first-child {
-		padding-bottom: 0;
-	}
-
-	.-px27 {
-		margin-left: -27px;
-		margin-right: -27px;
-	}
-	#vproekte-main-block .col-md-4 .jcarousel {
-	width: 170px;
-	}
-	#vproekte-main-block {
-		margin-left: 0;
-		margin-right: 0;
-	}
-	#vkomande-main-block {
-		margin-left: 0;
-		margin-right: 0;
-	}
-	#header-contacts {
+	#responsive-header-text .p1 {
+		font-size: 16px;
 		margin-top: -10px;
+		margin-bottom: -10px;
 	}
-	#type-us .col-md-10 {
-		padding-left: 0px;
-		padding-right: 0px;
+	#responsive-header-text .p2 a {
+		font-size: 20px;
+		color: #000;
+		text-decoration: none;
 	}
-	#our-partners .col-md-10 {
+	#responsive-header-text .p3 button {
+		color: #899e00;
+		font-size: 16px;
+	}
+	#responsive-header-text .p3 {
+		margin-top: -20px;
+	}
+	/*1.2. СТРАНИЦА ОТЗЫВЫ==================*/
+	#cackle {
+		margin-top: 20px;
+	}
+	/*1.3. ГЛАВНАЯ==========================*/
+	.background-changing .col-md-8 {
+		min-height: 1px;
+	}
+	.background-changing-right-block {
+		padding-top: 50px;
+		padding-bottom: 50px;
+		font-size: 12px;
+	}
+	#carousel-example-generic {
+		margin-bottom: -80px;
+	}
+	.imd-advantage {
+		width: 50px;
+	}
+	#uslugi .col-xs-4 p {
+		font-size: 12px;
+	}
+	.propal {
+		display: block;
+	}
+	.font-40 {
+		font-size: 27px;
+	}
+	.font-14 {
+		font-size: 12px;
+	}
+	#main-nashi-uslugi .col-md-4 div {
+		margin-left: 0;
+		margin-right: 0;
+	}
+	#main-nashi-uslugi .col-md-4 {
 		padding-left: 0;
 		padding-right: 0;
 	}
-	.mt5 {
-			margin-top:5px;
-		}
-	.display-mobile {
+	.text-mobile {
+		display: block;
+	}
+	.text-desktop {
 		display: none;
 	}
-	.display-desktop {
+	#pochemu .col-md-4 {
+		margin-bottom: 30px;
+	}
+	#sdan, #tekush {
+		font-size: 12px;
+	}
+	#uslugi-our-works {
+		padding-left: 0;
+		padding-right: 0;
+
+	}
+	.propaja-phone {
+		display: none;
+	}
+	#carousel-example-generic {
+		margin-left: -15px;
+		margin-right: -15px;
+	}
+ 	/*1.4. НАСТРОЙКА ВСПЛЫВАЮЩЕГО МЕНЮ==============*/
+	.navbar-collapse {
+		width: 90%;
+		position: absolute;
+		z-index: 9999;
+		left:9%;
+	}
+	.navbar-nav {
+		background-color: #899e00;
+	}
+	#header-responsive .nav>li>a {
+		padding: 10px;
+		color: #fff;
+		text-shadow: none;
+		padding-left: 30px;
+	}
+	#header-responsive .nav>.active>a {
+		background-image: none;
+		background-color: rgba(0,0,0,0.3);
+
+	}
+	/*1.5. ФУТЕР--------------------------------*/
+	#footer-responsive {
 		display: block;
+	}
+	#footer {
+		display: none;
+	}
+	.pf1 {
+		color: #fff;
+		font-size: 18px;
+	}
+	.pf2 a {
+		color: #fff;
+		font-size: 22px;
+	}
+	.pf3 a {
+		font-size: 16px;
+		color: #899e00;
+	}
+	/*1.6. СТРАНИЦА О НАС-----------------------*/
+	#zagolovok .btn-default {
+		margin-left: 0;
+	}
+	#zagolovok {
+		padding-bottom: 20px;
+	}
+	.block-desktop {
+		display: none;
+	}
+	.block-mobile {
+		display: block;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		padding-left: 0;
+		padding-right: 0;
+		margin-left: -20px;
+		margin-right: -10px;
+		background-color: transparent;
+		margin-top: -50px;
+	}
+	#zagolovok .margin-up {
+		margin-top: -90px;
+	}
+	#zagolovok {
+		padding-bottom: 50px;
+		padding-left: 0;
+		padding-right: 0;
+	}
+	#zagolovok .col-md-4 {
+		margin-top:20px;
+		margin-bottom: 20px;
+	}
+	#remont-v-vidnom-eto {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	#remont-v {
+		text-align: center;
+	}
+	#remont-v .padding-right {
+		padding-right: 15px;
+	}
+	#remont-v p:first-child {
+		margin-top: 30px;
+	}
+	#akti {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	#feedback #carousel-example-generic1 {
+		display: none;
+	}
+	.fishka {
+		left:50%;
+		top:50%;
+	}
+	#promocode-desktop {
+		display: none;
 	}
 	.equal, .equal > div[class*='col-'] {
 	    display: -webkit-box;
@@ -332,205 +243,261 @@
 	    display: flex;
 	    flex:1 0 auto;
 	}
-	#adaptive-header {
-			display: none;
-		}
-}
-/*3. Дополнительные стили для мобильной версии---------------------------------------------------*/
-@media (max-width: 992px) {
-.equal, .equal > div[class*='col-'] {
-    display: block;
-    flex:none;
-}
-#adaptive-header .equal, #adaptive-header .equal > div[class*='col-'] {
-	display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    flex:1 0 auto;
-}
-#header-back {
-		display: none;
-	}
-}
-/*4. Стили для десктопной версии до 1200---------------------------------------------------*/
-@media (max-width: 1200px) {
-	#try .img-4 .span-left4 {
-		display: none;
-	}
-	.buttons-image {
-    margin-top: -14px;
-	}
-	.buttons-image img {
-    margin-right: 0px;
-	}
-	.buttons-image button {
-	margin-right: 0px;
-	font-size: 14px;
-	}
-	#vproekte-main-block .buttons-image {
-    margin-top: 20px;
-	}
-	.vkomande-button .ml-118 {
-	margin-left: -87px;
-	}
-	.vkomande-button p {
-		font-size: 22px;
-		margin-top: -15px;
-		top: 50%;
-		left: 50%;
-		margin-left: -34px;
-	}
-	.vkomande-button .ml-122 {
-		margin-left: -90px;
-	}
-	.vkomande-button .ml-78 {
-		margin-left: -57px;
-	}
-
-}
-@media screen and (max-width: 1200px) and (min-width: 1000px) {
-	button.new-button {
-	font-size: 13px;
-	padding: 8px 10px;
-	}
-	a.new-button {
-		padding: 8px 10px;
-		padding-bottom: 10px;
-	}
-	.prof a {
-		font-size: 11px;
-	}
-	.span-left {
-		left:3%;
-	}
-	#try .col-md-6 .span-right {
-		right:2%;
-	}
 	.fishka {
-		width: 50px;
+		background-color: #fff;
+		color: #899e00;
 	}
-	.span-left {
-		font-size: 26px;
+	#how-we-work .btn-success {
+		background-color: #fff;
+		color: #000;
+		text-shadow: none;
 	}
-	#try .col-md-6 .span-right {
-		font-size: 26px;
+	.fading {
+		display: block;
 	}
-	.prof button {
-		    padding-left: 14px;
-		    padding-right: 14px;
-		    background: #149d34;
-		    color: #fff;
-		    line-height: 32px;
-		    margin-left: 8px;
-	}
-	.header-line.prof {
-		margin-left: -45px;
-	}
-}
-/*5. Стили для высоких разрешений---------------------------------------------------*/
-@media (min-width: 1200px) {
-	#colonka .buttons-image {
-		margin-top: 10px;
-	}
-	.pt30 {
-		padding-top: 30px;
-	}
-	.pt15 {
-		padding-top: 15px;
-	}
-}
-/*6. Стили для низких разрешений---------------------------------------------------*/
-@media (max-width: 700px) {
-	.green-button {
-    padding: 10px 10px;
-    font-size: 14px;
-	}
-	.green-button2 {
-		padding:10px 64px;
-	}
-	.span-left {
-		font-size: 18px;
-	}
-	.span-left p {
-		font-size: 14px;
-	}
-	.span-right p {
-		font-size: 14px;
-	}
-	#try .col-md-6 .span-right {
-		font-size: 18px;
-	}
-	.span-left {
-		left:1%;
-	}
-	#try .col-md-6 .span-right {
-		right:1%;
-	}
-	#header .col-md-3 {
-		padding-right: 15px;
-	}
-	#phone {
-		font-size: 20px;
-	}
-	#header-back-responsive {
+	#zayavka {
 		padding-left: 0;
 		padding-right: 0;
+	}
+	/*1.7. СТРАНИЦА КОНТАКТЫ--------------------*/
+	#contacts-page-container {
+		text-align: center;
+	}
+	#contacts-map {
+		margin-top: 20px;
+	}
+
+	/*1.8. СТРАНИЦА СПАСИБО---------------------*/
+	.thank-you .container {
+		padding-left: 15px;
+		padding-right: 15px;
+		text-align: center;
+	}
+	.thank-you-responsive {
 		display: block;
 	}
-	#header-responsive #for-js-2 {
-		position: absolute;
-		right:15px;
-		top:50%;
-		margin-top: -15px;
-	}
-	#for-js {
-		position: relative;
-	}
-	.buttons-image {
+	.thank-you-desktop {
 		display: none;
 	}
-	.buttons-image-responsive {
-		display: block;
-		position: absolute;
-		right:20px;
-		text-align: left;
-		bottom: 12px;
-		margin-top: -38px;
-
+	/*1.9. СТРАНИЦА АКЦИИ---------------------*/
+	#discounts {
+		text-align: center;
 	}
-	.buttons-image-responsive img {
-		width: auto;
-		margin-right: -5px;
+	/*СТРАНИЦА ЗАЯВКА*/
+	.zayavka-block {
+		padding-top: 0;
 	}
-	.buttons-image-responsive button {
-		display: block;
-		margin-bottom: 20px;
-		padding-left: 20px;
-		padding-right: 20px;
-		padding-top: 5px;
+	#zayavka .col-md-4 {
+		margin-top: 40px;
+	}
+	#zayavka .container {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	/*1.10. СТРАНИЦА ПОРТФОЛИО---------------*/
+	#portfolio .col-md-3 img {
+		margin-top:10px;
+	}
+	.row2 {
+		margin-top: -20px;
+	}
+	/*1.11. СТРАНИЦА УСЛУГИ-------------------*/
+	#uslugi h1 {
+		font-size: 28px;
+	}
+	#uslugi .container {
+		padding-right: 0;
+		padding-left: 0;
+	}
+	#uslugi button {
+		margin-top: 20px;
+	}
+	#uslugi .btn-default {
+		margin-left: 0;
+	}
+	.modal-content {
+		padding-left: 0px;
+	}
+	/*1.12. СТРАНИЦА ЦЕНЫ----------------------------*/
+	#button-kapital, #button-novostroyka, #button-kosmetika {
+		font-size: 12px;
+		padding-left: 0;
+		padding-right: 0;
+	}
+	#table-kosmetika, #table-novostroyka, #table-kapital {
+	position: absolute;
+	width: 100%;
+	left: 0;
+	font-size: 12px;
+	}
+	#table-kapital button, #table-kosmetika button, #table-novostroyka button {
+		font-size: 10px;
+	}
+	/*1.13 МОДАЛЬНЫЕ ОКНА "ЧТО ВКЛЮЧАЕТ*/
+	#what-included .modal-body, #what-included2 .modal-body, #what-included3 .modal-body {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	#myModal3 .row {
+		margin-top: -20px;
+		margin-bottom: -20px;
+	}
+	#myModal3 .modal-content {
+		padding-top: 23px;
 		padding-bottom: 5px;
 	}
-	a.new-button {
-		padding: 7px 8px;
+	#myModal .row {
+		margin-top: -35px;
+		margin-bottom: -30px;
 	}
-	.zz {
-		text-align: center;
-		margin: 0 auto;
+	#myModal button {
+		margin-top: -25px;
+	}
+	#myModal .knopka-exit-modal {
+		top:20px;
+	}
+	#myModal .modal-content {
+		padding-top: 30px;
+		padding-bottom: 0;
+	}
+	#rekvizity h1, #privacy-policy h1, #prices h1, #our-works h1, #feedback-page h1, #faq-page h1, #contacts-page-container h1, #zayavka h1, #discounts h1 {
+		font-size: 25px;
 	}
 }
-@media (min-width: 701px) {
-	#header-back-responsive {
-		display: none;
-	}
-	.buttons-image-responsive {
-		display: none;
+/*=========2. Стилизация сверхнизких разрешений=============================================*/
+@media (max-width: 600px) {
+	#header-responsive .nav>li>a {
+			padding-left: 15px;
 	}
 }
-@media (min-width: 500px) {
-	.resp-pad {
-		padding-top: 15px;
+/*=========3. Стилизация разрешений помимо сверхнизких=============================================*/
+@media (min-width: 400px) {
+	.navbar-collapse {
+		left:8%;
 	}
+}
+/*=========4. Стилизация десктопной версии=============================================*/
+@media (min-width: 992px) {
+	/*4.1. ШАПКА--------------------------------*/
+	#header-responsive {
+		display:none;
+	}
+	#header {
+		display:block;
+	}
+	#menu {
+		display: block;
+		max-height: 50px;
+	}
+	/*4.2 ФУтЕР-------------------------------*/
+	#footer-responsive {
+		display: none;
+	}
+	#footer {
+		display: block;
+	}
+	/*4.3 СТРАНИЦА О НАС-----------------------*/
+	#feedback #carousel-example-generic {
+		display: block;	
+	}
+	.fading {
+		display: none;
+	}
+	.background-changing-right-block {
+		padding-top: 150px;
+		padding-bottom: 150px;
+	}
+	.block-desktop {
+		display: block;
+	}
+	.block-mobile {
+		display: none;
+	}
+	/*4.4 ГЛАВНАЯ-----------------------------*/
+	.propal {
+		display: none;
+	}
+	.text-mobile {
+		display: none;
+	}
+	.text-desktop {
+		display: block;
+	}
+	#uslugi .col-xs-4 p {
+		font-size: 15px;
+	}
+	.mt-resp {
+		margin-top: 30px;
+	}
+	.propaja-phone {
+		display: block;
+	}
+	.imd-advantage {
+		width: 50px;
+	}
+	/*5 МОДАЛЬНЫЕ ОКНА "ЧТО ВКЛЮЧАЕТ*/
+	#what-included1 .modal-body, #what-included2 .modal-body, #what-included3 .modal-body {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	#promocode-button {
+		display: none;
+	}
+	.thank-you-responsive {
+		display: none;
+	}
+	.thank-you-desktop {
+		display: block;
+	}
+	.fz28 {
+		font-size: 28px;
+	}
+	.fz30 {
+		font-size: 30px;
+	}
+}
+/*=========5. Стилизация компонентов из соображений адаптивности=============================================*/
+/*5.1 Настройка меню в десктопной версии*/
+@media (max-width: 1200px) {
+	.nav>li>a {
+		padding: 20px 24px;
+	}
+}
+/*5.2 Настройка переключателя на странице ЦЕНЫ*/
+@media (max-width: 1200px) {
+	.turner {
+		width:70%;
+		margin:0 auto;
+	}
+}
+@media (min-width: 1200px) {
+	.turner {
+		width:61%;
+		margin:0 auto;
+	}
+	.navbar-nav {
+		margin-left: 90px;
+	}
+}
+@media (max-width: 650px) {
+.prices-margin {
+	margin-top: 300px;
+}
+}
+.nav>li>a {
+		padding: 15px 24px;
+	}
+@media (min-device-height: 900px) {
+	#uslugi {
+		padding-bottom: 100px;
+	}
+}
+@media (min-width: 1400px) {
+	#uslugi {
+		padding-bottom: 100px;
+	}
+}
+.fancybox-image-wrap img {
+	max-width: 100%;
 }
 
