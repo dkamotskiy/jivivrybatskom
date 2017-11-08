@@ -1167,3 +1167,6 @@ div.table-wrapper div.scrollable {
 .twentytwenty-horizontal .twentytwenty-handle:after {
     margin-top: 17px;
 }
+.modal-content {
+    border: none;
+}
