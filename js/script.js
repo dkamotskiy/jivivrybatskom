@@ -1,7 +1,4 @@
 // Инициализация свайпа каруселей----------------------------------
-// $('.jcarousel')
-//     .jcarousel()       // init jcarousel
-//     .jcarouselSwipe(); // init jcarouselSwipe
 $(document).ready(function(){
       $('.single-item').slick({
         swipe: false,
@@ -10,6 +7,16 @@ $(document).ready(function(){
         dots: true
       });
     });
+// Запрет прокрутки-----------------------------
+$('#header-menu').on('show.bs.collapse', function () {
+  $("body").css("overflow", "hidden");
+  $("#nelogop").html("Закрыть");
+})
+$('#header-menu').on('hidden.bs.collapse', function () {
+  $("body").css("overflow", "auto");
+  $("#nelogop").html("МЕНЮ");
+})
+
 
 $(window).on('load', function() {
   $("#container1").twentytwenty();
@@ -182,15 +189,7 @@ $('.krutoy button').click(function(){
   $(".show").parent('.krutoy .text').addClass('more');
   $(this).css("display", "none");
 });
-// Запрет прокрутки-----------------------------
-$('#header-menu').on('show.bs.collapse', function () {
-  $("body").css("overflow", "hidden");
-  $("#nelogop").html("Закрыть");
-})
-$('#header-menu').on('hidden.bs.collapse', function () {
-  $("body").css("overflow", "auto");
-  $("#nelogop").html("МЕНЮ");
-})
+
 // Сосоеп-----------------------------------------
 $('.cocoen').cocoen();
 // Всплытие окна "Спасибо за заявку"--------------

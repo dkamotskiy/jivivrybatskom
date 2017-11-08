@@ -222,22 +222,34 @@ header .row {
     z-index: 10;
     padding-top: 17px;
     padding-bottom: 30px;
-    background-image: url(../img/revuse_back.jpg);
+    background-color: #fff;
     height: calc(100vh - 60px);
 }
 #header-menu a {
     display: block;
-    text-align: center;
-    font-size: 19px;
     font-weight: 500;
-    color: #fff;
-    width: 230px;
-    background-color: #468B98;
-    padding-top: 6px;
-    padding-bottom: 6px;
-    margin-bottom: 5px;
+    color: #333;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
+    font-size: 21px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    position: relative;
+}
+#header-menu a:after {
+    content: "";
+    position: absolute;
+    left:50%;
+    margin-left: -95px;
+    bottom:0;
+    width: 190px;
+    height: 1px;
+    background-color: #545454;
+    opacity: 0.5;
+}
+#contacts-link:after {
+    display: none;
 }
 #header-menu a.first-link {
     font-size: 16px;
@@ -1170,3 +1182,4 @@ div.table-wrapper div.scrollable {
 .modal-content {
     border: none;
 }
+/*Таблица*/
