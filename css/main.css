@@ -223,7 +223,7 @@ header .row {
     padding-top: 17px;
     padding-bottom: 30px;
     background-image: url(../img/revuse_back.jpg);
-    height: 100vh;
+    height: calc(100vh - 60px);
 }
 #header-menu a {
     display: block;
@@ -295,7 +295,7 @@ header .row {
     display: block;
 }
 .first {
-    height: 100vh;
+    height: calc(100vh - 60px);
     background-image: url(../img/back.jpg);
     /*position: relative;*/
 }
@@ -686,7 +686,7 @@ header .row {
     margin: 0;
 }
 #uznat .modal-content {
-    height: 100vh;
+    height: calc(100vh - 60px);
     border-radius: 0;
     padding-top: 100px;
     text-align: center;
@@ -1084,7 +1084,7 @@ h6 {
 #spasibo .modal-content {
     text-align: center;
     width: 100%;
-    height: 100vh;
+    height: calc(100vh - 60px);
     padding-top: 100px;
 }
 #spasibo .modal-content img {

@@ -173,7 +173,7 @@ $('#header-menu').on('hidden.bs.collapse', function () {
 $('.cocoen').cocoen();
 // Всплытие окна "Спасибо за заявку"--------------
 $(document).ready(function(){
-$('#uznat button').click(function() {
+$('#uznat button[type="submit"]').click(function() {
     if($(this).hasClass("disabled"))
         {}
     else {
