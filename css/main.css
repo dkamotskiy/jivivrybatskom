@@ -297,7 +297,7 @@ header .row {
 .first {
     height: calc(100vh - 60px);
     background-image: url(../img/back.jpg);
-    /*position: relative;*/
+    position: relative;
 }
 .top-text {
     position: absolute;

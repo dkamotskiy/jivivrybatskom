@@ -10,6 +10,28 @@ $(document).ready(function(){
         dots: true
       });
     });
+
+$(window).on('load', function() {
+  $("#container1").twentytwenty();
+});
+$(window).on('load', function() {
+  $("#container2").twentytwenty();
+});
+$(window).on('load', function() {
+  $("#container3").twentytwenty();
+});
+$(window).on('load', function() {
+  $("#container4").twentytwenty();
+});
+$(window).on('load', function() {
+  $("#container5").twentytwenty();
+});
+$(window).on('load', function() {
+  $("#container6").twentytwenty();
+});
+$(window).on('load', function() {
+  $("#container7").twentytwenty();
+});
 // Маска-----------------------------------------------------------
 jQuery(function($){
    $("#phone-form").mask("+7 (999) 999-9999");
