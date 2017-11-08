@@ -859,7 +859,10 @@ h6 {
 .cocoen {
     position: relative;
 }
-.cocoen:before {
+.twentytwenty-wrapper {
+    position: relative;
+}
+.twentytwenty-wrapper:before {
     content: "До";
     position: absolute;
     top: 10px;
@@ -867,10 +870,10 @@ h6 {
     background-color: rgba(83, 83, 83, 0.6);
     color: #fff;
     z-index: 1000;
-    padding: 15px 13px;
+    padding: 10px 13px;
     border-radius: 2px;
 }
-.cocoen:after {
+.twentytwenty-wrapper:after {
     content: "После";
     position: absolute;
     bottom: 10px;
@@ -878,7 +881,7 @@ h6 {
     background-color: rgba(83, 83, 83, 0.6);
     color: #fff;
     z-index: 1000;
-    padding: 15px 13px;
+    padding: 10px 13px;
     border-radius: 2px;
 }
 .slick-prev {
@@ -1141,4 +1144,25 @@ h6 {
 }
 div.table-wrapper div.scrollable {
     margin-left: 50%;
+}
+.twentytwenty-handle {
+    height: 22px;
+    width: 32px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -22px;
+    margin-top: -14px;
+    border: 3px solid #fff;
+    border-radius: 0;
+    box-shadow: 0px 0px 12px rgba(51, 51, 51, 0.5);
+    z-index: 40;
+    cursor: pointer;
+    background: #5A5854;
+}
+.twentytwenty-horizontal .twentytwenty-handle:before {
+    margin-bottom: 17px;
+}
+.twentytwenty-horizontal .twentytwenty-handle:after {
+    margin-top: 17px;
 }
