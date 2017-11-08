@@ -1084,7 +1084,7 @@ h6 {
 #spasibo .modal-content {
     text-align: center;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     padding-top: 100px;
 }
 #spasibo .modal-content img {
@@ -1102,6 +1102,7 @@ h6 {
 #spasibo .modal-dialog {
     margin: 0;
     width: 100%;
+    height: 100vh;
 }
 #spasibo img {
     margin: 0 auto;
