@@ -188,6 +188,7 @@ $('.krutoy .text').each(function(){
 $('.krutoy button').click(function(){
   $(".show").parent('.krutoy .text').addClass('more');
   $(this).css("display", "none");
+  $(".krutoy .text").css("padding-bottom", "20px");
 });
 
 // Сосоеп-----------------------------------------
