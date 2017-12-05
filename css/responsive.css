@@ -169,4 +169,10 @@
 	.carousel-control-prev img {
 		margin-left: -80px;	
 	}
+	.uslugi .row .row p {
+		font-size: 20px;
+	}
+	.portfolio li p {
+		font-size: 12px;
+	}
 }
