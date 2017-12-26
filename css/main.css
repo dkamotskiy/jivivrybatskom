@@ -14,6 +14,9 @@
     font-family: 'GoudyTrajan-Regular';
     src: url('../fonts/GoudyTrajan-Regular.otf') format('opentype');
 }
+html, body{
+height: 100%;
+}
 /*Основной шрифт*/
 body {
 	font-family: Roboto;
@@ -21,6 +24,9 @@ body {
 }
 a {
     color: #1a1a1a;
+}
+* {
+    outline: none;
 }
 /*Цвет выделения*/
 ::selection {
@@ -109,7 +115,7 @@ input [type="text"] {
     right: 0;
     background-color: rgba(0,0,0,0.5);
     height: 53px;
-    z-index: 10;
+    z-index: 100;
 }
 .logo {
     max-width: 105px;
@@ -121,20 +127,20 @@ input [type="text"] {
     margin-right: 22px;
     line-height: 53px;
     font-family: Open Sans;
-    font-size: 16px;
+    font-size: 14px;
     text-decoration: none;
     transition: 0.3s;
     font-weight: 400;
     color: #fff;
 }
-.header a.yakor:hover {
-    color: #fae445;
+.header a.yakor:hover, .header a.yakor:focus {
+    color: #fae445 !important;
     text-decoration: none;
     transition: 0.3s;
 }
 .header-right {
     float: right;
-    margin-top: 16px;
+    margin-top: 6px;
 }
 .header-right-link {
     display: inline-block;
@@ -159,17 +165,24 @@ input [type="text"] {
 /*Первый блок*/
 .first {
     padding-top: 60px;
+    position: relative;
+    overflow: hidden;
 }
 .main-logo {
     display: block;
     margin-left: 14%;
     margin-right: auto;
     margin-top: -50px;
+    margin-left: 75px;
 }
 .first {
     background-image: url(../img/bgfirst.jpg);
     color: #fff;
     position: relative;
+    -webkit-background-size: cover;
+    background-size: cover;
+    -ms-background-position-x: center;
+    background-position-x: center;
 }
 .vizualnaya {
     max-width: 450px;
@@ -178,6 +191,12 @@ input [type="text"] {
     padding-bottom: 50px;
     border-bottom: 1px solid #653439;
     margin-bottom: 47px;
+    position: relative;
+    z-index: 10;
+}
+.skachayte {
+    position: relative;
+    z-index: 10;
 }
 .skachayte .row {
     max-width: 452px;
@@ -192,10 +211,12 @@ input [type="text"] {
     font-family:  Open Sans;
     margin-top: 16px;
     margin-bottom: 7px;
+    font-weight: 600;
 }
 .skachayte p:nth-child(2) {
     font-size: 14px;
     font-family:  Open Sans Light;
+    color: rgba(255,255,255,0.5)
 }
 .skachayte .col-12 {
     padding-left: 0;
@@ -207,6 +228,8 @@ input [type="text"] {
     border-radius: 5px;
     display: inline-block;
     margin-top: 5px;
+    position: relative;
+    z-index: 10;
 }
 .store-link.app {
     background-image: url(../img/app.png);
@@ -221,27 +244,37 @@ input [type="text"] {
     background-image: url(../img/playmh.png);
 }
 .dym {
-    min-height: 300px;
+    min-height: 400px;
     position: absolute;
     left: 0;
-    bottom: 0;
+    bottom: 40px;
     background-image: url(../img/dym.png);
     width: 100%;
     -webkit-background-size: cover;
     background-size: cover;
+    -ms-background-position-x: center;
+    background-position-x: center;
+    z-index: 3;
+    -ms-background-position-y: bottom;
+    background-position-y: bottom;
 }
 .first .col-md-10 {
     position: relative;
     padding-bottom: 300px;
+    height: 920px;
 }
 .personazh {
     position: absolute;
-    right: 0;
-    bottom: 90px;
+    right: -130px;
+    bottom: 40px;
 }
 .second {
     background-color: #240006;
     padding-bottom: 190px;
+    margin-top: -40px;
+    z-index: 10;
+    position: relative;
+    padding-top: 70px;
 }
 .second p {
     font-family: Open Sans;
@@ -289,7 +322,8 @@ input [type="text"] {
 .guys img {
     position: absolute;
     bottom: 0;
-    left: 0;
+    left: -10%;
+    width: 120%;
 }
 .guys .col-md-4 {
     position: relative;
@@ -329,13 +363,21 @@ h2 {
 }
 .center {
     margin-bottom: 140px;
+    position: relative;
+    margin-top: 120px;
 }
 .center div {
     padding: 15px;
 }
+.appstore {
+    margin-left: -20px;
+}
 .slick-current {
     transform: scale(2);
     transition: 0.5s;
+}
+.slick-current img {
+     box-shadow: 0px 0px 61px 0px rgba(0,0,0,0.45);
 }
 .razrab-h2 {
     margin-bottom: 140px !important;
@@ -379,6 +421,7 @@ h2 {
     padding-right: 80px;
     border-radius: 20px;
     background-color: rgba(0,0,0,0.4);
+    height: 237px;
 }
 .dom .yellow {
     text-align: center;
@@ -427,6 +470,7 @@ h2 {
     border-radius: 25px;
     font-size: 18px;
     font-family: Open Sans;
+    box-shadow: inset 0 -4px 0 rgba(0,0,0,0.3);
 }
 .dom button.disabled.abled {
     background-color: #c6c6c6;
@@ -453,6 +497,14 @@ h2 {
     color: rgba(255,255,255,0.5);
     font-size: 14px;
     font-weight: 200;
+}
+.najimaya a {
+    color: inherit;
+    text-decoration: underline;
+}
+.najimaya a:hover {
+    color: #fae445;
+    text-decoration: none;
 }
 footer {
     position: absolute;
@@ -490,4 +542,199 @@ footer span a:hover {
 }
 .screenshots .container {
     overflow: hidden;
+}
+img[src="img/adrian-top.png"] {
+    right: -50px !important;
+    bottom: 90px !important;
+}
+img[src="img/Madlen-top.png"] {
+    right: -160px !important;
+}
+h4 img {
+    position: static !important;
+    width: auto !important;
+}
+.success-form {
+    width: 580px;
+    margin: auto;
+}
+.success-form .yellow {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+    text-align: left;
+    margin-top: 30px;
+}
+.success-form .fz18 {
+    font-size: 18px;
+    color: #fff;
+}
+.dn {
+    display: none;
+}
+.slick-list {
+    margin-left: -15px;
+}
+#scr {
+    margin-bottom: 100px;
+}
+.slick-slide.slick-active:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(36,0,6,0.4);
+}
+.slick-slide.slick-current:after {
+    content: none;
+    display: none;
+}
+.slick-slide.slick-current {
+    position: relative;
+    z-index: 10000;
+}
+.slick-prev {
+    position: absolute;
+    left: 13%;
+    width: 32px;
+    height: 49px;
+    z-index: 5000000;
+    background: url(../img/left-arrow.png);
+    font-size: 0;
+    top: 100px;
+    cursor: pointer;
+    opacity: 0.5;
+    transition: 0.3s;
+}
+.slick-next {
+    position: absolute;
+    right: 12%;
+    width: 32px;
+    height: 49px;
+    z-index: 5000000;
+    background: url(../img/right-arrow.png);
+    font-size: 0;
+    top: 100px;
+    cursor: pointer;
+    opacity: 0.5;
+    transition: 0.3s;
+}
+.slick-next:hover, .slick-prev:hover {
+    opacity: 1;
+    transition: 0.3s;
+}
+.carousel-control-prev-icon {
+    background: url(../img/left-arrow.png);
+    width: 32px;
+    height: 49px;
+    opacity: 0.5;
+    transition: 0.3s;
+}
+.carousel-control-next-icon {
+    background: url(../img/right-arrow.png);
+    width: 32px;
+    height: 49px;
+    opacity: 0.5;
+    transition: 0.3s;
+}
+.carousel-control-prev-icon:hover, .carousel-control-next-icon:hover {
+    opacity: 1;
+}
+#sparks {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-image: url(../img/sparks.png);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+}
+.parallax-bg {
+    background-image: url(../img/lux.jpg);
+    transition: 0.01s;
+    background-position: center center;
+}
+.dex-mlp-parallax {
+    height: 422px;
+}
+.dex-mlp-parallax  p {
+    color: #fff;
+    font-size: 46px;
+    text-align: center;
+    font-weight: bold;
+}
+.dex-mlp-parallax,
+.dex-mlp-wrap {
+    position: relative
+}
+.dex-mlp-parallax {
+   overflow: hidden;
+   background: center center no-repeat;
+   background-attachment: fixed!important;
+   -webkit-background-size: cover!important;
+   background-size: cover!important
+}
+.dex-mlp-parallax.dex-mouse {
+   background-attachment: inherit !important;
+   -webkit-background-size: inherit !important;
+   background-size: inherit !important;
+}
+.dex-mlp-layer {
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   margin: auto;
+   z-index: 2
+}
+.dex-mlp-layer .parallax-person-image {
+    height: 769px;
+}
+.dex-mlp-layer.parallax-person-image > img {
+    display : block !important;
+}
+.dex-mlp-overlay {
+   position: absolute;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   z-index: 1;
+   background: top left
+}
+.dex-mlp-content {
+   position: relative
+}
+.dex-layer-container {
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   z-index: 2
+}
+.dex-container {
+   display: block;
+   margin: 0 auto;
+   max-width: 960px;
+   position: relative;
+   top: 50%;
+   transform: translateY(-50%);
+   z-index: 3
+}
+.main-logo {
+    margin-left: 70px !important;
+}
+.navbar {
+    padding: 0;
+}
+.bg-light {
+    background-color: transparent !important;
+    color: #fff !important;
+    height: 50px !important;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
 }

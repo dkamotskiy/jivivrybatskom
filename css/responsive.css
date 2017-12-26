@@ -1,9 +1,150 @@
 /*Стилизация мобильной версии*/
 @media (max-width: 992px) {
+	.dom input {
+		width: 100%;
+		display: block;
+	}
+	.navbar-light .navbar-toggler {
+		color: #fff;
+    	border-color: #fff;
+	}
+	.navbar-collapse {
+		width: 100%;
+	    background-color: rgba(0,0,0,0.9);
+	    margin-top: 13px;
+	    margin-left: -30px;
+	    margin-right: -30px;
+	}
+	.header-right {
+		margin-top: 0;
+		float: none;
+		margin-left: 25px;
+		margin-bottom: 25px;
+	}
+	.header {
+		    background-color: rgba(0,0,0,0.9);
+	}
+	.main-logo {
+		max-width: 100%;
+		margin-left: auto !important;
+		margin-right: auto;
+		margin-top: 0;
+	}
+	.vizualnaya {
+		font-size: 16px;
+		padding-bottom: 10px;
+		margin-bottom: 20px;
+	}
+	.appstore {
+		max-width: 100%;
+		margin-left: 0;
+	}
+	.skachayte p:nth-child(1) {
+		font-size: 18px;
+	}
+	.personazh {
+		position: static;
+		max-width: 100%;
+		margin-top: 250px;
+	}
+	.store-link {
+		margin-top: 20px;
+	    width: 150px;
+	    height: 40px;
+	}
+	.display-mobile {
+		display: block;
+	}
+	.display-desktop {
+		display: none;
+	}
+	.second p {
+		font-size: 16px;
+	}
+	.guys img {
+		position: static;
+		max-width: 100%;
+	}
+	.second {
+		padding-bottom: 50px;
+	}
+	.guys .col-md-4 {
+		padding-top: 0;
+	}
+	.guys img {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.opisanie-personazha {
+		font-size: 16px;
+		margin-top: -40px;
+		margin-bottom: 20px;
+	}
+	h4 img {
+		margin-top: 10px;
+	}
+	.screenshots, .razrab-h2 {
+		padding-top: 30px;
+	}
+	.razrab-h2 {
+		margin-bottom: 50px !important;
+	}
+	.dom {
+		padding-top: 200px;
+	}
+	.dom form {
+		padding-left: 10px;
+		padding-right: 10px;
+		height: auto;
+	}
+	.dom button {
+		display: block;
+		margin-top: 15px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.success-form .col-3 {
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+	}
+	.success-form .col-3 img {
+		margin: auto;
+	}
+	.success-form .yellow {
+		margin-top: 20px;
+	}
+	h2 img {
+		max-width: 100%;
+	}
+	footer span {
+		margin-left: 25px;
+		margin-right: 25px;
+	}
+	.slick-next, .slick-prev {
+		top: 50%;
+	    margin-top: -25px;
+	    right: 0;
+	}
+	.slick-prev {
+		right: auto;
+		left: 0;
+	}
+	.navbar-light .navbar-toggler-icon {
+		background-image: url(../img/menu-button-of-three-horizontal-lines.svg);
+	}
 }
 /*Стилизация десктопной версии-----------------------------------------------------------------------------------------*/
 @media (min-width: 992px) {
-	
+	.display-mobile {
+		display: none;
+	}
+	.display-desktop {
+		display: block;
+	}
 }
 /*Стилизация таблеточной версии*/
 @media screen and (min-width: 768px) and (max-width: 992px) {
@@ -11,5 +152,42 @@
 }
 /*Стилизация 1024 */
 @media screen and (min-width: 992px) and (max-width: 1200px) {
-	
+	.personazh {
+		max-width: 570px;
+	}
+	.main-logo {
+		margin-left: 40px !important;
+	}
+	.vizualnaya {
+		max-width: 400px;
+		font-size: 17px;
+		border-bottom: none;
+	}
+	.skachayte .row {
+		max-width: 330px;
+	}
+	.skachayte p:nth-child(1) {
+		font-size: 16px;
+	}
+	.second p {
+		font-size: 18px;
+	}
+	.advantages .yellow {
+		font-size: 18px;
+	}
+	.advantages img {
+		min-height: 76px;
+	}
+	.opisanie-personazha {
+		font-size: 18px;
+	}
+	.guys .row {
+		min-height: 480px;
+	}
+	.guys .col-md-4 {
+		padding-top: 80px;
+	}
+	.dom input {
+		width: 401px;
+	}
 }

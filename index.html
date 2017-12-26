@@ -8,6 +8,8 @@
   	<link rel="stylesheet" href="css/lity.min.css">
 	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/jquery.mCustomScrollbar.css">
+	
 	<link rel="stylesheet" href="css/slick.css">
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/responsive.css">
@@ -17,41 +19,75 @@
 <!-- Хедер -->
 	<div class="header container-fluid">
 		<div class="container">
-			<img src="img/logo.png" alt="" class="logo">
-			<a href="#first" class="yakor">ОБ ИГРЕ</a>
-		    <a href="#pers" class="yakor">ПЕРСОНАЖИ</a>
-		    <a href="#scr" class="yakor">СКРИНШОТЫ</a>
-		    <a href="#razr" class="yakor">РАЗРАБОТЧИКИ</a>   
-			<div class="header-right">
+			<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			  <a class="navbar-brand" href="/"><img src="img/logo.png" alt="" class="logo"></a>
+			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			    <span class="navbar-toggler-icon"></span>
+			  </button>
+
+			  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+			    <ul class="navbar-nav mr-auto">
+			      <li class="nav-item">
+			        <a class="nav-link yakor" href="#first">ОБ ИГРЕ</a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link yakor" href="#pers">ПЕРСОНАЖИ</a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link yakor" href="#scr">СКРИНШОТЫ</a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link yakor" href="#razr">РАЗРАБОТЧИКИ</a>
+			      </li>
+			    </ul>
+			    <div class="header-right">
 				<a href="http://vk.com" class="header-right-link cover vk"></a>
 				<a href="http://facebook.com" class="header-right-link cover fb"></a>
 			</div>
+			  </div>
+			</nav>
 		</div>
 	</div>
-<!-- Первый блок -->
+<!-- Первый блок===================================================================== -->
 	<div class="first container-fluid" id="first">
-		<div class="container">
+		<div id="sparks"></div>
+		<div class="container drops-container">
 			<div class="row">
 			<div class="col-md-1"></div>
-			<div class="col-md-10">
-				<img src="img/logods.png" alt="" class="main-logo">
-				<p class="vizualnaya">Визуальная новелла, финал которой зависит от вас. Настало время решать, кем вы окажетесь на тёмной стороне!</p>
-				<div class="skachayte">
-					<div class="row">
-						<div class="col-4">
-							<img src="img/appstore.png" alt="" class="appstore">
-						</div>
-						<div class="col-8">
-							<p>Скачайте демо-версию</p>
-							<p>Полная версия будет доступна на iOS и Android от 149 рублей в скором времени</p>
-						</div>
-						<div class="col-12">
-							<a href="#" class="store-link app cover"></a>
-							<a href="#" class="store-link playmarket cover"></a>
+			<div class="col-md-10" id="dex-mlp-parallax-1" class="dex-mlp-parallax dex-scroll" data-orig-height="717" data-stellar-background-ratio="1" data-stellar-horizontal-offset="0">
+				<div class="">
+					<img src="img/logods.png" alt="" class="main-logo display-desktop">
+					<img src="img/logods-mobile.png" alt="" class="main-logo display-mobile">
+					<p class="vizualnaya">Визуальная новелла, финал которой зависит от вас. Настало время решать, кем вы окажетесь на тёмной стороне!</p>
+					<div class="skachayte">
+						<div class="row">
+							<div class="col-4">
+								<img src="img/AppIcon.png" alt="" class="appstore">
+							</div>
+							<div class="col-8">
+								<p>Скачайте демо-версию</p>
+								<p>Полная версия будет доступна на <!-- iOS и --> Android от 149 рублей в скором времени</p>
+							</div>
+							<div class="col-12">
+								<!-- <a href="#" class="store-link app cover"></a> -->
+								<a href="#" class="store-link playmarket cover"></a>
+							</div>
 						</div>
 					</div>
+					<div class="dex-mlp-layer parallax-person-image" style="z-index: 2; top: 220px; display: block; height: 769px;" data-stellar-ratio="0.7">
+						<script language="JavaScript">
+						<!--
+							var a=Math.round(Math.random()*3)
+							image = new Array();
+							image[0]="img/Gabriel_Top.png"
+							image[1]="img/Edrian_Top.png"
+							image[2]="img/Madlen_Top.png"
+							image[3]="img/Phernan_Top.png"
+							document.write ("<img class='personazh' src="+image[a]+">");
+						//-->
+						</script>
+					</div>
 				</div>
-				<img src="img/gabriel_fin.png" alt="" class="personazh">
 			</div>
 			<div class="col-md-1"></div>
 		</div>
@@ -105,7 +141,7 @@
 <!-- Персонажи -->
 	<div class="guys container-fluid cover" id="pers">
 		<div class="container">
-			<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+			<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="false">
 			  <ol class="carousel-indicators">
 			    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
 			    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -119,10 +155,10 @@
 			        <div class="row">
 						<div class="col-md-2"></div>
 						<div class="col-md-4">
-							<img src="img/gabriel_upd.png" alt="" class="img-fluid">
+							<img src="img/Gabriel_ChList.png" alt="" class="img-fluid">
 						</div>
 						<div class="col-md-4">
-							<h4>ГАБРИЭЛЬ</h4>
+							<h4><img src="img/сharacters/1.png" alt=""></h4>
 							<p class="opisanie-personazha">Сильная и красивая, Мадлен может стать для вас настоящей подругой, опорой и наставником в мире, который вам не знаком. Она та, кому вы можете доверять, или… все же нет?</p>
 						</div>
 					</div>
@@ -131,10 +167,10 @@
 			      <div class="row">
 						<div class="col-md-2"></div>
 						<div class="col-md-4">
-							<img src="img/Theo_new.png" alt="" class="img-fluid">
+							<img src="img/Theo_ChList.png" alt="" class="img-fluid">
 						</div>
 						<div class="col-md-4">
-							<h4>ТЕО</h4>
+							<h4><img src="img/сharacters/teo.png" alt=""></h4>
 							<p class="opisanie-personazha">Сильная и красивая, Мадлен может стать для вас настоящей подругой, опорой и наставником в мире, который вам не знаком. Она та, кому вы можете доверять, или… все же нет?</p>
 						</div>
 					</div>
@@ -143,10 +179,10 @@
 			      <div class="row">
 						<div class="col-md-2"></div>
 						<div class="col-md-4">
-							<img src="img/phernan.png" alt="" class="img-fluid">
+							<img src="img/Phernan_ChList.png" alt="" class="img-fluid">
 						</div>
 						<div class="col-md-4">
-							<h4>ПХЕРНАН</h4>
+							<h4><img src="img/сharacters/phernan.png" alt=""></h4>
 							<p class="opisanie-personazha">Сильная и красивая, Мадлен может стать для вас настоящей подругой, опорой и наставником в мире, который вам не знаком. Она та, кому вы можете доверять, или… все же нет?</p>
 						</div>
 					</div>
@@ -155,10 +191,10 @@
 			      <div class="row">
 						<div class="col-md-2"></div>
 						<div class="col-md-4">
-							<img src="img/madlen.png" alt="" class="img-fluid">
+							<img src="img/Madlen_ChList.png" alt="" class="img-fluid">
 						</div>
 						<div class="col-md-4">
-							<h4>МАДЛЕН</h4>
+							<h4><img src="img/сharacters/madlen.png" alt=""></h4>
 							<p class="opisanie-personazha">Сильная и красивая, Мадлен может стать для вас настоящей подругой, опорой и наставником в мире, который вам не знаком. Она та, кому вы можете доверять, или… все же нет?</p>
 						</div>
 					</div>
@@ -167,10 +203,10 @@
 			      <div class="row">
 						<div class="col-md-2"></div>
 						<div class="col-md-4">
-							<img src="img/adrian-Recovered.png" alt="" class="img-fluid">
+							<img src="img/Adrian_ChList.png" alt="" class="img-fluid">
 						</div>
 						<div class="col-md-4">
-							<h4>АДРИАН</h4>
+							<h4><img src="img/сharacters/adrian.png" alt=""></h4>
 							<p class="opisanie-personazha">Сильная и красивая, Мадлен может стать для вас настоящей подругой, опорой и наставником в мире, который вам не знаком. Она та, кому вы можете доверять, или… все же нет?</p>
 						</div>
 					</div>
@@ -179,10 +215,10 @@
 			      <div class="row">
 						<div class="col-md-2"></div>
 						<div class="col-md-4">
-							<img src="img/father.png" alt="" class="img-fluid">
+							<img src="img/Viktor_ChList.png" alt="" class="img-fluid">
 						</div>
 						<div class="col-md-4">
-							<h4>ОТЕЦ</h4>
+							<h4><img src="img/сharacters/viktor.png" alt=""></h4>
 							<p class="opisanie-personazha">Сильная и красивая, Мадлен может стать для вас настоящей подругой, опорой и наставником в мире, который вам не знаком. Она та, кому вы можете доверять, или… все же нет?</p>
 						</div>
 					</div>
@@ -202,7 +238,7 @@
 <!-- Скриншоты -->
 	<div class="screenshots container-fluid">
 		<div class="container">
-			<h2 id="scr">СКРИНШОТЫ</h2>
+			<h2 id="scr"><img src="img/screens.png" alt=""></h2>
 			<div class="center">
 				<div>
 					<img src="img/screen/screen-01.jpg" class="img-fluid" alt="">
@@ -220,11 +256,11 @@
 					<img src="img/screen/screen-05.jpg" class="img-fluid" alt="">
 				</div>
 			</div>
-			<h2 class="razrab-h2" id="razr">РАЗРАБОТЧИКИ</h2>
+			<h2 class="razrab-h2" id="razr"><img src="img/razrab.png" alt=""></h2>
 			<div class="razrab-row row">
 				<div class="col-md-4">
 					<p class="yellow">Надежда Сабянина</p>
-					<p>SEO, сценарист</p>
+					<p>CEO, сценарист</p>
 				</div>
 				<div class="col-md-4">
 					<p class="yellow">Наталья Фильчакова</p>
@@ -256,12 +292,21 @@
 			<div class="row">
 				<div class="col-md-1"></div>
 				<div class="col-md-10">
-					<form action="" data-toggle="validator" role="form">
-						<p class="yellow">Оставьте свой e-mail и вы первым узнаете о выходе полной версии игры!</p>
-						<input type="email" placeholder="Введите ваш e-mail" required>
-						<button type="submit">Подписаться</button>
+					<form onclick="return false;" data-toggle="validator" role="form">
+						<p class="yellow pr">Оставьте свой e-mail и вы первым узнаете о выходе полной версии игры!</p>
+						<input type="email" class="pr" placeholder="Введите ваш e-mail" required>
+						<button class="pr" type="submit">Подписаться</button>
+						<div class="success-form row dn">
+							<div class="col-3">
+								<img src="img/Correct.svg" alt="" class="img-fluid">
+							</div>
+							<div class="col-9">
+								<p class="yellow">Спасибо!</p>
+								<p class="fz18">Мы сообщим вам о выходе полной версии игры!</p>
+							</div>
+						</div>
 					</form>
-					<p class="najimaya">Нажимая на кнопку «Подписаться», вы даете согласие на обработку персональных данных. Мы не рассылаем спам или иные рекламные материалы. Мы гарантируем, что ваш e-mail не попадёт в руки третьих лиц и будет использован только в качестве информирования.</p>
+					<p class="najimaya">Нажимая на кнопку «Подписаться», вы даете <a href="soglasie.html">согласие</a> на обработку персональных данных. Мы не рассылаем спам или иные рекламные материалы. Мы гарантируем, что ваш e-mail не попадёт в руки третьих лиц и будет использован только в качестве информирования.</p>
 				</div>
 			</div>
 		</div>
@@ -273,17 +318,22 @@
 		</footer>
 	</div>
 
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-	<script src="js/jquery.jcarousel.js"></script>
-	<script src="js/jcarousel.responsive.js"></script>
-	<script src="js/jcarousel-swipe.js"></script>
-	<script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
 	<script src="js/jquery.maskedinput.js"></script>
 	<script src="js/lity.min.js"></script>
 	<script src="js/slick.js"></script>
 	<script type="text/javascript" src="js/validator.js"></script>
+	<!-- <script src="js/jquery.stellar.min.js"></script>
+	<script src="js/dex-mlp-front.js"></script>
+	<script src="js/dex-responsive.js"></script> -->
+	<!-- <script src="js/jquery.mCustomScrollbar.concat.min.js"></script> -->
+	<!-- <script src="js/jquery.sticky-kit.min.js"></script> -->
 	<script src="js/script.js"></script>
+	<!-- <script>
+		$(".main-logo").stick_in_parent();
+	</script> -->
 	<!-- Lity links -->
 	<!-- <a href="https://farm9.staticflickr.com/8642/16455005578_0fdfc6c3da_b.jpg" data-lity data-lity-desc="Photo of a flower">Image</a> -->
 	<!-- <a href="//www.youtube.com/watch?v=XSGBVzeBUbk" data-lity>iFrame Youtube</a> -->
